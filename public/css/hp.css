@@ -1,0 +1,161 @@
+.navbar {
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+    color: #171928;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: #f0013e;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+h1 {
+    color: #171928;
+    font-size: 74px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-bottom: 60px;
+}
+
+h1 span {
+    color: #f0013e;
+}
+
+.top-block {
+    margin-top: 100px;
+    background: transparent url("../svg/hp/top-block.svg") 50% 0 no-repeat;
+    width: 100%;
+    height: 763px;
+}
+
+.bg-dark {
+    background-color: #171928 !important;
+}
+
+.arrow-down-wrap {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 84px;
+    height: 84px;
+    box-shadow: 0px 8px 78px -5px #e8e9eb;
+    box-shadow: 0px 8px 78px 0px rgba(23, 22, 20, 0.1);
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+}
+
+.arrow-down-arrow {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+
+    border-top: 8px solid #171928;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    top: 38px;
+}
+
+.btn-napiste-nam {
+    background-color: #f0013e;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    color: #fff !important;
+    font-size: 17px;
+    padding: 0 50px;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.naladeni-wrap {
+    margin-top: 140px;
+    color: #fff;
+}
+
+.naladeni-wrap h2 {
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.naladeni-content {
+    display: inline-block;
+}
+
+.naladeni-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.naladeni-content ul li {
+    float: left;
+    width: 230px;
+}
+.naladeni-content ul li h3 {
+    font-weight: normal;
+    font-size: 28px;
+    color: #171928;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.naladeni-content ul li h3 .line {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 42px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nase-hodnoty {
+    width: 270px;
+    height: 270px;
+    border-radius: 45px 45px 0 45px;
+    padding: 30px 0 0 30px;
+    color: #fff;
+    margin-right: 150px;
+    display: inline-block;
+}
+
+.nase-hodnoty ul {
+    list-style-type: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding-left: 20px;
+}
+
+.nase-hodnoty ul li {
+    background: transparent url("../img/hp/fajfka.png") 0 50% no-repeat;
+    padding-left: 30px;
+}
+
+.nase-hodnoty .line-01 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.nase-hodnoty .line-01 span {
+    font-weight: bold;
+}
