@@ -103,35 +103,51 @@
                 </div>
 
                 <div class="naladeni-content">
-                    <h2>Nějaký<br>krátký naladění?</h2>
+                    <h2 class="light">Nějaký<br>krátký naladění?</h2>
                     <ul>
-                        <li><h3>Zkušenosti<span class="line"></span></h3><span>máme 15 let praxe<br>a vytvořili jsme<br>přes 100 projektů</span></li>
-                        <li><h3>Osobní&nbsp;přístup<span class="line"></span></h3><span>postaráme se o vás,<br>protože na našich klientech<br>nám záleží</span></li>
-                        <li><h3>Profesionalita<span class="line"></span></h3><span>nešijeme horkou jehlou,<br>naše weby mluví<br>samy za sebe</span></li>
+                        <li><h3>Zkušenosti<span class="line"></span></h3><span>máme 15 let praxe<br>a vytvořili jsme<br>přes 100 projektů</span>
+                        </li>
+                        <li><h3>Osobní&nbsp;přístup<span class="line"></span></h3><span>postaráme se o vás,<br>protože na našich klientech<br>nám záleží</span>
+                        </li>
+                        <li><h3>Profesionalita<span class="line"></span></h3><span>nešijeme horkou jehlou,<br>naše weby mluví<br>samy za sebe</span>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container">...další obsah potřebuje úpravu...</div>
-    <br>
-    <br>
-    <br>
-    <br>
 
-    <div class="container">Nabídka<br>webových balíčků</div>
+    <div class="container text-center">
+        <h2>Nabídka<br>webových balíčků</h2><span class="wave"></span>
+    </div>
 
-    <div class="container">
+    <div class="container balicky">
         <div class="row">
-            <div class="col-4">Stadnard</div>
-            <div class="col-4">Profi</div>
-            <div class="col-4">Na míru</div>
+            <div class="col-4">
+                <div class="box box-01">
+                    <div class="line-01">Web</div>
+                    <div class="line-02">STADNARD</div>
+                    <div class="icon-wrap"><div class="icon"></div></div>
+                    <div class="line-03 text-left">Grafický design<br>Popisek<br>Něco vč. SEO a PPC</div>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="box box-02">
+                    <div class="line-01">Web</div>
+                    <div class="line-02">PROFI</div>
+                    <div class="icon-wrap"><div class="icon"></div></div>
+                    <div class="line-03 text-left">Grafický design<br>Popisek<br><span>Něco vč. SEO a PPC</span></div>
+                </div>
+            </div>
+            <div class="col-4 text-right">
+                <div class="box box-03">
+                    <div class="line-01">Web</div>
+                    <div class="line-02">NA MÍRU</div>
+                    <div class="icon-wrap"><div class="icon"></div></div>
+                    <div class="line-03 text-left">Grafický design<br>Popisek<br><span>Něco vč. SEO a PPC</span></div>
+                </div>
+            </div>
         </div>
     </div>
 

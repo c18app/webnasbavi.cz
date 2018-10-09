@@ -40,6 +40,7 @@ h1 span {
     background: transparent url("../svg/hp/top-block.svg") 50% 0 no-repeat;
     width: 100%;
     height: 763px;
+    margin-bottom: 75px;
 }
 
 .bg-dark {
@@ -51,7 +52,6 @@ h1 span {
     border-radius: 50%;
     width: 84px;
     height: 84px;
-    box-shadow: 0px 8px 78px -5px #e8e9eb;
     box-shadow: 0px 8px 78px 0px rgba(23, 22, 20, 0.1);
     margin: 0 auto;
     position: relative;
@@ -89,10 +89,24 @@ h1 span {
     color: #fff;
 }
 
-.naladeni-wrap h2 {
+#hp h2 {
     font-size: 45px;
-    line-height: 60px;
+    line-height: 56px;
     font-weight: bold;
+    color: #171928;
+}
+
+#hp h2.light {
+    color: #fff;
+}
+
+#hp .wave {
+    background: transparent url("../img/hp/wave.png") 0 0 no-repeat;
+    width: 61px;
+    height: 8px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .naladeni-content {
@@ -110,6 +124,7 @@ h1 span {
     float: left;
     width: 230px;
 }
+
 .naladeni-content ul li h3 {
     font-weight: normal;
     font-size: 28px;
@@ -158,4 +173,66 @@ h1 span {
 
 .nase-hodnoty .line-01 span {
     font-weight: bold;
+}
+
+.balicky {
+    margin-top: 75px;
+}
+
+.balicky .box {
+    width: 300px;
+    height: 420px;
+    box-shadow: 0px 8px 49px 14px rgba(232, 233, 235, 0.72);
+    text-align: center;
+    display: inline-block;
+    padding: 30px 60px;
+}
+
+.balicky .box .line-01 {
+    font-size: 28px;
+    line-height: 1;
+}
+
+.balicky .box .line-02 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.balicky .box .line-03 {
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.balicky .box .line-03 span {
+    color: #f1013e;
+}
+
+.balicky .box .icon-wrap {
+    width: 104px;
+    height: 104px;
+    border: 12px solid #f6f6f7;
+    border-radius: 50%;
+    margin: 25px auto 50px auto;
+}
+
+.balicky .box .icon {
+    width: 100%;
+    height: 100%;
+}
+
+.balicky .box.box-01 .icon {
+    background: transparent url("../img/hp/icon-01.png") 50% 50% no-repeat;
+}
+
+.balicky .box.box-02 .icon {
+    background: transparent url("../img/hp/icon-02.png") 50% 50% no-repeat;
+}
+
+.balicky .box.box-03 .icon {
+    background: transparent url("../img/hp/icon-03.png") 50% 50% no-repeat;
+}
+
+.balicky .box.box-02 {
+    margin-top: 40px;
 }
