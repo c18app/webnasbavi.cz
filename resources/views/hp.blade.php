@@ -128,7 +128,9 @@
                 <div class="box box-01">
                     <div class="line-01">Web</div>
                     <div class="line-02">STADNARD</div>
-                    <div class="icon-wrap"><div class="icon"></div></div>
+                    <div class="icon-wrap">
+                        <div class="icon"></div>
+                    </div>
                     <div class="line-03 text-left">Grafický design<br>Popisek<br>Něco vč. SEO a PPC</div>
                 </div>
             </div>
@@ -136,7 +138,9 @@
                 <div class="box box-02">
                     <div class="line-01">Web</div>
                     <div class="line-02">PROFI</div>
-                    <div class="icon-wrap"><div class="icon"></div></div>
+                    <div class="icon-wrap">
+                        <div class="icon"></div>
+                    </div>
                     <div class="line-03 text-left">Grafický design<br>Popisek<br><span>Něco vč. SEO a PPC</span></div>
                 </div>
             </div>
@@ -144,46 +148,62 @@
                 <div class="box box-03">
                     <div class="line-01">Web</div>
                     <div class="line-02">NA MÍRU</div>
-                    <div class="icon-wrap"><div class="icon"></div></div>
+                    <div class="icon-wrap">
+                        <div class="icon"></div>
+                    </div>
                     <div class="line-03 text-left">Grafický design<br>Popisek<br><span>Něco vč. SEO a PPC</span></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        přejít k nabídce
+    <div class="container text-center">
+        <a href="#" class="offer">Přejít k nabídce</a>
     </div>
 
-    <div class="container">
-        Ochutnávka z naší tvorby
+    <div class="container text-center">
+        <h2>Ochutnávka z naší tvorby</h2><span class="wave"></span>
     </div>
 
-    <div class="container">
-        obrázky
+    <div class="ochutnavka-wrap">
     </div>
 
-    <div class="container">
-        Co o nás říkají klienti
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-6">karel mařík</div>
-            <div class="col-6">karel mařík</div>
+    <div class="reference-wrap">
+        <div class="container text-center">
+            <div>
+                <h2>Co o nás říkají klienti</h2><span class="wave"></span>
+            </div>
+            <ul class="reference">
+                <li>
+                    <span class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</span>
+                    <span class="name">Karel Mařík</span>
+                    <span class="company">majitel společnosti.</span>
+                </li>
+                <li>
+                    <span class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</span>
+                    <span class="name">Karel Mařík</span>
+                    <span class="company">majitel společnosti.</span>
+                </li>
+            </ul>
         </div>
     </div>
 
-    <div class="container">
-        Chcete také úspěšný web?<br>Napište nám
+    <div class="form-wrap">
+        <div class="container text-center">
+            <div>
+                <h2>Chcete také úspěšný web?<br>Napište nám</h2><span class="wave"></span>
+            </div>
+            <form>
+
+            </form>
+        </div>
     </div>
 
-    <div class="container">
-        FORMULÁŘ
-    </div>
+    <div class="footer-top-block">
 
-    <div class="container">
-        Patička
+    </div>
+    <div class="footer">
+
     </div>
 </div>
 </body>

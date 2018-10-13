@@ -1,10 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="763"
-     viewBox="0 0 1920 763">
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="763" viewBox="0 0 1920 763">
     <defs>
         <style>
             .cls-1 {
             fill: #f1013e;
-            fill-rule: evenodd;
             }
         </style>
     </defs>
