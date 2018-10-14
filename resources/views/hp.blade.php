@@ -176,8 +176,8 @@
             <ul class="reference">
                 <li>
                     <span class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</span>
-                    <span class="name">Karel Mařík</span>
-                    <span class="company">majitel společnosti.</span>
+                    <span class="name text-right">Karel Mařík</span>
+                    <span class="company text-right">majitel společnosti.</span>
                 </li>
                 <li>
                     <span class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</span>
@@ -193,8 +193,14 @@
             <div>
                 <h2>Chcete také úspěšný web?<br>Napište nám</h2><span class="wave"></span>
             </div>
-            <form>
-
+            <form class="contact-form">
+                <label for="f-name">Jméno</label>
+                <input type="text" name="name" id="f-name">
+                <label for="f-contact">Váš e-mail, nebo telefon</label>
+                <input type="text" name="contact" id="f-contact">
+                <label for="f-message">Zpráva</label>
+                <textarea name="message" id="f-message"></textarea>
+                <button type="submit" name="odeslat_zpravu" class="btn-odeslat-zpravu">Odeslat zprávu</button>
             </form>
         </div>
     </div>
