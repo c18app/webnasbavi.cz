@@ -314,6 +314,7 @@ ul.reference .company {
     position: relative;
     top: -5px;
 }
+
 #hp .reference-wrap h2 {
     color: #fff;
 }
@@ -336,6 +337,7 @@ ul.reference .company {
     max-width: 600px;
     display: inline-block;
 }
+
 .contact-form label {
     width: 100%;
     color: #eb0045;
@@ -381,6 +383,11 @@ ul.reference .company {
     cursor: pointer;
 }
 
+.contact-form .btn-odeslat-zpravu:hover {
+    background-color: #fff;
+    color: #f0013e !important;
+}
+
 .footer-top-block {
     background: #171928 url("../svg/hp/footer-block.svg") 50% 100% no-repeat;
     width: 100%;
@@ -389,5 +396,58 @@ ul.reference .company {
 
 .footer {
     background-color: #11121f;
-    height: 150px;
+    padding-top: 60px;
+    color: #fff;
+}
+
+.footer .container {
+    border-bottom: 1px solid #24273a;
+}
+
+.footer .content-01,
+.footer .content-02,
+.footer .content-03 {
+    display: inline-block;
+}
+
+.footer .content-01 .line-01 {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.footer .content-01 .line-02 {
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.footer .content-02 ul {
+    list-style-type: none;
+}
+
+.footer .content-02 ul li {
+    display: inline-block;
+}
+
+.footer .content-02 ul li span {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+}
+
+.footer .content-02 ul li span.fb {
+    background: transparent url("../img/hp/fb-ico.png") 0 0 no-repeat;
+}
+
+.footer .content-02 ul li span.in {
+    background: transparent url("../img/hp/in-ico.png") 0 0 no-repeat;
+}
+
+.footer .content-02 ul li a:hover span {
+    background-position: 0 -44px;
+}
+
+.bottom {
+    background: #11121f;
+    height: 70px;
+    color: #fff;
 }

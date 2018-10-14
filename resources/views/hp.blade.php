@@ -205,11 +205,32 @@
         </div>
     </div>
 
-    <div class="footer-top-block">
+    <div class="footer-top-block"></div>
 
-    </div>
     <div class="footer">
+        <div class="container">
+            <div class="content-01">
+                <div class="line-01">Web nás baví!</div>
+                <div class="line-02">již 15 let vytváříme weby na míru</div>
+            </div>
+            <div class="content-02">
+                <ul>
+                    <li><a href="#"><span class="fb"></span></a></li>
+                    <li><a href="#"><span class="in"></span></a></li>
+                </ul>
+            </div>
+            <div class="content-03">
+                <div class="line-01">Web nás baví!</div>
+                <div class="line-02">již 15 let vytváříme weby na míru</div>
+                <div class="line-02">již 15 let vytváříme weby na míru</div>
+            </div>
+        </div>
+    </div>
 
+    <div class="bottom">
+        <div class="container text-center">
+            Made with ❤ by Web nás baví | Ochrana os. údajů
+        </div>
     </div>
 </div>
 </body>
