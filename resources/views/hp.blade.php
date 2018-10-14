@@ -220,16 +220,17 @@
                 </ul>
             </div>
             <div class="content-03">
-                <div class="line-01">Web nás baví!</div>
-                <div class="line-02">již 15 let vytváříme weby na míru</div>
-                <div class="line-02">již 15 let vytváříme weby na míru</div>
+                <div class="line-01">Rádi se setkáme</div>
+                <div class="line-02">pište, volejte, budeme se těšit!</div>
+                <div class="line-03">773&nbsp;252&nbsp;999</div>
+                <div class="line-04">email: <a href="mailto:wnb@wnb.cz">wnb@wnb.cz</a></div>
             </div>
         </div>
     </div>
 
     <div class="bottom">
         <div class="container text-center">
-            Made with ❤ by Web nás baví | Ochrana os. údajů
+            <span>Made with <span class="heart"></span> by Web nás baví | <a href="#">Ochrana os. údajů</a></span>
         </div>
     </div>
 </div>
