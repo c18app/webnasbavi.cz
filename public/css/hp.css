@@ -514,3 +514,33 @@ ul.reference .company {
 .bottom span a {
     color: #fff;
 }
+
+.carousel .carousel-item img {
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+}
+
+.carousel .carousel-inner {
+    box-shadow: 0px 8px 49px 14px rgba(23, 22, 20, 0.18);
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+}
+
+.carousel .carousel-control-prev-icon {
+    width: 40px;
+    height: 40px;
+    justify-content: space-between;
+    background: transparent url("../img/hp/prev-red.png") 0 0 no-repeat;
+    position: relative;
+    left: -20%;
+}
+
+.carousel .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+    background: transparent url("../img/hp/next-red.png") 0 0 no-repeat;
+    position: relative;
+    right: -20%;
+}
