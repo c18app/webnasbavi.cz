@@ -1,10 +1,18 @@
 .navbar {
-    margin-top: 25px;
+    margin-top: 0px;
     margin-bottom: 70px;
 }
 
 .navbar-brand {
     font-weight: bold;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    background-color: #f0013e;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff!important;
+    box-shadow: 0 0 20px -5px rgba(128,128,128,0.5);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -25,18 +33,22 @@
 
 h1 {
     color: #171928;
-    font-size: 74px;
-    font-weight: bold;
+    font-size:44px;
     line-height: 100%;
     margin-bottom: 60px;
+    text-shadow: 1px 1px 10px rgba(240,1,62,0.1);
 }
 
 h1 span {
     color: #f0013e;
+    font-size:74px;
+    line-height: 120%;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px rgba(23,25,40,0.1);
 }
 
 .top-block {
-    margin-top: 100px;
+    margin-top: 75px;
     background: transparent url("../svg/hp/top-block.svg") 50% 0 no-repeat;
     width: 100%;
     height: 763px;
@@ -72,7 +84,7 @@ h1 span {
 }
 
 .btn-napiste-nam {
-    background-color: #f0013e;
+    background-color: #171928;
     height: 60px;
     line-height: 60px;
     border-radius: 30px;
@@ -110,10 +122,13 @@ h1 span {
 }
 
 .naladeni-content {
-    display: inline-block;
+
 }
 
 .naladeni-content ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -121,8 +136,8 @@ h1 span {
 }
 
 .naladeni-content ul li {
-    float: left;
-    width: 230px;
+    width: auto;
+    max-width: 230px;
 }
 
 .naladeni-content ul li h3 {

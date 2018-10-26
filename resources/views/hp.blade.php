@@ -75,7 +75,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1>Tvoříme<br>weby na úrovni<br><span>web nás baví</span></h1>
+                <h1>tvoříme projekty na úrovni<br><span>web nás baví</span></h1>
             </div>
         </div>
         <div class="row">
@@ -103,13 +103,13 @@
                 </div>
 
                 <div class="naladeni-content">
-                    <h2 class="light">Nějaký<br>krátký naladění?</h2>
+                    <h2 class="light">Na čem nám záleží</h2>
                     <ul>
-                        <li><h3>Zkušenosti<span class="line"></span></h3><span>máme 15 let praxe<br>a vytvořili jsme<br>přes 100 projektů</span>
+                        <li><h3>Zkušenosti<span class="line"></span></h3><span>máme 15 let praxe<br>a vytvořili jsme<br>desítky projektů</span>
                         </li>
                         <li><h3>Osobní&nbsp;přístup<span class="line"></span></h3><span>postaráme se o vás,<br>protože na našich klientech<br>nám záleží</span>
                         </li>
-                        <li><h3>Profesionalita<span class="line"></span></h3><span>nešijeme horkou jehlou,<br>naše weby mluví<br>samy za sebe</span>
+                        <li><h3>Profesionalita<span class="line"></span></h3><span>pracujeme důsledně,<br>kreativně a efektivně</span>
                         </li>
                     </ul>
                 </div>
@@ -119,7 +119,7 @@
 
 
     <div class="container text-center">
-        <h2>Nabídka<br>webových balíčků</h2><span class="wave"></span>
+        <h2>Nabídka webových balíčků</h2><span class="wave"></span>
     </div>
 
     <div class="container balicky">
