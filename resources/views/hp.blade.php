@@ -131,7 +131,7 @@
                     <div class="line-02">STANDARD</div>
                     <div class="icon-wrap">
                         {{--<div class="icon"></div>--}}
-                        <span class="fas fa-th-large icon"></span>
+                        <span class="fas fa-paper-plane icon"></span>
                     </div>
                     <div class="line-03">Grafický design<br>Jednoduchá administrace<br>Kontaktní formulář</div>
                 </div>
@@ -142,7 +142,7 @@
                     <div class="line-02">PREMIUM</div>
                     <div class="icon-wrap">
                         {{--<div class="icon"></div>--}}
-                        <span class="fas fa-crown icon"></span>
+                        <span class="fas fa-plane icon"></span>
                     </div>
                     <div class="line-03">Grafický
                         design<br><span>Pokročilá administrace</span><br><span>Další formulář</span></div>

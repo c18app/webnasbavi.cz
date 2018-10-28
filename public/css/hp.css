@@ -252,10 +252,20 @@ h1 span {
     text-shadow: 1px 1px 0px #171928;
 }
 
-.balicky .box.box-03 span.icon {
+.balicky .box.box-01 span.icon {
+    position: relative;
+    top: 1px;
+    left: -2px;
+}
+.balicky .box.box-02 span.icon {
     transform: rotate(-45deg);
     position: relative;
-    top: 5px;
+    left: 2px;
+}
+.balicky .box.box-03 span.icon {
+    position: relative;
+    top: 2px;
+    left: -2px;
 }
 
 .balicky .box.box-01 div.icon {
