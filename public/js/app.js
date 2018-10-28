@@ -66,3 +66,26 @@ jQuery(document).ready(function ($) {
     $(window).bind("orientationchange", ScaleSlider);
     /*#endregion responsive code end*/
 });
+
+
+jQuery(document).ready(function ($) {
+    $('.arrow-down-wrap').click(function() {
+        $([document.documentElement, document.body]).animate({scrollTop: $('.arrow-down-wrap').offset().top + 84}, 350);
+    })
+
+    $(window).scroll(function() {
+        var arrowDownWrapHeight = $('.arrow-down-wrap').outerHeight();
+        var arrowDownWrapOffsetTop = $('.arrow-down-wrap').offset().top;
+        var windowScrollTop = $(window).scrollTop();
+
+        if(windowScrollTop > arrowDownWrapOffsetTop + arrowDownWrapHeight) {
+            $('.arrow-down-arrow').css('animation', 'unset');
+        }
+    })
+
+    $('.btn-napiste-nam').click(function() {
+        $([document.documentElement, document.body]).animate({scrollTop: $('#napiste-nam').offset().top}, 1000);
+    });
+
+    $()
+});

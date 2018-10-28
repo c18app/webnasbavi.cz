@@ -135,6 +135,7 @@ h1 span {
     margin: 0 auto;
     position: relative;
     top: 70px;
+    cursor: pointer;
 }
 
 @keyframes arrow-down-arrow-animation {

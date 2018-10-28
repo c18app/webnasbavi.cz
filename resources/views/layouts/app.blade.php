@@ -25,7 +25,10 @@
 </head>
 <body>
 
-@yield('content')
+<div @isset($page_id) id="{{ $page_id }}" @endisset>
+    @include('@top-menu')
+    @yield('content')
+</div>
 
 </body>
 </html>
