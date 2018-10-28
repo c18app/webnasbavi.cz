@@ -70,6 +70,14 @@ h1 span {
     top: 70px;
 }
 
+@keyframes arrow-down-arrow-animation {
+    0% {top: 24px; opacity: 0;}
+    25% {opacity: 1;}
+    75% {top: 50px;}
+    85% { opacity: 1;}
+    100% { top: 52px;opacity: 0;}
+}
+
 .arrow-down-arrow {
     width: 0;
     height: 0;
@@ -81,6 +89,8 @@ h1 span {
     margin: 0 auto;
     position: relative;
     top: 38px;
+
+    animation: arrow-down-arrow-animation 1.2s infinite;
 }
 
 .btn-napiste-nam {
