@@ -11,9 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('hp');
-});
+Route::view('/', 'hp');
+Route::view('o-nas', 'hp')->name('o-nas');
+Route::view('co-umime', 'hp')->name('co-umime');
+Route::view('cenik', 'hp')->name('cenik');
+Route::view('reference', 'hp')->name('reference');
+Route::view('kontakt', 'hp')->name('kontakt');
 
 Auth::routes();
 

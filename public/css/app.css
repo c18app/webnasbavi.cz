@@ -1,31 +1,60 @@
 body {
     font-family: Quicksand, sans-serif;
     color: #171928;
+    margin: 0;
 }
 
 .text-center {
     text-align: center!important;
 }
 
-.navbar {
-    margin-top: 0px;
-    margin-bottom: 50px;
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar {
+    height: 60px;
+    margin: .5rem 1rem 58px 1rem;
+}
+
+.navbar .navbar-brand {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.navbar .nav-link {
     font-weight: bold;
     color: #171928;
+    text-decoration: none;
+    padding: .5rem 1rem;
 }
 
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+.navbar .nav-link.active {
     color: #f0013e;
 }
+
+.navbar .navbar-nav {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-nav .nav-item {
+    float: left;
+    line-height: 60px;
+}
+
 
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem;
     }
+}
+
+#hp h1 {
+    font-weight: 500;
 }
 
 h1 {
@@ -242,7 +271,7 @@ h1 span {
 .balicky .box span.icon {
     color: #f1013e;
     line-height: 80px;
-    font-size: 36px;
+    font-size: 42px;
     text-shadow: 1px 1px 0px #171928;
 }
 

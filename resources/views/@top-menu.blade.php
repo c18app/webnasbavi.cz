@@ -1,46 +1,46 @@
-<nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+<nav class="navbar">
     <div class="container">
-        <a class="navbar-brand" href="{{ url('/') }}"><img src="/img/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="{{ __('Toggle navigation') }}">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        {{--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"--}}
+        {{--aria-controls="navbarSupportedContent" aria-expanded="false"--}}
+        {{--aria-label="{{ __('Toggle navigation') }}">--}}
+        {{--<span class="navbar-toggler-icon"></span>--}}
+        {{--</button>--}}
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Left Side Of Navbar -->
-            <ul class="navbar-nav mr-auto">
-
-            </ul>
-
-            <!-- Right Side Of Navbar -->
-            <ul class="navbar-nav ml-auto">
+        <div id="navbarSupportedContent">
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    @if (Route::has('register'))
-                        <a class="nav-link" href="{{ route('login') }}">{{ __('Kdo jsme') }}</a>
+                    @if (Route::has('o-nas'))
+                        <a class="{{ Route::is('o-nas') ? 'active ' : '' }}nav-link"
+                           href="{{ route('o-nas') }}">{{ __('O nás') }}</a>
                     @endif
                 </li>
                 <li class="nav-item active">
-                    @if (Route::has('register'))
-                        <a class="active nav-link" href="{{ route('register') }}">{{ __('Co umíme') }}</a>
+                    @if (Route::has('co-umime'))
+                        <a class="{{ Route::is('co-umime') ? 'active ' : '' }}nav-link"
+                           href="{{ route('co-umime') }}">{{ __('Co umíme') }}</a>
                     @endif
                 </li>
                 <li class="nav-item">
-                    @if (Route::has('register'))
-                        <a class="nav-link" href="{{ route('register') }}">{{ __('Ceník') }}</a>
+                    @if (Route::has('cenik'))
+                        <a class="{{ Route::is('cenik') ? 'active ' : '' }}nav-link"
+                           href="{{ route('cenik') }}">{{ __('Ceník') }}</a>
                     @endif
                 </li>
                 <li class="nav-item">
-                    @if (Route::has('register'))
-                        <a class="nav-link" href="{{ route('register') }}">{{ __('Reference') }}</a>
+                    @if (Route::has('reference'))
+                        <a class="{{ Route::is('reference') ? 'active ' : '' }}nav-link"
+                           href="{{ route('reference') }}">{{ __('Reference') }}</a>
                     @endif
                 </li>
                 <li class="nav-item">
-                    @if (Route::has('register'))
-                        <a class="nav-link" href="{{ route('register') }}">{{ __('Kontakt') }}</a>
+                    @if (Route::has('kontakt'))
+                        <a class="{{ Route::is('kontakt') ? 'active ' : '' }}nav-link"
+                           href="{{ route('kontakt') }}">{{ __('Kontakt') }}</a>
                     @endif
                 </li>
             </ul>
         </div>
+
+        <a class="navbar-brand" href="{{ url('/') }}"><img src="/img/logo.png"></a>
     </div>
 </nav>
