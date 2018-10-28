@@ -25,7 +25,7 @@
                     <div class="arrow-down-arrow"></div>
                 </div>
                 <div class="naladeni-wrap">
-                    <div class="bg-dark nase-hodnoty float-left">
+                    <div class="bg-dark nase-hodnoty">
                         <div class="line-01">
                             <span>Naše hodnoty</span><br>v kostce
                             <ul>

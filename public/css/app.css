@@ -2,14 +2,55 @@ body {
     font-family: Quicksand, sans-serif;
     color: #171928;
     margin: 0;
+    line-height: 1.5;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
 }
 
 .text-center {
     text-align: center!important;
 }
 
+.text-right {
+    text-align: right!important;
+}
+
+.text-left {
+    text-align: left!important;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
+    margin-bottom: .5rem;
+    line-height: 1.2;
 }
 
 .navbar {
@@ -199,6 +240,7 @@ h1 span {
     color: #fff;
     margin-right: 150px;
     display: inline-block;
+    float: left;
 }
 
 .nase-hodnoty ul {
@@ -645,4 +687,13 @@ ul.reference .company {
     background: transparent url("../img/hp/next-red.png") 0 0 no-repeat;
     position: relative;
     right: -20%;
+}
+
+
+
+
+
+#carouselExampleControls {
+    overflow: hidden;
+    height: 704px;
 }
