@@ -659,41 +659,37 @@ ul.reference .company {
     color: #fff;
 }
 
-.carousel .carousel-item img {
+/*jssor slider loading skin spin css*/
+#jssor_1 {
     -webkit-border-radius: 45px;
     -moz-border-radius: 45px;
     border-radius: 45px;
-}
-
-.carousel .carousel-inner {
     box-shadow: 0px 8px 49px 14px rgba(23, 22, 20, 0.18);
-    -webkit-border-radius: 45px;
-    -moz-border-radius: 45px;
-    border-radius: 45px;
 }
 
-.carousel .carousel-control-prev-icon {
-    width: 40px;
-    height: 40px;
-    justify-content: space-between;
-    background: transparent url("../img/hp/prev-red.png") 0 0 no-repeat;
-    position: relative;
-    left: -20%;
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
-.carousel .carousel-control-next-icon {
-    width: 40px;
-    height: 40px;
-    background: transparent url("../img/hp/next-red.png") 0 0 no-repeat;
-    position: relative;
-    right: -20%;
+@keyframes jssorl-009-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
 
+/*jssor slider bullet skin 053 css*/
+.jssorb053 .i {position:absolute;cursor:pointer;}
+.jssorb053 .i .b {fill:#fff;fill-opacity:0.5;}
+.jssorb053 .i:hover .b {fill-opacity:.7;}
+.jssorb053 .iav .b {fill-opacity: 1;}
+.jssorb053 .i.idn {opacity:.3;}
 
-
-
-
-#carouselExampleControls {
-    overflow: hidden;
-    height: 704px;
-}
+/*jssor slider arrow skin 093 css*/
+.jssora093 {display:block;position:absolute;cursor:pointer;}
+.jssora093 .c {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;}
+.jssora093 .a {fill:none;stroke:#fff;stroke-width:400;stroke-miterlimit:10;}
+.jssora093:hover {opacity:.8;}
+.jssora093.jssora093dn {opacity:.6;}
+.jssora093.jssora093ds {opacity:.3;pointer-events:none;}
