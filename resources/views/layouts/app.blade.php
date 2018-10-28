@@ -8,20 +8,21 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
+    <link rel="icon" href="/favicon.ico?v=2" />
 
     <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
 
     <!-- Scripts -->
     <script src="/js/jquery-3.3.1.js"></script>
     <script src="/js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app.js') }}?v={{ env('VERSION', time()) }}" defer></script>
 
     <!-- Fonts -->
     <link href="/fonts/stylesheet.css" rel="stylesheet">
     <link href="/fontawesome-free-5.4.2-web/css/all.min.css" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}?v={{ env('VERSION', time()) }}" rel="stylesheet">
 </head>
 <body>
 
