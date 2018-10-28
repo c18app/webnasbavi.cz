@@ -2,3 +2,617 @@ body {
     font-family: Quicksand, sans-serif;
     color: #171928;
 }
+
+.navbar {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+    color: #171928;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: #f0013e;
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+h1 {
+    color: #171928;
+    font-size:44px;
+    line-height: 100%;
+    margin-bottom: 50px;
+    /*text-shadow: 1px 1px 10px rgba(240,1,62,0.1);*/
+}
+
+h1 span {
+    color: #f0013e;
+    font-size:74px;
+    line-height: 120%;
+    font-weight: bold;
+    /*text-shadow: 1px 1px 10px rgba(23,25,40,0.1);*/
+}
+
+.top-block {
+    margin-top: 50px;
+    background: transparent url("../svg/hp/top-block.svg") 50% 0 no-repeat;
+    width: 100%;
+    height: 763px;
+    margin-bottom: 75px;
+}
+
+.bg-dark {
+    background-color: #171928 !important;
+}
+
+.arrow-down-wrap {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 84px;
+    height: 84px;
+    box-shadow: 0px 8px 78px 0px rgba(23, 22, 20, 0.1);
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+}
+
+@keyframes arrow-down-arrow-animation {
+    0% {top: 24px; opacity: 0;}
+    25% {opacity: 1;}
+    75% {top: 50px;}
+    85% { opacity: 1;}
+    100% { top: 52px;opacity: 0;}
+}
+
+.arrow-down-arrow {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+
+    border-top: 8px solid #171928;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    top: 38px;
+
+    animation: arrow-down-arrow-animation 1.2s infinite;
+}
+
+.btn-napiste-nam {
+    background-color: #171928;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    color: #fff !important;
+    font-size: 17px;
+    padding: 0 50px;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.naladeni-wrap {
+    margin-top: 140px;
+    color: #fff;
+}
+
+#hp h2 {
+    font-size: 45px;
+    line-height: 56px;
+    font-weight: bold;
+    color: #171928;
+}
+
+#hp h2.light {
+    color: #fff;
+}
+
+#hp .wave {
+    background: transparent url("../img/hp/wave.png") 0 0 no-repeat;
+    width: 61px;
+    height: 8px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.naladeni-content {
+
+}
+
+.naladeni-content ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.naladeni-content ul li {
+    width: auto;
+    max-width: 230px;
+}
+
+.naladeni-content ul li h3 {
+    font-weight: bold;
+    font-size: 28px;
+    color: #171928;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.naladeni-content ul li h3 .line {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 42px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nase-hodnoty {
+    width: 270px;
+    height: 270px;
+    border-radius: 45px 45px 0 45px;
+    padding: 30px 0 0 30px;
+    color: #fff;
+    margin-right: 150px;
+    display: inline-block;
+}
+
+.nase-hodnoty ul {
+    list-style-type: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding-left: 20px;
+}
+
+.nase-hodnoty ul li {
+    background: transparent url("../img/hp/fajfka.png") 0 50% no-repeat;
+    padding-left: 30px;
+}
+
+.nase-hodnoty .line-01 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.nase-hodnoty .line-01 span {
+    font-weight: bold;
+}
+
+.balicky {
+    margin-top: 75px;
+}
+
+.balicky .box {
+    width: 300px;
+    height: 420px;
+    box-shadow: 0px 8px 49px 14px rgba(232, 233, 235, 0.72);
+    text-align: center;
+    display: inline-block;
+    padding: 30px 50px;
+}
+
+.balicky .box .line-01 {
+    font-size: 28px;
+    line-height: 1;
+}
+
+.balicky .box .line-02 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.balicky .box .line-03 {
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.balicky .box .line-03 span {
+    color: #f1013e;
+}
+
+.balicky .box .icon-wrap {
+    width: 104px;
+    height: 104px;
+    border: 12px solid #f6f6f7;
+    border-radius: 50%;
+    margin: 25px auto 50px auto;
+}
+
+.balicky .box icon {
+    width: 100%;
+    height: 100%;
+}
+.balicky .box span.icon {
+    color: #f1013e;
+    line-height: 80px;
+    font-size: 36px;
+    text-shadow: 1px 1px 0px #171928;
+}
+
+.balicky .box.box-01 span.icon {
+    position: relative;
+    top: 1px;
+    left: -2px;
+}
+.balicky .box.box-02 span.icon {
+    transform: rotate(-45deg);
+    position: relative;
+    left: 2px;
+}
+.balicky .box.box-03 span.icon {
+    position: relative;
+    top: 2px;
+    left: -2px;
+}
+
+.balicky .box.box-01 div.icon {
+    background: transparent url("../img/hp/icon-01.png") 50% 50% no-repeat;
+}
+
+.balicky .box.box-02 div.icon {
+    background: transparent url("../img/hp/icon-02.png") 50% 50% no-repeat;
+}
+
+.balicky .box.box-03 div.icon {
+    background: transparent url("../img/hp/icon-03.png") 50% 50% no-repeat;
+}
+
+.balicky .box.box-02 {
+    margin-top: 40px;
+}
+
+.offer {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    font-size: 28px;
+    color: #f1013e !important;
+    font-weight: bold;
+    background: transparent url("../img/hp/arrow-01.png") 100% 50% no-repeat;
+    padding-right: 50px;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.offer:hover {
+    text-decoration: none;
+}
+
+.ochutnavka-wrap {
+    margin-top: 100px;
+    background: transparent url("../svg/hp/ochutnavka-top-ellipse.svg") 50% 100% no-repeat;
+    width: 100%;
+    min-height: 1020px;
+}
+
+.reference-wrap {
+    width: 100%;
+    background-color: #171928;
+}
+
+.reference-wrap .container {
+    position: relative;
+    top: -200px;
+}
+
+ul.reference {
+    padding: 0 0 10px 0;
+    margin: 90px 0 0 0;
+    list-style-type: none;
+}
+
+ul.reference li {
+    background: #fff url("../img/hp/uvozovky.png") 320px 30px no-repeat;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+    width: 375px;
+    height: 225px;
+    display: inline-block;
+    padding: 50px 40px 0 40px;
+    text-align: left;
+    font-size: 15px;
+    color: #090909;
+}
+
+ul.reference li:first-child {
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    border-bottom-right-radius: 0;
+    margin-right: 60px;
+}
+
+ul.reference li:last-child {
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-bottom-left-radius: 0;
+}
+
+ul.reference .name {
+    display: inline-block;
+    color: #f1013e;
+    font-size: 28px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+ul.reference .company {
+    display: inline-block;
+    color: #171928;
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    top: -5px;
+}
+
+#hp .reference-wrap h2 {
+    color: #fff;
+}
+
+.form-wrap {
+    background-color: #171928;
+}
+
+.form-wrap form {
+    width: 100%;
+    height: 500px;
+}
+
+#hp .form-wrap h2 {
+    color: #fff;
+}
+
+.contact-form {
+    margin-top: 80px;
+    max-width: 600px;
+    display: inline-block;
+}
+
+.contact-form label {
+    width: 100%;
+    color: #eb0045;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.contact-form input.text-input {
+    width: 100%;
+    color: #171928;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+}
+
+.contact-form textarea {
+    width: 100%;
+    color: #171928;
+    height: 15em;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 25px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.contact-form input.checkbox-input {
+    color: #171928;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    position: relative;
+    top: 2px;
+}
+
+.contact-form label.label-checkbox {
+    font-size: 15px;
+    font-weight: 100;
+    color: #ffffff;
+    display: inline;
+    margin-left: 9px;
+}
+.contact-form label.label-checkbox a {
+    color: #f0013e;
+}
+
+.contact-form .btn-odeslat-zpravu {
+    background-color: #f0013e;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    color: #fff !important;
+    font-size: 17px;
+    padding: 0 50px;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none !important;
+    border: none;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.contact-form .btn-odeslat-zpravu:hover {
+    background-color: #fff;
+    color: #f0013e !important;
+}
+
+.footer-top-block {
+    background: #171928 url("../svg/hp/footer-block.svg") 50% 100% no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+.footer {
+    background-color: #11121f;
+    padding-top: 0px;
+    color: #fff;
+}
+
+.footer .container {
+    border-bottom: 1px solid #24273a;
+    padding-bottom: 55px;
+}
+
+.footer .content-01,
+.footer .content-02,
+.footer .content-03 {
+    display: inline-block;
+}
+
+.footer .content-01 {
+    width: 500px;
+}
+
+.footer .content-01 .line-01 {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.footer .content-01 .line-02 {
+    font-size: 28px;
+    font-weight: 100;
+    color: #c9cce0;
+}
+
+.footer .content-02 {
+    width: 250px;
+}
+
+.footer .content-02 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .content-02 ul li {
+    display: inline-block;
+}
+
+.footer .content-02 ul li span {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+}
+
+.footer .content-02 ul li span.fb {
+    background: transparent url("../img/hp/fb-ico.png") 0 0 no-repeat;
+    margin-right: 15px;
+}
+
+.footer .content-02 ul li span.in {
+    background: transparent url("../img/hp/in-ico.png") 0 0 no-repeat;
+}
+
+.footer .content-02 ul li a:hover span {
+    background-position: 0 -44px;
+}
+
+.footer .content-03 {
+    width: 300px;
+    position: relative;
+    top: 25px;
+}
+
+.footer .content-03 .line-01 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.footer .content-03 .line-02 {
+    font-size: 17px;
+    color: #c9cce0;
+}
+
+.footer .content-03 .line-03 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #f1013e;
+    background: transparent url("../img/hp/phone-ico.png") 0 50% no-repeat;
+    padding-left: 40px;
+}
+
+.footer .content-03 .line-04 {
+    font-size: 17px;
+    color: #c9cce0;
+}
+
+.footer .content-03 .line-04 a {
+    color: #fff;
+}
+
+.bottom {
+    background: #11121f;
+    height: 75px;
+    color: #fff;
+}
+
+.bottom span {
+    margin-top: 30px;
+    display: inline-block;
+    color: #c9cce0;
+}
+
+.bottom span .heart {
+    display: inline-block;
+    background: transparent url("../img/hp/heart-ico.png") 0 50% no-repeat;
+    width: 17px;
+    height: 16px;
+    margin: 0;
+}
+
+.bottom span a {
+    color: #fff;
+}
+
+.carousel .carousel-item img {
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+}
+
+.carousel .carousel-inner {
+    box-shadow: 0px 8px 49px 14px rgba(23, 22, 20, 0.18);
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+}
+
+.carousel .carousel-control-prev-icon {
+    width: 40px;
+    height: 40px;
+    justify-content: space-between;
+    background: transparent url("../img/hp/prev-red.png") 0 0 no-repeat;
+    position: relative;
+    left: -20%;
+}
+
+.carousel .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+    background: transparent url("../img/hp/next-red.png") 0 0 no-repeat;
+    position: relative;
+    right: -20%;
+}
