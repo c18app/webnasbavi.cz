@@ -18,6 +18,7 @@
 
     <!-- Fonts -->
     <link href="/fonts/stylesheet.css" rel="stylesheet">
+    <link href="/fontawesome-free-5.4.2-web/css/all.min.css" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -80,7 +81,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <a href="#" class="btn-napiste-nam">Napište nám</a>
+                <a href="javascript:void(0);" class="btn-napiste-nam" onclick="$([document.documentElement, document.body]).animate({scrollTop: $('#napiste-nam').offset().top}, 1000);">Napište nám</a>
             </div>
         </div>
     </div>
@@ -119,7 +120,7 @@
 
 
     <div class="container text-center">
-        <h2>Nabídka webových balíčků</h2><span class="wave"></span>
+        <h2>Co nabízíme</h2><span class="wave"></span>
     </div>
 
     <div class="container balicky">
@@ -127,21 +128,24 @@
             <div class="col-4">
                 <div class="box box-01">
                     <div class="line-01">Web</div>
-                    <div class="line-02">STADNARD</div>
+                    <div class="line-02">STANDARD</div>
                     <div class="icon-wrap">
-                        <div class="icon"></div>
+                        {{--<div class="icon"></div>--}}
+                        <span class="fas fa-th-large icon"></span>
                     </div>
-                    <div class="line-03 text-left">Grafický design<br>Popisek<br>Něco vč. SEO a PPC</div>
+                    <div class="line-03">Grafický design<br>Jednoduchá administrace<br>Kontaktní formulář</div>
                 </div>
             </div>
             <div class="col-4 text-center">
                 <div class="box box-02">
                     <div class="line-01">Web</div>
-                    <div class="line-02">PROFI</div>
+                    <div class="line-02">PREMIUM</div>
                     <div class="icon-wrap">
-                        <div class="icon"></div>
+                        {{--<div class="icon"></div>--}}
+                        <span class="fas fa-crown icon"></span>
                     </div>
-                    <div class="line-03 text-left">Grafický design<br>Popisek<br><span>Něco vč. SEO a PPC</span></div>
+                    <div class="line-03">Grafický
+                        design<br><span>Pokročilá administrace</span><br><span>Další formulář</span></div>
                 </div>
             </div>
             <div class="col-4 text-right">
@@ -149,20 +153,22 @@
                     <div class="line-01">Web</div>
                     <div class="line-02">NA MÍRU</div>
                     <div class="icon-wrap">
-                        <div class="icon"></div>
+                        {{--<div class="icon"></div>--}}
+                        <span class="fas fa-rocket icon"></span>
                     </div>
-                    <div class="line-03 text-left">Grafický design<br>Popisek<br><span>Něco vč. SEO a PPC</span></div>
+                    <div class="line-03">Grafický
+                        design<br><span>Administrace na míru</span><br><span>Zákaznické úpravy</span></div>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="container text-center">
-        <a href="#" class="offer">Přejít k nabídce</a>
+        <a href="#" class="offer">více</a>
     </div>
 
     <div class="container text-center">
-        <h2>Ochutnávka z naší tvorby</h2><span class="wave"></span>
+        <h2>Naše projekty</h2><span class="wave"></span>
     </div>
 
     <div class="ochutnavka-wrap">
@@ -196,10 +202,11 @@
         </div>
     </div>
 
+    {{--
     <div class="reference-wrap">
         <div class="container text-center">
             <div>
-                <h2>Co o nás říkají klienti</h2><span class="wave"></span>
+                <h2>Reference</h2><span class="wave"></span>
             </div>
             <ul class="reference">
                 <li>
@@ -215,20 +222,26 @@
             </ul>
         </div>
     </div>
+    --}}
 
-    <div class="form-wrap">
+    <div class="form-wrap" id="napiste-nam">
         <div class="container text-center">
             <div>
                 <h2>Chcete také úspěšný web?<br>Napište nám</h2><span class="wave"></span>
             </div>
             <form class="contact-form">
                 <label for="f-name">Jméno</label>
-                <input type="text" name="name" id="f-name">
-                <label for="f-contact">Váš e-mail, nebo telefon</label>
-                <input type="text" name="contact" id="f-contact">
+                <input type="text" name="name" id="f-name" class="text-input">
+                <label for="f-contact">E-mail, nebo telefon</label>
+                <input type="text" name="contact" id="f-contact" class="text-input">
                 <label for="f-message">Zpráva</label>
                 <textarea name="message" id="f-message"></textarea>
-                <button type="submit" name="odeslat_zpravu" class="btn-odeslat-zpravu">Odeslat zprávu</button>
+                <div class="text-left">
+                    <input type="checkbox" name="confirm" id="f-confirm" class="checkbox-input">
+                    <label for="f-confirm" class="label-checkbox">Odesláním formuláře souhlasíte se zpracováním osobních
+                        údajů <a href="#">ochrana os. údajů</a></label>
+                </div>
+                <button type="submit" name="odeslat_zpravu" class="btn-odeslat-zpravu">Odeslat</button>
             </form>
         </div>
     </div>
@@ -251,7 +264,7 @@
                 <div class="line-01">Rádi se setkáme</div>
                 <div class="line-02">pište, volejte, budeme se těšit!</div>
                 <div class="line-03">773&nbsp;252&nbsp;999</div>
-                <div class="line-04">email: <a href="mailto:wnb@wnb.cz">wnb@wnb.cz</a></div>
+                <div class="line-04">email: <a href="mailto:info@wnb.cz">info@wnb.cz</a></div>
             </div>
         </div>
     </div>
