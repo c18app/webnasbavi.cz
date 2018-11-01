@@ -55,11 +55,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-top-wrap {
     height: 60px;
+    margin-bottom: 35px;
 }
 
 .navbar {
     height: 60px;
-    margin-bottom: 35px;
 }
 
 .navbar .navbar-wrap {
@@ -805,7 +805,7 @@ ul.reference .company {
         line-height: 60px;
     }
 
-    .navbar {
+    .navbar-top-wrap {
         margin-bottom: 60px;
     }
 }
