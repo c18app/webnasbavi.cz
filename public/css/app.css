@@ -197,6 +197,8 @@ h1 span {
     display: inline-block;
     font-weight: bold;
     text-decoration: none !important;
+    width: 100%;
+    text-align: center;
 }
 
 .naladeni-wrap {
@@ -259,7 +261,7 @@ h1 span {
 }
 
 .nase-hodnoty {
-    width: 270px;
+    width: 100%;
     height: 270px;
     border-radius: 45px 45px 0 45px;
     padding: 30px 0 0 30px;
@@ -585,7 +587,7 @@ ul.reference .company {
 }
 
 .footer .content-01 {
-    width: 500px;
+    width: auto;
 }
 
 .footer .content-01 .line-01 {
@@ -772,7 +774,18 @@ ul.reference .company {
 
 /*SM*/
 @media all and (min-width: 576px) {
+    .btn-napiste-nam {
+        width: auto;
+        text-align: left;
+    }
 
+    .nase-hodnoty {
+        width: 270px;
+    }
+
+    .footer .content-01 {
+        width: 500px;
+    }
 }
 
 /*MD*/

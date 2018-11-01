@@ -33,7 +33,7 @@
 
                 <div class="naladeni-content">
                     <h2 class="light">Na čem nám záleží</h2>
-                    <ul class="d-flex justify-content-between">
+                    <ul class="d-block d-lg-flex justify-content-between">
                         <li><h3>Zkušenosti<span class="line"></span></h3><span>máme 15 let praxe<br>a vytvořili jsme<br>desítky projektů</span>
                         </li>
                         <li><h3>Osobní&nbsp;přístup<span class="line"></span></h3><span>postaráme se o vás,<br>protože na našich klientech<br>nám záleží</span>
@@ -53,7 +53,7 @@
 
     <div class="container balicky">
         <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-lg-4">
                 <div class="box box-01">
                     <div class="line-01">Web</div>
                     <div class="line-02">STANDARD</div>
@@ -64,7 +64,7 @@
                     <div class="line-03">Grafický design<br>Jednoduchá administrace<br>Kontaktní formulář</div>
                 </div>
             </div>
-            <div class="col-4 text-center">
+            <div class="col-12 col-lg-4 text-center">
                 <div class="box box-02">
                     <div class="line-01">Web</div>
                     <div class="line-02">PREMIUM</div>
@@ -76,7 +76,7 @@
                         design<br><span>Pokročilá administrace</span><br><span>Další formulář</span></div>
                 </div>
             </div>
-            <div class="col-4 text-right">
+            <div class="col-12 col-lg-4 text-right">
                 <div class="box box-03">
                     <div class="line-01">Web</div>
                     <div class="line-02">NA MÍRU</div>
