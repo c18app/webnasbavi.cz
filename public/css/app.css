@@ -3,6 +3,7 @@ body {
     color: #171928;
     margin: 0;
     line-height: 1.5;
+    min-width: 320px;
 }
 
 *, ::after, ::before {
@@ -115,19 +116,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    text-align: center;
     color: #171928;
-    font-size: 44px;
+    font-size: 32px;
     line-height: 100%;
-    margin-bottom: 50px;
-    /*text-shadow: 1px 1px 10px rgba(240,1,62,0.1);*/
+    margin-bottom: 20px;
 }
 
 h1 span {
     color: #f0013e;
-    font-size: 74px;
-    line-height: 120%;
+    font-size: 44px;
+    line-height: 150%;
     font-weight: bold;
-    /*text-shadow: 1px 1px 10px rgba(23,25,40,0.1);*/
 }
 
 .top-block {
@@ -791,6 +791,21 @@ ul.reference .company {
         -webkit-border-radius: 45px;
         -moz-border-radius: 45px;
         border-radius: 45px;
+    }
+
+    h1 {
+        text-align: left;
+        color: #171928;
+        font-size: 44px;
+        line-height: 100%;
+        margin-bottom: 50px;
+    }
+
+    h1 span {
+        color: #f0013e;
+        font-size: 74px;
+        line-height: 120%;
+        font-weight: bold;
     }
 }
 
