@@ -492,7 +492,7 @@ ul.reference .company {
     text-align: left;
     font-weight: bold;
     font-size: 15px;
-    margin-left: 25px;
+    padding-left: 25px;
 }
 
 .contact-form input.text-input {
@@ -693,9 +693,6 @@ ul.reference .company {
 
 /*jssor slider loading skin spin css*/
 #jssor_1 {
-    -webkit-border-radius: 45px;
-    -moz-border-radius: 45px;
-    border-radius: 45px;
     box-shadow: 0px 8px 49px 14px rgba(23, 22, 20, 0.18);
 }
 
@@ -784,7 +781,13 @@ ul.reference .company {
     }
 
     .footer .content-01 {
-        width: 500px;
+        /*width: 500px;*/
+    }
+
+    #jssor_1 {
+        -webkit-border-radius: 45px;
+        -moz-border-radius: 45px;
+        border-radius: 45px;
     }
 }
 
