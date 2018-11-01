@@ -89,3 +89,7 @@ jQuery(document).ready(function ($) {
 
     $()
 });
+
+$('.navbar-button').click(function() {
+    $('.navbar').toggleClass('expanded')
+});
