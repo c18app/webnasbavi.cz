@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
 
+.navbar-top-wrap {
+    height: 60px;
+}
+
 .navbar {
     height: 60px;
     margin-bottom: 35px;
@@ -63,7 +67,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 60px;
     overflow: hidden;
 }
-
 
 .navbar .navbar-brand {
     margin: 7px 0 8px 0;
@@ -808,15 +811,20 @@ ul.reference .company {
 }
 
 @media all and (max-width: 767.98px) {
-    .navbar.expanded .navbar-wrap {
+    .navbar.expanded {
         position: absolute;
         top: 0px;
         left: 0px;
         right: 0px;
         background-color: #f0013e;
-        border-radius: 17.5px 17.5px 17.5px 2px;
+        border-radius: 2px;
         z-index: 1;
         height: auto;
+    }
+
+    .navbar.expanded .navbar-wrap {
+        height: auto;
+        width: 100%;
     }
 
     .navbar.expanded .nav-link {
@@ -827,8 +835,8 @@ ul.reference .company {
         color: #171928;
     }
 
-    .navbar.expanded .navbar-button {
-        margin-right: 1rem;
+    .navbar.expanded .navbar-brand {
+        position: absolute;
     }
 }
 
