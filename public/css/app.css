@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
     height: 60px;
-    margin: .5rem 1rem 58px 1rem;
+    margin-bottom: 35px;
 }
 
 .navbar .navbar-wrap {
@@ -801,6 +801,10 @@ ul.reference .company {
         float: left;
         line-height: 60px;
     }
+
+    .navbar {
+        margin-bottom: 60px;
+    }
 }
 
 @media all and (max-width: 767.98px) {
@@ -824,7 +828,6 @@ ul.reference .company {
     }
 
     .navbar.expanded .navbar-button {
-        margin-top: 17px;
         margin-right: 1rem;
     }
 }
