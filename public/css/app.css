@@ -73,6 +73,9 @@ h1, h2, h3, h4, h5, h6 {
     margin: 7px 0 8px 0;
     display: inline-block;
 }
+.navbar .navbar-brand-light {
+    display: none;
+}
 
 .navbar .nav-link {
     font-weight: bold;
@@ -852,6 +855,13 @@ ul.reference .company {
 
     .navbar.expanded .navbar-brand {
         position: absolute;
+    }
+
+    .navbar.expanded .navbar-brand-light {
+        display: inline-block;
+    }
+    .navbar.expanded .navbar-brand-dark {
+        display: none;
     }
 }
 

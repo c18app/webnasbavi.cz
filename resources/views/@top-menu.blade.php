@@ -42,7 +42,8 @@
                         </ul>
                     </div>
 
-                    <a class="navbar-brand" href="{{ url('/') }}"><img src="/img/logo_dark.png"></a>
+                    <a class="navbar-brand navbar-brand-dark" href="{{ url('/') }}"><img src="/img/logo_dark.png"></a>
+                    <a class="navbar-brand navbar-brand-light" href="{{ url('/') }}"><img src="/img/logo_light.png"></a>
                 </div>
             </div>
         </div>
