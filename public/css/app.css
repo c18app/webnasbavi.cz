@@ -127,14 +127,18 @@ a:hover {
 
 #hp h2.light {
     color: #fff;
+    margin-top: 0;
 }
 
 #hp .top-block {
     margin-top: 0px;
-    background: transparent url("../svg/hp/top-block.svg") 50% 0 no-repeat;
-    width: 100%;
-    height: 763px;
-    margin-bottom: 75px;
+    background: #f0013e url("../svg/hp/krivka-hp-top.svg") 50% 0px no-repeat;
+}
+
+#hp .top-block-bottom {
+    min-height: 700px;
+    padding-bottom: 104px;
+    background: transparent url("../svg/hp/krivka-hp-bottom.svg") 50% 100% no-repeat;
 }
 
 /* ----- */
@@ -219,11 +223,14 @@ a:hover {
 }
 
 .naladeni-content ul li h3 {
+    margin: 0;
+    line-height: 1.2;
     font-weight: bold;
     font-size: 28px;
     color: #171928;
     position: relative;
     padding-bottom: 10px;
+    margin-bottom: .5rem;
 }
 
 .naladeni-content ul li h3 .line {
@@ -234,6 +241,10 @@ a:hover {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.naladeni-content ul li span.naladeni-text {
+    line-height: 1.5;
 }
 
 .nase-hodnoty {
@@ -300,7 +311,7 @@ a:hover {
 }
 
 .balicky .box .line-03 span {
-    color: #f1013e;
+    color: #f0013e;
 }
 
 .balicky .box .icon-wrap {
@@ -317,7 +328,7 @@ a:hover {
 }
 
 .balicky .box span.icon {
-    color: #f1013e;
+    color: #f0013e;
     line-height: 80px;
     font-size: 42px;
     text-shadow: 1px 1px 0px #171928;
@@ -361,7 +372,7 @@ a:hover {
     margin-top: 50px;
     margin-bottom: 150px;
     font-size: 28px;
-    color: #f1013e !important;
+    color: #f0013e !important;
     font-weight: bold;
     background: transparent url("../img/hp/arrow-01.png") 100% 50% no-repeat;
     padding-right: 50px;
@@ -425,7 +436,7 @@ ul.reference li:last-child {
 
 ul.reference .name {
     display: inline-block;
-    color: #f1013e;
+    color: #f0013e;
     font-size: 28px;
     width: 100%;
     margin-top: 15px;
@@ -632,7 +643,7 @@ ul.reference .company {
 .footer .content-03 .line-03 {
     font-size: 28px;
     font-weight: bold;
-    color: #f1013e;
+    color: #f0013e;
     background: transparent url("../img/hp/phone-ico.png") 0 50% no-repeat;
     padding-left: 40px;
 }
@@ -770,7 +781,7 @@ ul.reference .company {
         border-radius: 45px;
     }
 
-    h1 {
+    #hp h1 {
         text-align: left;
         color: #171928;
         font-size: 44px;
@@ -778,7 +789,7 @@ ul.reference .company {
         margin-bottom: 50px;
     }
 
-    h1 span {
+    #hp h1 span {
         color: #f0013e;
         font-size: 74px;
         line-height: 120%;
@@ -801,7 +812,7 @@ ul.reference .company {
         margin-bottom: 60px;
     }
 
-    .top-block {
+    #hp .top-block {
         margin-top: 50px;
     }
 

@@ -15,32 +15,34 @@
     </div>
 
     <div class="top-block">
-        <div class="container">
-            <div class="arrow-down-wrap">
-                <div class="arrow-down-arrow"></div>
-            </div>
-            <div class="naladeni-wrap">
-                <div class="bg-dark nase-hodnoty">
-                    <div class="line-01">
-                        <span>Naše hodnoty</span><br>v kostce
-                        <ul>
-                            <li>Pohodový přístup</li>
-                            <li>Spolehlivost</li>
-                            <li>Flexibilita</li>
+        <div class="top-block-bottom">
+            <div class="container">
+                <div class="arrow-down-wrap">
+                    <div class="arrow-down-arrow"></div>
+                </div>
+                <div class="naladeni-wrap">
+                    <div class="bg-dark nase-hodnoty">
+                        <div class="line-01">
+                            <span>Naše hodnoty</span><br>v kostce
+                            <ul>
+                                <li>Pohodový přístup</li>
+                                <li>Spolehlivost</li>
+                                <li>Flexibilita</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="naladeni-content">
+                        <h2 class="light">Na čem nám záleží</h2>
+                        <ul class="d-block d-lg-flex justify-content-between">
+                            <li><h3>Zkušenosti<span class="line"></span></h3><span class="naladeni-text">máme 15 let praxe<br>a vytvořili jsme<br>desítky projektů</span>
+                            </li>
+                            <li><h3>Osobní&nbsp;přístup<span class="line"></span></h3><span class="naladeni-text">postaráme se o vás,<br>protože na našich klientech<br>nám záleží</span>
+                            </li>
+                            <li><h3>Profesionalita<span class="line"></span></h3><span class="naladeni-text">pracujeme důsledně,<br>kreativně a efektivně</span>
+                            </li>
                         </ul>
                     </div>
-                </div>
-
-                <div class="naladeni-content">
-                    <h2 class="light">Na čem nám záleží</h2>
-                    <ul class="d-block d-lg-flex justify-content-between">
-                        <li><h3>Zkušenosti<span class="line"></span></h3><span>máme 15 let praxe<br>a vytvořili jsme<br>desítky projektů</span>
-                        </li>
-                        <li><h3>Osobní&nbsp;přístup<span class="line"></span></h3><span>postaráme se o vás,<br>protože na našich klientech<br>nám záleží</span>
-                        </li>
-                        <li><h3>Profesionalita<span class="line"></span></h3><span>pracujeme důsledně,<br>kreativně a efektivně</span>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -114,16 +116,16 @@
                     <div data-u="slides"
                          style="position:absolute;top:0px;left:0px;width:1140px;height:704px;overflow:hidden;">
                         <div>
-                            <img data-u="image" src="/img/hp/001.png"/>
+                            <img data-u="image" src="/img/reference/001.png"/>
                         </div>
                         <div>
-                            <img data-u="image" src="/img/hp/002.png"/>
+                            <img data-u="image" src="/img/reference/002.png"/>
                         </div>
                         <div>
-                            <img data-u="image" src="/img/hp/003.png"/>
+                            <img data-u="image" src="/img/reference/003.png"/>
                         </div>
                         <div>
-                            <img data-u="image" src="/img/hp/004.png"/>
+                            <img data-u="image" src="/img/reference/004.png"/>
                         </div>
                     </div>
                     <!-- Bullet Navigator -->
