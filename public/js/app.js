@@ -78,7 +78,7 @@ jQuery(document).ready(function ($) {
         var arrowDownWrapOffsetTop = $('.arrow-down-wrap').offset().top;
         var windowScrollTop = $(window).scrollTop();
 
-        if(windowScrollTop > arrowDownWrapOffsetTop + arrowDownWrapHeight) {
+        if(windowScrollTop >= arrowDownWrapOffsetTop + arrowDownWrapHeight) {
             $('.arrow-down-arrow').css('animation', 'unset');
         }
     })

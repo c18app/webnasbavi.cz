@@ -33,13 +33,13 @@
                     </div>
 
                     <div class="naladeni-content">
-                        <h2 class="light">Na čem nám záleží</h2>
+                        <h2 class="light">Na&nbsp;čem nám&nbsp;záleží</h2>
                         <ul class="d-block d-lg-flex justify-content-between">
-                            <li><h3>Zkušenosti<span class="line"></span></h3><span class="naladeni-text">máme 15 let praxe<br>a vytvořili jsme<br>desítky projektů</span>
+                            <li><h3>Zkušenosti</h3><span class="line"></span><span class="naladeni-text">máme 15 let praxe<br>a vytvořili jsme<br>desítky projektů</span>
                             </li>
-                            <li><h3>Osobní&nbsp;přístup<span class="line"></span></h3><span class="naladeni-text">postaráme se o vás,<br>protože na našich klientech<br>nám záleží</span>
+                            <li><h3>Osobní&nbsp;přístup</h3><span class="line"></span><span class="naladeni-text">postaráme se o vás,<br>protože na našich klientech<br>nám záleží</span>
                             </li>
-                            <li><h3>Profesionalita<span class="line"></span></h3><span class="naladeni-text">pracujeme důsledně,<br>kreativně a efektivně</span>
+                            <li><h3>Profesionalita</h3><span class="line"></span><span class="naladeni-text">pracujeme důsledně,<br>kreativně a efektivně</span>
                             </li>
                         </ul>
                     </div>

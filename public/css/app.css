@@ -32,7 +32,7 @@ a:hover {
 .wave {
     background: transparent url("../img/hp/wave.png") 0 0 no-repeat;
     width: 61px;
-    height: 8px;
+    height: .5rem;
     display: inline-block;
     text-align: center;
     margin-top: 10px;
@@ -119,8 +119,8 @@ a:hover {
 }
 
 #hp h2 {
-    font-size: 45px;
-    line-height: 56px;
+    text-align: center;
+    font-size: 44px;
     font-weight: bold;
     color: #171928;
 }
@@ -210,16 +210,20 @@ a:hover {
     color: #fff;
 }
 
+.naladeni-content {
+    margin-top: 35px;
+}
+
 .naladeni-content ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    margin-top: 50px;
+    text-align: center;
 }
 
 .naladeni-content ul li {
     width: auto;
-    max-width: 230px;
+    margin-bottom: 35px;
 }
 
 .naladeni-content ul li h3 {
@@ -229,18 +233,15 @@ a:hover {
     font-size: 28px;
     color: #171928;
     position: relative;
-    padding-bottom: 10px;
-    margin-bottom: .5rem;
+    padding-bottom: 8px;
 }
 
-.naladeni-content ul li h3 .line {
-    display: inline-block;
+.naladeni-content ul li .line {
+    display: block;
     background-color: #ffffff;
     width: 42px;
     height: 2px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    margin: 0 auto 5px auto;
 }
 
 .naladeni-content ul li span.naladeni-text {
@@ -254,7 +255,6 @@ a:hover {
     padding: 30px 30px 0 30px;
     color: #fff;
     display: inline-block;
-    float: left;
     text-align: center;
 }
 
@@ -769,6 +769,7 @@ ul.reference .company {
     .nase-hodnoty {
         width: 270px;
         margin-right: 50px;
+        float: left;
     }
 
     .footer .content-01 {
@@ -794,6 +795,31 @@ ul.reference .company {
         font-size: 74px;
         line-height: 120%;
         font-weight: bold;
+    }
+
+    #hp h2 {
+        font-size: 45px;
+        text-align: left;
+    }
+
+    .naladeni-content {
+        margin-top: 0;
+    }
+
+    .naladeni-content ul {
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    .naladeni-content ul li {
+        width: auto;
+        max-width: 230px;
+        margin-bottom: 0;
+    }
+
+    .naladeni-content ul li .line {
+        margin: 0;
+        margin-bottom: .5rem;
     }
 }
 
