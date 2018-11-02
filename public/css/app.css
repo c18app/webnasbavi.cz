@@ -4,10 +4,6 @@ body {
     color: #171928;
 }
 
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-
 a {
     text-decoration: none;
     background-color: transparent;
@@ -15,18 +11,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-input[type=checkbox], input[type=radio] {
-    box-sizing: border-box;
-    padding: 0;
-}
-
-button, input, optgroup, select, textarea {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
 }
 
 .text-center {
@@ -41,17 +25,20 @@ button, input, optgroup, select, textarea {
     text-align: left !important;
 }
 
-label {
+.bg-dark {
+    background-color: #171928 !important;
+}
+
+.wave {
+    background: transparent url("../img/hp/wave.png") 0 0 no-repeat;
+    width: 61px;
+    height: 8px;
     display: inline-block;
-    margin-bottom: .5rem;
+    text-align: center;
+    margin-top: 10px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: .5rem;
-    line-height: 1.2;
-}
-
+/* TOP MENU */
 .navbar-top-wrap {
     height: 60px;
     margin-bottom: 20px;
@@ -71,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 7px 0 8px 0;
     display: inline-block;
 }
+
 .navbar .navbar-brand-light {
     display: none;
 }
@@ -112,11 +100,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 9px;
 }
 
+/* HP  */
 #hp h1 {
+    margin-top: 0;
     font-weight: 500;
-}
-
-h1 {
     text-align: center;
     color: #171928;
     font-size: 32px;
@@ -124,14 +111,25 @@ h1 {
     margin-bottom: 30px;
 }
 
-h1 span {
+#hp h1 span {
     color: #f0013e;
     font-size: 44px;
     line-height: 150%;
     font-weight: bold;
 }
 
-.top-block {
+#hp h2 {
+    font-size: 45px;
+    line-height: 56px;
+    font-weight: bold;
+    color: #171928;
+}
+
+#hp h2.light {
+    color: #fff;
+}
+
+#hp .top-block {
     margin-top: 0px;
     background: transparent url("../svg/hp/top-block.svg") 50% 0 no-repeat;
     width: 100%;
@@ -139,8 +137,20 @@ h1 span {
     margin-bottom: 75px;
 }
 
-.bg-dark {
-    background-color: #171928 !important;
+/* ----- */
+.btn-napiste-nam {
+    background-color: #171928;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    color: #fff !important;
+    font-size: 17px;
+    padding: 0 50px;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none !important;
+    width: 100%;
+    text-align: center;
 }
 
 .arrow-down-wrap {
@@ -191,44 +201,9 @@ h1 span {
     animation: arrow-down-arrow-animation 1.2s infinite;
 }
 
-.btn-napiste-nam {
-    background-color: #171928;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 30px;
-    color: #fff !important;
-    font-size: 17px;
-    padding: 0 50px;
-    display: inline-block;
-    font-weight: bold;
-    text-decoration: none !important;
-    width: 100%;
-    text-align: center;
-}
-
 .naladeni-wrap {
     margin-top: 140px;
     color: #fff;
-}
-
-#hp h2 {
-    font-size: 45px;
-    line-height: 56px;
-    font-weight: bold;
-    color: #171928;
-}
-
-#hp h2.light {
-    color: #fff;
-}
-
-#hp .wave {
-    background: transparent url("../img/hp/wave.png") 0 0 no-repeat;
-    width: 61px;
-    height: 8px;
-    display: inline-block;
-    text-align: center;
-    margin-top: 10px;
 }
 
 .naladeni-content ul {
@@ -489,6 +464,8 @@ ul.reference .company {
 }
 
 .contact-form label {
+    display: inline-block;
+    margin-bottom: .5rem;
     width: 100%;
     color: #eb0045;
     text-align: left;
@@ -869,6 +846,7 @@ ul.reference .company {
     .navbar.expanded .navbar-brand-light {
         display: inline-block;
     }
+
     .navbar.expanded .navbar-brand-dark {
         display: none;
     }
