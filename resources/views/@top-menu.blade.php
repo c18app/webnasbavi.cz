@@ -15,7 +15,7 @@
                                        href="{{ route('o-nas') }}">{{ __('O nás') }}</a>
                                 @endif
                             </li>
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 @if (Route::has('co-umime'))
                                     <a class="{{ Route::is('co-umime') ? 'active ' : '' }}nav-link"
                                        href="{{ route('co-umime') }}">{{ __('Co umíme') }}</a>

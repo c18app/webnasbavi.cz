@@ -1,9 +1,7 @@
+/* GENERAL */
 body {
     font-family: Quicksand, sans-serif;
     color: #171928;
-    margin: 0;
-    line-height: 1.5;
-    min-width: 320px;
 }
 
 *, ::after, ::before {
@@ -84,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: .5rem 1rem;
 }
 
-.navbar .nav-item.active .nav-link {
+.navbar .nav-item .nav-link.active {
     color: #f0013e;
 }
 
@@ -269,7 +267,6 @@ h1 span {
     border-radius: 45px 45px 0 45px;
     padding: 30px 30px 0 30px;
     color: #fff;
-    margin-right: 50px;
     display: inline-block;
     float: left;
     text-align: center;
@@ -783,6 +780,7 @@ ul.reference .company {
 
     .nase-hodnoty {
         width: 270px;
+        margin-right: 50px;
     }
 
     .footer .content-01 {
@@ -860,7 +858,7 @@ ul.reference .company {
         color: #fff;
     }
 
-    .navbar.expanded .nav-item.active .nav-link {
+    .navbar.expanded .nav-item .nav-link.active {
         color: #171928;
     }
 
