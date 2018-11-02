@@ -4,7 +4,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1>tvoříme projekty na úrovni<br><span>web nás baví</span></h1>
+                <div class="pre-header">tvoříme projekty na úrovni</div>
+                <h1>web nás baví</h1>
             </div>
         </div>
         <div class="row">
@@ -66,7 +67,7 @@
                     <div class="line-03">Grafický design<br>Jednoduchá administrace<br>Kontaktní formulář</div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 text-center">
+            <div class="col-12 col-lg-4">
                 <div class="box box-02">
                     <div class="line-01">Web</div>
                     <div class="line-02">PREMIUM</div>
@@ -78,7 +79,7 @@
                         design<br><span>Pokročilá administrace</span><br><span>Další formulář</span></div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 text-right">
+            <div class="col-12 col-lg-4">
                 <div class="box box-03">
                     <div class="line-01">Web</div>
                     <div class="line-02">NA MÍRU</div>

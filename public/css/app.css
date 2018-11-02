@@ -101,20 +101,24 @@ a:hover {
 }
 
 /* HP  */
+#hp .pre-header {
+    font-weight: 500;
+    text-align: center;
+    color: #171928;
+    font-size: 32px;
+    line-height: 100%;
+    margin-bottom: 8px;
+}
+
 #hp h1 {
     margin-top: 0;
     font-weight: 500;
     text-align: center;
     color: #171928;
     font-size: 32px;
-    line-height: 100%;
     margin-bottom: 30px;
-}
-
-#hp h1 span {
     color: #f0013e;
     font-size: 44px;
-    line-height: 150%;
     font-weight: bold;
 }
 
@@ -253,7 +257,7 @@ a:hover {
 
 .nase-hodnoty {
     width: 100%;
-    height: 270px;
+    min-height: 270px;
     border-radius: 45px 45px 0 45px;
     padding: 30px 30px 0 30px;
     color: #fff;
@@ -285,7 +289,7 @@ a:hover {
 }
 
 .balicky {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .balicky .box {
@@ -370,8 +374,8 @@ a:hover {
     background: transparent url("../img/hp/icon-03.png") 50% 50% no-repeat;
 }
 
-.balicky .box.box-02 {
-    margin-top: 40px;
+.balicky .box {
+    margin-top: 25px;
 }
 
 .offer {
@@ -381,7 +385,7 @@ a:hover {
     color: #f0013e !important;
     font-weight: bold;
     background: transparent url("../img/hp/arrow-01.png") 100% 50% no-repeat;
-    padding-right: 50px;
+    padding-right: 40px;
     text-decoration: underline;
     display: inline-block;
 }
@@ -843,6 +847,14 @@ ul.reference .company {
         width: 300px;
         height: 420px;
         padding: 30px 50px;
+    }
+
+    .balicky .box {
+        margin-top: 0;
+    }
+
+    .balicky .box.box-02 {
+        margin-top: 40px;
     }
 }
 
