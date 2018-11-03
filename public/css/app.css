@@ -145,6 +145,8 @@ a:hover {
     padding-bottom: 104px;
     background: transparent url("../img/hp/krivka-hp-bottom.png") 50% 100% no-repeat;
     margin-bottom: 50px;
+    position: relative;
+    top: 1px;
 }
 
 /* ----- */
