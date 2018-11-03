@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="icon" href="/favicon.ico?v=20181031" />
+    <link rel="icon" href="/favicon.ico?v=20181105" />
 
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
