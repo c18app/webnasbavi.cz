@@ -479,6 +479,10 @@ ul.reference .company {
     background-color: #171928;
 }
 
+.form-wrap .napiste-nam-mezera {
+    height: 10px;
+}
+
 .form-wrap form {
     width: 100%;
 }
@@ -675,6 +679,7 @@ ul.reference .company {
     background: transparent url("../img/hp/phone-ico.png") 0 50% no-repeat;
     padding-left: 40px;
     margin-bottom: 8px;
+    display: inline-block;
 }
 
 .footer .content-03 .line-04 {

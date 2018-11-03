@@ -183,7 +183,7 @@
     <div class="form-wrap" id="napiste-nam">
         <div class="container text-center">
             <div>
-                <h2>chcete také úspěšný web?<br>Napište nám</h2><span class="wave"></span>
+                <h2>chcete také úspěšný web?<div class="napiste-nam-mezera"></div>napište nám</h2><span class="wave"></span>
             </div>
             <form class="contact-form">
                 <label for="f-name">jméno</label>
