@@ -1,4 +1,4 @@
-@extends('layouts.app', ['page_id' => 'hp'])
+@extends('layouts.app', ['page_id' => 'page'])
 
 @section('content')
     <div class="container">

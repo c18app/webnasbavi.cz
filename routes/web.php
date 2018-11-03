@@ -12,7 +12,7 @@
 */
 
 Route::view('/', 'hp');
-Route::view('o-nas', 'hp')->name('o-nas');
+Route::view('o-nas', 'pages.o-nas')->name('o-nas');
 Route::view('co-umime', 'hp')->name('co-umime');
 Route::view('cenik', 'hp')->name('cenik');
 Route::view('reference', 'hp')->name('reference');
