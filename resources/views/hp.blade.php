@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="pre-header">tvoříme projekty na úrovni</div>
+                <div class="pre-header">tvoříme&nbsp;projekty na&nbsp;úrovni</div>
                 <h1>web nás baví</h1>
             </div>
         </div>
