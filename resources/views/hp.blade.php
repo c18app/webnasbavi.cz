@@ -105,7 +105,6 @@
     <div class="ochutnavka-wrap">
         <div class="container">
             <div class="row">
-
                 <div id="jssor_1"
                      style="position:relative;top:0px;left:0px;width:1140px;height:704px;overflow:hidden;">
                     <!-- Loading Screen -->
@@ -210,7 +209,7 @@
         <div class="container">
             <div class="content-01">
                 <div class="line-01">Web nás baví!</div>
-                <div class="line-02">již 15 let vytváříme weby na míru</div>
+                <div class="line-02">již&nbsp;15&nbsp;let vytváříme&nbsp;weby na&nbsp;míru</div>
             </div>
             <div class="content-02">
                 <ul>
@@ -229,7 +228,7 @@
 
     <div class="bottom">
         <div class="container text-center">
-            <span>Made with <span class="heart"></span> by Web nás baví | <a href="#">Ochrana os. údajů</a></span>
+            <span>Made&nbsp;with&nbsp;<span class="heart"></span> by&nbsp;Web&nbsp;nás&nbsp;baví<span class="hide sm-show">&nbsp;|&nbsp;</span><div class="sm-hide rozdelovnik"></div><a href="#">Ochrana os. údajů</a></span>
         </div>
     </div>
 @endsection
