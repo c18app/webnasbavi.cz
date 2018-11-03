@@ -30,12 +30,13 @@ a:hover {
 }
 
 .wave {
-    background: transparent url("../img/hp/wave.png") 0 0 no-repeat;
+    /*background: transparent url("../img/hp/wave.png") 0 0 no-repeat;*/
     width: 61px;
-    height: .5rem;
+    height: 2px;
     display: inline-block;
     text-align: center;
     margin-top: 10px;
+    background-color: #f0013e;
 }
 
 .hide {
