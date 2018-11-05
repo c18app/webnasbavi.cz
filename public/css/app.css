@@ -158,18 +158,33 @@ h1 {
     color: #fff;
 }
 
-#hp .top-block {
+.top-block {
     margin-top: 0px;
+}
+
+#hp .top-block {
     background: #f0013e url("/img/hp/krivka-top.png") 50% 0px no-repeat;
+}
+
+#page .top-block {
+    background: #171928 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
+}
+
+.top-block-bottom {
+    padding-bottom: 104px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 1px;
 }
 
 #hp .top-block-bottom {
     min-height: 700px;
-    padding-bottom: 104px;
     background: transparent url("/img/hp/krivka-bottom.png") 50% 100% no-repeat;
-    margin-bottom: 50px;
-    position: relative;
-    top: 1px;
+}
+
+#page .top-block-bottom {
+    min-height: 700px;
+    background: transparent url("/img/pages/krivka-bottom.png") 50% 100% no-repeat;
 }
 
 /* ----- */
@@ -614,7 +629,6 @@ ul.reference .company {
     background-color: #171928;
 }
 
-
 .footer {
     background-color: #11121f;
     padding-top: 0px;
@@ -896,7 +910,7 @@ ul.reference .company {
         margin-bottom: .5rem;
     }
 
-    #hp .top-block-bottom {
+    .top-block-bottom {
         margin-bottom: 75px;
     }
 
@@ -1001,7 +1015,7 @@ ul.reference .company {
         margin-bottom: 60px;
     }
 
-    #hp .top-block {
+    .top-block {
         margin-top: 50px;
     }
 
