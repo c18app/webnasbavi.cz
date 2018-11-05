@@ -11,5 +11,12 @@
         </div>
     </div>
 
-    @include('@footer')
+
+    <div class="top-block">
+        <div class="top-block-bottom">
+            <div class="container">
+                ...nějaký text...
+            </div>
+        </div>
+    </div>
 @endsection

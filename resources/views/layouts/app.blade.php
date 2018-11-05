@@ -29,6 +29,7 @@
 <div @isset($page_id) id="{{ $page_id }}" @endisset>
     @include('@top-menu')
     @yield('content')
+    @include('@footer')
 </div>
 
 <script src="{{ asset('js/app.js') }}?v={{ env('VERSION', time()) }}" defer></script>

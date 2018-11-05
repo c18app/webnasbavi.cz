@@ -202,6 +202,4 @@
             </form>
         </div>
     </div>
-
-    @include('@footer')
 @endsection
