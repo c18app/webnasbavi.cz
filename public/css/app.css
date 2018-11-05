@@ -30,7 +30,7 @@ a:hover {
 }
 
 .wave {
-    /*background: transparent url("../img/hp/wave.png") 0 0 no-repeat;*/
+    /*background: transparent url("/img/hp/wave.png") 0 0 no-repeat;*/
     width: 61px;
     height: 2px;
     display: inline-block;
@@ -160,13 +160,13 @@ h1 {
 
 #hp .top-block {
     margin-top: 0px;
-    background: #f0013e url("../img/hp/krivka-hp-top.png") 50% 0px no-repeat;
+    background: #f0013e url("/img/hp/krivka-top.png") 50% 0px no-repeat;
 }
 
 #hp .top-block-bottom {
     min-height: 700px;
     padding-bottom: 104px;
-    background: transparent url("../img/hp/krivka-hp-bottom.png") 50% 100% no-repeat;
+    background: transparent url("/img/hp/krivka-bottom.png") 50% 100% no-repeat;
     margin-bottom: 50px;
     position: relative;
     top: 1px;
@@ -312,7 +312,7 @@ h1 {
 }
 
 .nase-hodnoty ul li {
-    background: transparent url("../img/hp/fajfka.png") 0 50% no-repeat;
+    background: transparent url("/img/hp/fajfka.png") 0 50% no-repeat;
     padding-left: 30px;
 }
 
@@ -403,15 +403,15 @@ h1 {
 }
 
 .balicky .box.box-01 div.icon {
-    background: transparent url("../img/hp/icon-01.png") 50% 50% no-repeat;
+    background: transparent url("/img/hp/icon-01.png") 50% 50% no-repeat;
 }
 
 .balicky .box.box-02 div.icon {
-    background: transparent url("../img/hp/icon-02.png") 50% 50% no-repeat;
+    background: transparent url("/img/hp/icon-02.png") 50% 50% no-repeat;
 }
 
 .balicky .box.box-03 div.icon {
-    background: transparent url("../img/hp/icon-03.png") 50% 50% no-repeat;
+    background: transparent url("/img/hp/icon-03.png") 50% 50% no-repeat;
 }
 
 .offer {
@@ -420,7 +420,7 @@ h1 {
     font-size: 28px;
     color: #f0013e !important;
     font-weight: bold;
-    background: transparent url("../img/hp/arrow-01.png") 100% 50% no-repeat;
+    background: transparent url("/img/hp/arrow-01.png") 100% 50% no-repeat;
     padding-right: 40px;
     text-decoration: underline;
     display: inline-block;
@@ -432,7 +432,7 @@ h1 {
 
 .ochutnavka-wrap {
     margin-top: 50px;
-    background: transparent url("../svg/hp/ochutnavka-top-ellipse-600.svg") 0 0 no-repeat;
+    background: transparent url("/svg/hp/ochutnavka-top-ellipse-600.svg") 0 0 no-repeat;
     width: 100%;
     padding-top: 80px;
 }
@@ -454,7 +454,7 @@ ul.reference {
 }
 
 ul.reference li {
-    background: #fff url("../img/hp/uvozovky.png") 320px 30px no-repeat;
+    background: #fff url("/img/hp/uvozovky.png") 320px 30px no-repeat;
     -webkit-border-radius: 45px;
     -moz-border-radius: 45px;
     border-radius: 45px;
@@ -605,7 +605,7 @@ ul.reference .company {
 }
 
 .footer-top-block {
-    background: transparent url("../svg/hp/footer-block.svg") 50% 75px no-repeat;
+    background: transparent url("/svg/hp/footer-block.svg") 50% 75px no-repeat;
     width: 100%;
     height: 125px;
 }
@@ -673,12 +673,12 @@ ul.reference .company {
 }
 
 .footer .content-02 ul li span.fb {
-    background: transparent url("../img/hp/fb-ico.png") 0 0 no-repeat;
+    background: transparent url("/img/hp/fb-ico.png") 0 0 no-repeat;
     margin-right: 15px;
 }
 
 .footer .content-02 ul li span.in {
-    background: transparent url("../img/hp/in-ico.png") 0 0 no-repeat;
+    background: transparent url("/img/hp/in-ico.png") 0 0 no-repeat;
 }
 
 .footer .content-02 ul li a:hover span {
@@ -708,7 +708,7 @@ ul.reference .company {
     font-size: 28px;
     font-weight: bold;
     color: #f0013e;
-    background: transparent url("../img/hp/phone-ico.png") 0 50% no-repeat;
+    background: transparent url("/img/hp/phone-ico.png") 0 50% no-repeat;
     padding-left: 40px;
     margin-bottom: 8px;
     display: inline-block;
@@ -741,7 +741,7 @@ ul.reference .company {
 
 .bottom span .heart {
     display: inline-block;
-    background: transparent url("../img/hp/heart-ico.png") 0 50% no-repeat;
+    background: transparent url("/img/hp/heart-ico.png") 0 50% no-repeat;
     width: 17px;
     height: 16px;
     margin: 0;
