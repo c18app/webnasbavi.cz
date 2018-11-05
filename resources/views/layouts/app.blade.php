@@ -26,7 +26,7 @@
 </head>
 <body>
 
-<div @isset($page_id) id="{{ $page_id }}" @endisset>
+<div @isset($page_id) id="{{ $page_id }}" @endisset @isset($class_page) class="{{ $class_page }}" @endisset>
     @include('@top-menu')
     @yield('content')
     @include('@footer')

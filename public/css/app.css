@@ -145,7 +145,7 @@ h1 {
     font-weight: bold;
 }
 
-#hp h2 {
+h2 {
     text-align: center;
     font-size: 38px;
     font-weight: bold;
@@ -154,7 +154,7 @@ h1 {
     margin-bottom: 0;
 }
 
-#hp h2.light {
+h2.light {
     color: #fff;
 }
 
@@ -185,6 +185,11 @@ h1 {
 #page .top-block-bottom {
     min-height: 470px;
     background: transparent url("/img/pages/krivka-bottom.png") 50% 100% no-repeat;
+}
+
+#page .top-block-content {
+    padding-top: 145px;
+    color: #fff;
 }
 
 /* ----- */
@@ -882,7 +887,7 @@ ul.reference .company {
         font-weight: bold;
     }
 
-    #hp h2 {
+    h2 {
         font-size: 45px;
     }
 
