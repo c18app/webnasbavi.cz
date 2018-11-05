@@ -1027,12 +1027,14 @@ ul.reference .company {
     font-weight: bold;
     display: inline-block;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .o-nas .top-block .top-block-content .text {
     font-size: 15px;
     font-weight: bold;
     display: inline-block;
+    width: 100%;
 }
 
 .o-nas .top-block .popis strong {
