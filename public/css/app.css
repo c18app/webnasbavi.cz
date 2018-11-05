@@ -1005,6 +1005,53 @@ ul.reference .company {
     }
 }
 
+/* o-nas */
+.nas-tym {
+    margin-bottom: 100px;
+}
+
+.nas-tym .clen-tymu {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.nas-tym .jmeno {
+    color: #171928;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 25px;
+    display: inline-block;
+    width: 100%;
+}
+
+.nas-tym .funkce {
+    color: #f0013e;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+.nas-tym .popis {
+    color: #171928;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.nas-tym .motto {
+    color: #171928;
+    font-size: 28px;
+    font-weight: 100;
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
+}
+
 /*MD*/
 @media all and (min-width: 768px) {
     .navbar .navbar-button {
