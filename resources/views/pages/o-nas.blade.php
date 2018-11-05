@@ -17,12 +17,24 @@
         <div class="top-block-bottom">
             <div class="container">
                 <div class="row top-block-content">
-                    <div class="col-12 col-lg-6">jsme nový tým,<br>s mnohaletými zkušenostmi</div>
+                    <div class="col-12 col-lg-6 popis">jsme <strong>nový tým</strong>,<br>s mnohaletými zkušenostmi</div>
                     <div class="col-12 col-lg-6">
                         <div class="row">
-                            <div class="col-4">{{ date('Y') - 2002 }}</div>
-                            <div class="col-4">105</div>
-                            <div class="col-4">98</div>
+                            <div class="col-4">
+                                <span class="cislo">{{ date('Y') - 2002 }}</span>
+                                <span class="text">let&nbsp;praxe</span>
+                                <span class="wave"></span>
+                            </div>
+                            <div class="col-4">
+                                <span class="cislo">105</span>
+                                <span class="text">projektů</span>
+                                <span class="wave"></span>
+                            </div>
+                            <div class="col-4">
+                                <span class="cislo">98</span>
+                                <span class="text">klientů</span>
+                                <span class="wave"></span>
+                            </div>
                         </div>
                     </div>
                 </div>

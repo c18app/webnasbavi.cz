@@ -1006,6 +1006,39 @@ ul.reference .company {
 }
 
 /* o-nas */
+.o-nas .top-block .top-block-content {
+    color: #ffffff;
+    text-align: center;
+}
+
+.o-nas .top-block .top-block-content .popis {
+    font-size: 28px;
+    font-weight: 100;
+    margin-top: 25px;
+    display: inline-block;
+    width: 100%;
+    line-height: 1.5;
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+
+.o-nas .top-block .top-block-content .cislo {
+    font-size: 45px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.o-nas .top-block .top-block-content .text {
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.o-nas .top-block .popis strong {
+    font-weight: bold;
+}
+
 .nas-tym {
     margin-bottom: 100px;
 }
