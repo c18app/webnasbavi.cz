@@ -84,7 +84,7 @@ a:hover {
   height: 42px;
   background-color: #f0013e;
   border-radius: 17.5px 17.5px 17.5px 2px;
-  color: #fff;
+  color: #ffffff;
   line-height: 42px;
   font-size: 20px;
   float: right;
@@ -131,7 +131,7 @@ h2 {
   margin-bottom: 0;
 }
 h2.light {
-  color: #fff;
+  color: #ffffff;
 }
 .top-block {
   margin-top: 0px;
@@ -158,7 +158,7 @@ h2.light {
 }
 #page .top-block-content {
   padding-top: 145px;
-  color: #fff;
+  color: #ffffff;
 }
 /* ----- */
 .header {
@@ -174,7 +174,7 @@ h2.light {
   height: 60px;
   line-height: 60px;
   border-radius: 30px;
-  color: #fff !important;
+  color: #ffffff !important;
   font-size: 17px;
   padding: 0 50px;
   display: inline-block;
@@ -184,7 +184,7 @@ h2.light {
   text-align: center;
 }
 .arrow-down-wrap {
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 50%;
   width: 84px;
   height: 84px;
@@ -228,7 +228,7 @@ h2.light {
 }
 .naladeni-wrap {
   margin-top: 140px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 .naladeni-content {
@@ -270,7 +270,7 @@ h2.light {
   min-height: 270px;
   border-radius: 45px 45px 0 45px;
   padding: 30px 30px 0 30px;
-  color: #fff;
+  color: #ffffff;
   display: inline-block;
   text-align: center;
 }
@@ -329,7 +329,7 @@ h2.light {
 .balicky .box .icon-wrap {
   width: 104px;
   height: 104px;
-  border: 12px solid #f6f6f7;
+  border: 12px solid #f6f6f6;
   border-radius: 50%;
   margin: 25px auto 50px auto;
 }
@@ -401,7 +401,7 @@ ul.reference {
   list-style-type: none;
 }
 ul.reference li {
-  background: #fff url("/img/hp/uvozovky.png") 320px 30px no-repeat;
+  background: #ffffff url("/img/hp/uvozovky.png") 320px 30px no-repeat;
   -webkit-border-radius: 45px;
   -moz-border-radius: 45px;
   border-radius: 45px;
@@ -440,7 +440,7 @@ ul.reference .company {
   top: -5px;
 }
 #hp .reference-wrap h2 {
-  color: #fff;
+  color: #ffffff;
 }
 .form-wrap {
   padding-top: 50px;
@@ -453,7 +453,7 @@ ul.reference .company {
   width: 100%;
 }
 #hp .form-wrap h2 {
-  color: #fff;
+  color: #ffffff;
 }
 .contact-form {
   margin-top: 50px;
@@ -518,7 +518,7 @@ ul.reference .company {
   height: 60px;
   line-height: 60px;
   border-radius: 30px;
-  color: #fff !important;
+  color: #ffffff !important;
   font-size: 17px;
   padding: 0 50px;
   display: inline-block;
@@ -529,7 +529,7 @@ ul.reference .company {
   cursor: pointer;
 }
 .contact-form .btn-odeslat-zpravu:hover {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #f0013e !important;
 }
 .footer-top-block {
@@ -543,7 +543,7 @@ ul.reference .company {
 .footer {
   background-color: #11121f;
   padding-top: 0px;
-  color: #fff;
+  color: #ffffff;
 }
 .footer .container {
   border-bottom: 1px solid #24273a;
@@ -627,11 +627,11 @@ ul.reference .company {
   color: #c9cce0;
 }
 .footer .content-03 .line-04 a {
-  color: #fff;
+  color: #ffffff;
 }
 .bottom {
   background: #11121f;
-  color: #fff;
+  color: #ffffff;
   padding-top: 25px;
   padding-bottom: 35px;
 }
@@ -650,7 +650,7 @@ ul.reference .company {
   margin: 0;
 }
 .bottom span a {
-  color: #fff;
+  color: #ffffff;
 }
 /*jssor slider loading skin spin css*/
 #jssor_1 {
@@ -676,7 +676,7 @@ ul.reference .company {
   cursor: pointer;
 }
 .jssorb053 .i .b {
-  fill: #fff;
+  fill: #ffffff;
   fill-opacity: 0.5;
 }
 .jssorb053 .i:hover .b {
@@ -696,13 +696,13 @@ ul.reference .company {
 }
 .jssora093 .c {
   fill: none;
-  stroke: #fff;
+  stroke: #ffffff;
   stroke-width: 400;
   stroke-miterlimit: 10;
 }
 .jssora093 .a {
   fill: none;
-  stroke: #fff;
+  stroke: #ffffff;
   stroke-width: 400;
   stroke-miterlimit: 10;
 }
@@ -951,7 +951,7 @@ ul.reference .company {
     margin-top: 15px;
   }
   .navbar.expanded .nav-link {
-    color: #fff;
+    color: #ffffff;
   }
   .navbar.expanded .nav-item .nav-link.active {
     color: #171928;

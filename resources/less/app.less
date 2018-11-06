@@ -1,7 +1,11 @@
+@color01: #ffffff;
+@color02: #171928;
+@color03: #f0013e;
+
 /* GENERAL */
 body {
   font-family: Quicksand, sans-serif;
-  color: #171928;
+  color: @color02;
 }
 
 a {
@@ -26,7 +30,7 @@ a:hover {
 }
 
 .bg-dark {
-  background-color: #171928 !important;
+  background-color: @color02 !important;
 }
 
 .wave {
@@ -36,7 +40,7 @@ a:hover {
   display: inline-block;
   text-align: center;
   margin-top: 10px;
-  background-color: #f0013e;
+  background-color: @color03;
 }
 
 .header .wave {
@@ -76,13 +80,13 @@ a:hover {
 
 .navbar .nav-link {
   font-weight: bold;
-  color: #171928;
+  color: @color02;
   text-decoration: none;
   padding: .5rem 1rem;
 }
 
 .navbar .nav-item .nav-link.active {
-  color: #f0013e;
+  color: @color03;
 }
 
 .navbar .navbar-nav {
@@ -101,9 +105,9 @@ a:hover {
 .navbar .navbar-button {
   width: 42px;
   height: 42px;
-  background-color: #f0013e;
+  background-color: @color03;
   border-radius: 17.5px 17.5px 17.5px 2px;
-  color: #fff;
+  color: @color01;
   line-height: 42px;
   font-size: 20px;
   float: right;
@@ -115,7 +119,7 @@ a:hover {
 #hp .pre-header {
   font-weight: 500;
   text-align: center;
-  color: #171928;
+  color: @color02;
   font-size: 32px;
   line-height: 100%;
   margin-bottom: 8px;
@@ -125,10 +129,10 @@ a:hover {
   margin-top: 0;
   font-weight: 500;
   text-align: center;
-  color: #171928;
+  color: @color02;
   font-size: 32px;
   margin-bottom: 30px;
-  color: #f0013e;
+  color: @color03;
   font-size: 44px;
   font-weight: bold;
 }
@@ -137,10 +141,10 @@ h1 {
   margin-top: 0;
   font-weight: 500;
   text-align: center;
-  color: #171928;
+  color: @color02;
   font-size: 32px;
   margin-bottom: 0px;
-  color: #f0013e;
+  color: @color03;
   font-size: 44px;
   font-weight: bold;
 }
@@ -149,13 +153,13 @@ h2 {
   text-align: center;
   font-size: 38px;
   font-weight: bold;
-  color: #171928;
+  color: @color02;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 h2.light {
-  color: #fff;
+  color: @color01;
 }
 
 .top-block {
@@ -163,11 +167,11 @@ h2.light {
 }
 
 #hp .top-block {
-  background: #f0013e url("/img/hp/krivka-top.png") 50% 0px no-repeat;
+  background: @color03 url("/img/hp/krivka-top.png") 50% 0px no-repeat;
 }
 
 #page .top-block {
-  background: #171928 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
+  background: @color02 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
 }
 
 .top-block-bottom {
@@ -189,7 +193,7 @@ h2.light {
 
 #page .top-block-content {
   padding-top: 145px;
-  color: #fff;
+  color: @color01;
 }
 
 /* ----- */
@@ -204,11 +208,11 @@ h2.light {
 }
 
 .btn-napiste-nam {
-  background-color: #171928;
+  background-color: @color02;
   height: 60px;
   line-height: 60px;
   border-radius: 30px;
-  color: #fff !important;
+  color: @color01 !important;
   font-size: 17px;
   padding: 0 50px;
   display: inline-block;
@@ -219,7 +223,7 @@ h2.light {
 }
 
 .arrow-down-wrap {
-  background-color: #fff;
+  background-color: @color01;
   border-radius: 50%;
   width: 84px;
   height: 84px;
@@ -257,7 +261,7 @@ h2.light {
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
 
-  border-top: 8px solid #171928;
+  border-top: 8px solid @color02;
   border-radius: 4px;
   margin: 0 auto;
   position: relative;
@@ -268,7 +272,7 @@ h2.light {
 
 .naladeni-wrap {
   margin-top: 140px;
-  color: #fff;
+  color: @color01;
   text-align: center;
 }
 
@@ -294,14 +298,14 @@ h2.light {
   line-height: 1.2;
   font-weight: bold;
   font-size: 28px;
-  color: #171928;
+  color: @color02;
   position: relative;
   padding-bottom: 8px;
 }
 
 .naladeni-content ul li .line {
   display: block;
-  background-color: #ffffff;
+  background-color: @color01;
   width: 42px;
   height: 2px;
   margin: 0 auto 5px auto;
@@ -317,7 +321,7 @@ h2.light {
   min-height: 270px;
   border-radius: 45px 45px 0 45px;
   padding: 30px 30px 0 30px;
-  color: #fff;
+  color: @color01;
   display: inline-block;
   text-align: center;
 }
@@ -381,13 +385,13 @@ h2.light {
 }
 
 .balicky .box .line-03 span {
-  color: #f0013e;
+  color: @color03;
 }
 
 .balicky .box .icon-wrap {
   width: 104px;
   height: 104px;
-  border: 12px solid #f6f6f7;
+  border: 12px solid #f6f6f6;
   border-radius: 50%;
   margin: 25px auto 50px auto;
 }
@@ -398,10 +402,10 @@ h2.light {
 }
 
 .balicky .box span.icon {
-  color: #f0013e;
+  color: @color03;
   line-height: 80px;
   font-size: 42px;
-  text-shadow: 1px 1px 0px #171928;
+  text-shadow: 1px 1px 0px @color02;
 }
 
 .balicky .box.box-01 span.icon {
@@ -438,7 +442,7 @@ h2.light {
   margin-top: 50px;
   margin-bottom: 75px;
   font-size: 28px;
-  color: #f0013e !important;
+  color: @color03 !important;
   font-weight: bold;
   background: transparent url("/img/hp/arrow-01.png") 100% 50% no-repeat;
   padding-right: 40px;
@@ -459,7 +463,7 @@ h2.light {
 
 .reference-wrap {
   width: 100%;
-  background-color: #171928;
+  background-color: @color02;
 }
 
 .reference-wrap .container {
@@ -474,7 +478,7 @@ ul.reference {
 }
 
 ul.reference li {
-  background: #fff url("/img/hp/uvozovky.png") 320px 30px no-repeat;
+  background: @color01 url("/img/hp/uvozovky.png") 320px 30px no-repeat;
   -webkit-border-radius: 45px;
   -moz-border-radius: 45px;
   border-radius: 45px;
@@ -502,7 +506,7 @@ ul.reference li:last-child {
 
 ul.reference .name {
   display: inline-block;
-  color: #f0013e;
+  color: @color03;
   font-size: 28px;
   width: 100%;
   margin-top: 15px;
@@ -510,7 +514,7 @@ ul.reference .name {
 
 ul.reference .company {
   display: inline-block;
-  color: #171928;
+  color: @color02;
   font-size: 15px;
   width: 100%;
   position: relative;
@@ -518,12 +522,12 @@ ul.reference .company {
 }
 
 #hp .reference-wrap h2 {
-  color: #fff;
+  color: @color01;
 }
 
 .form-wrap {
   padding-top: 50px;
-  background-color: #171928;
+  background-color: @color02;
 }
 
 .form-wrap .napiste-nam-mezera {
@@ -535,7 +539,7 @@ ul.reference .company {
 }
 
 #hp .form-wrap h2 {
-  color: #fff;
+  color: @color01;
 }
 
 .contact-form {
@@ -557,7 +561,7 @@ ul.reference .company {
 
 .contact-form input.text-input {
   width: 100%;
-  color: #171928;
+  color: @color02;
   height: 50px;
   border-radius: 25px;
   margin-bottom: 10px;
@@ -569,7 +573,7 @@ ul.reference .company {
 
 .contact-form textarea {
   width: 100%;
-  color: #171928;
+  color: @color02;
   height: 15em;
   border-radius: 25px;
   font-size: 16px;
@@ -579,7 +583,7 @@ ul.reference .company {
 }
 
 .contact-form input.checkbox-input {
-  color: #171928;
+  color: @color02;
   width: 16px;
   height: 16px;
   font-size: 16px;
@@ -593,22 +597,22 @@ ul.reference .company {
 .contact-form label.label-checkbox {
   font-size: 15px;
   font-weight: 100;
-  color: #ffffff;
+  color: @color01;
   display: inline;
   margin-left: 9px;
   padding-left: 0;
 }
 
 .contact-form label.label-checkbox a {
-  color: #f0013e;
+  color: @color03;
 }
 
 .contact-form .btn-odeslat-zpravu {
-  background-color: #f0013e;
+  background-color: @color03;
   height: 60px;
   line-height: 60px;
   border-radius: 30px;
-  color: #fff !important;
+  color: @color01 !important;
   font-size: 17px;
   padding: 0 50px;
   display: inline-block;
@@ -620,8 +624,8 @@ ul.reference .company {
 }
 
 .contact-form .btn-odeslat-zpravu:hover {
-  background-color: #fff;
-  color: #f0013e !important;
+  background-color: @color01;
+  color: @color03 !important;
 }
 
 .footer-top-block {
@@ -631,13 +635,13 @@ ul.reference .company {
 }
 
 #hp .footer-top-block {
-  background-color: #171928;
+  background-color: @color02;
 }
 
 .footer {
   background-color: #11121f;
   padding-top: 0px;
-  color: #fff;
+  color: @color01;
 }
 
 .footer .container {
@@ -726,7 +730,7 @@ ul.reference .company {
 .footer .content-03 .line-03 {
   font-size: 28px;
   font-weight: bold;
-  color: #f0013e;
+  color: @color03;
   background: transparent url("/img/hp/phone-ico.png") 0 50% no-repeat;
   padding-left: 40px;
   margin-bottom: 8px;
@@ -739,12 +743,12 @@ ul.reference .company {
 }
 
 .footer .content-03 .line-04 a {
-  color: #fff;
+  color: @color01;
 }
 
 .bottom {
   background: #11121f;
-  color: #fff;
+  color: @color01;
   padding-top: 25px;
   padding-bottom: 35px;
 }
@@ -767,7 +771,7 @@ ul.reference .company {
 }
 
 .bottom span a {
-  color: #fff;
+  color: @color01;
 }
 
 /*jssor slider loading skin spin css*/
@@ -798,7 +802,7 @@ ul.reference .company {
 }
 
 .jssorb053 .i .b {
-  fill: #fff;
+  fill: @color01;
   fill-opacity: 0.5;
 }
 
@@ -823,14 +827,14 @@ ul.reference .company {
 
 .jssora093 .c {
   fill: none;
-  stroke: #fff;
+  stroke: @color01;
   stroke-width: 400;
   stroke-miterlimit: 10;
 }
 
 .jssora093 .a {
   fill: none;
-  stroke: #fff;
+  stroke: @color01;
   stroke-width: 400;
   stroke-miterlimit: 10;
 }
@@ -873,7 +877,7 @@ ul.reference .company {
 
   #hp .pre-header {
     text-align: left;
-    color: #171928;
+    color: @color02;
     font-size: 44px;
     line-height: 100%;
     margin-bottom: 0px;
@@ -881,7 +885,7 @@ ul.reference .company {
 
   #hp h1 {
     text-align: left;
-    color: #f0013e;
+    color: @color03;
     font-size: 74px;
     line-height: 120%;
     font-weight: bold;
@@ -1007,7 +1011,7 @@ ul.reference .company {
 
 /* o-nas */
 .o-nas .top-block .top-block-content {
-  color: #ffffff;
+  color: @color01;
   text-align: center;
 }
 
@@ -1051,7 +1055,7 @@ ul.reference .company {
 }
 
 .nas-tym .jmeno {
-  color: #171928;
+  color: @color02;
   font-size: 28px;
   font-weight: bold;
   margin-top: 25px;
@@ -1060,7 +1064,7 @@ ul.reference .company {
 }
 
 .nas-tym .funkce {
-  color: #f0013e;
+  color: @color03;
   font-size: 15px;
   font-weight: 500;
   margin-top: 5px;
@@ -1069,7 +1073,7 @@ ul.reference .company {
 }
 
 .nas-tym .popis {
-  color: #171928;
+  color: @color02;
   font-size: 15px;
   font-weight: 500;
   margin-top: 20px;
@@ -1079,7 +1083,7 @@ ul.reference .company {
 }
 
 .nas-tym .motto {
-  color: #171928;
+  color: @color02;
   font-size: 28px;
   font-weight: 100;
   margin-top: 30px;
@@ -1121,7 +1125,7 @@ ul.reference .company {
     top: 0px;
     left: 0px;
     right: 0px;
-    background-color: #f0013e;
+    background-color: @color03;
     border-radius: 2px;
     z-index: 1;
     height: auto;
@@ -1134,11 +1138,11 @@ ul.reference .company {
   }
 
   .navbar.expanded .nav-link {
-    color: #fff;
+    color: @color01;
   }
 
   .navbar.expanded .nav-item .nav-link.active {
-    color: #171928;
+    color: @color02;
   }
 
   .navbar.expanded .navbar-brand {
