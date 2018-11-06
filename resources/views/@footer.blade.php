@@ -4,7 +4,7 @@
     <div class="container">
         <div class="content-01">
             <div class="line-01">web nás baví!</div>
-            <div class="line-02">již&nbsp;15&nbsp;let vytváříme&nbsp;weby na&nbsp;míru</div>
+            <div class="line-02">již&nbsp;{{ date('Y') - 2002 }}&nbsp;let vytváříme&nbsp;weby na&nbsp;míru</div>
         </div>
         <div class="content-02">
             <ul>
