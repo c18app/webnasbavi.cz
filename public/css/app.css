@@ -10,6 +10,28 @@ a {
 a:hover {
   text-decoration: underline;
 }
+h1 {
+  margin-top: 0;
+  font-weight: 500;
+  text-align: center;
+  color: #171928;
+  font-size: 32px;
+  margin-bottom: 0px;
+  color: #f0013e;
+  font-size: 44px;
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  color: #171928;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h2 .light {
+  color: #ffffff;
+}
 .text-center {
   text-align: center !important;
 }
@@ -150,7 +172,15 @@ a:hover {
     display: none;
   }
 }
-/* HP  */
+.top-block {
+  margin-top: 0px;
+}
+.top-block-bottom {
+  padding-bottom: 104px;
+  margin-bottom: 50px;
+  position: relative;
+  top: 1px;
+}
 #hp .pre-header {
   font-weight: 500;
   text-align: center;
@@ -160,56 +190,17 @@ a:hover {
   margin-bottom: 8px;
 }
 #hp h1 {
-  margin-top: 0;
-  font-weight: 500;
-  text-align: center;
-  color: #171928;
-  font-size: 32px;
   margin-bottom: 30px;
-  color: #f0013e;
-  font-size: 44px;
-  font-weight: bold;
-}
-h1 {
-  margin-top: 0;
-  font-weight: 500;
-  text-align: center;
-  color: #171928;
-  font-size: 32px;
-  margin-bottom: 0px;
-  color: #f0013e;
-  font-size: 44px;
-  font-weight: bold;
-}
-h2 {
-  text-align: center;
-  font-size: 38px;
-  font-weight: bold;
-  color: #171928;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-h2.light {
-  color: #ffffff;
-}
-.top-block {
-  margin-top: 0px;
 }
 #hp .top-block {
   background: #f0013e url("/img/hp/krivka-top.png") 50% 0px no-repeat;
 }
-#page .top-block {
-  background: #171928 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
-}
-.top-block-bottom {
-  padding-bottom: 104px;
-  margin-bottom: 50px;
-  position: relative;
-  top: 1px;
-}
 #hp .top-block-bottom {
   min-height: 700px;
   background: transparent url("/img/hp/krivka-bottom.png") 50% 100% no-repeat;
+}
+#page .top-block {
+  background: #171928 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
 }
 #page .top-block-bottom {
   min-height: 470px;
@@ -233,6 +224,12 @@ h2.light {
   width: 100%;
   text-align: center;
 }
+@media (min-width: 576px) {
+  .btn-napiste-nam {
+    width: auto;
+    text-align: left;
+  }
+}
 .arrow-down-wrap {
   background-color: #ffffff;
   border-radius: 50%;
@@ -244,6 +241,11 @@ h2.light {
   top: 70px;
   cursor: pointer;
   margin-top: -10px;
+}
+@media (min-width: 768px) {
+  .arrow-down-wrap {
+    margin-top: 0;
+  }
 }
 @keyframes arrow-down-arrow-animation {
   0% {
@@ -264,7 +266,7 @@ h2.light {
     opacity: 0;
   }
 }
-.arrow-down-arrow {
+.arrow-down-wrap .arrow-down-arrow {
   width: 0;
   height: 0;
   border-left: 8px solid transparent;
@@ -768,10 +770,6 @@ ul.reference .company {
 }
 /*SM*/
 @media (min-width: 576px) {
-  .btn-napiste-nam {
-    width: auto;
-    text-align: left;
-  }
   .nase-hodnoty {
     width: 270px;
     margin-right: 50px;
@@ -963,9 +961,6 @@ ul.reference .company {
 @media all and (min-width: 768px) {
   .top-block {
     margin-top: 50px;
-  }
-  .arrow-down-wrap {
-    margin-top: 0;
   }
   .nase-hodnoty {
     text-align: left;

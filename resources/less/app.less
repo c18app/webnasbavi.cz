@@ -52,6 +52,31 @@ a:hover {
   text-decoration: underline;
 }
 
+h1 {
+  margin-top: 0;
+  font-weight: 500;
+  text-align: center;
+  color: @color02;
+  font-size: 32px;
+  margin-bottom: 0px;
+  color: @color03;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  color: @color02;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  .light {
+    color: @color01;
+  }
+}
+
 .text-center {
   text-align: center !important;
 }
@@ -218,63 +243,8 @@ a:hover {
   }
 }
 
-/* HP  */
-#hp .pre-header {
-  font-weight: 500;
-  text-align: center;
-  color: @color02;
-  font-size: 32px;
-  line-height: 100%;
-  margin-bottom: 8px;
-}
-
-#hp h1 {
-  margin-top: 0;
-  font-weight: 500;
-  text-align: center;
-  color: @color02;
-  font-size: 32px;
-  margin-bottom: 30px;
-  color: @color03;
-  font-size: 44px;
-  font-weight: bold;
-}
-
-h1 {
-  margin-top: 0;
-  font-weight: 500;
-  text-align: center;
-  color: @color02;
-  font-size: 32px;
-  margin-bottom: 0px;
-  color: @color03;
-  font-size: 44px;
-  font-weight: bold;
-}
-
-h2 {
-  text-align: center;
-  font-size: 38px;
-  font-weight: bold;
-  color: @color02;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-h2.light {
-  color: @color01;
-}
-
 .top-block {
   margin-top: 0px;
-}
-
-#hp .top-block {
-  background: @color03 url("/img/hp/krivka-top.png") 50% 0px no-repeat;
-}
-
-#page .top-block {
-  background: @color02 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
 }
 
 .top-block-bottom {
@@ -284,19 +254,44 @@ h2.light {
   top: 1px;
 }
 
-#hp .top-block-bottom {
-  min-height: 700px;
-  background: transparent url("/img/hp/krivka-bottom.png") 50% 100% no-repeat;
+#hp {
+  .pre-header {
+    font-weight: 500;
+    text-align: center;
+    color: @color02;
+    font-size: 32px;
+    line-height: 100%;
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  .top-block {
+    background: @color03 url("/img/hp/krivka-top.png") 50% 0px no-repeat;
+  }
+
+  .top-block-bottom {
+    min-height: 700px;
+    background: transparent url("/img/hp/krivka-bottom.png") 50% 100% no-repeat;
+  }
 }
 
-#page .top-block-bottom {
-  min-height: 470px;
-  background: transparent url("/img/pages/krivka-bottom.png") 50% 100% no-repeat;
-}
+#page {
+  .top-block {
+    background: @color02 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
+  }
 
-#page .top-block-content {
-  padding-top: 145px;
-  color: @color01;
+  .top-block-bottom {
+    min-height: 470px;
+    background: transparent url("/img/pages/krivka-bottom.png") 50% 100% no-repeat;
+  }
+
+  .top-block-content {
+    padding-top: 145px;
+    color: @color01;
+  }
 }
 
 .btn-napiste-nam {
@@ -312,6 +307,11 @@ h2.light {
   text-decoration: none !important;
   width: 100%;
   text-align: center;
+
+  @media @sm-up {
+    width: auto;
+    text-align: left;
+  }
 }
 
 .arrow-down-wrap {
@@ -325,41 +325,45 @@ h2.light {
   top: 70px;
   cursor: pointer;
   margin-top: -10px;
-}
 
-@keyframes arrow-down-arrow-animation {
-  0% {
-    top: 24px;
-    opacity: 0;
+  @media @md-up {
+    margin-top: 0;
   }
-  25% {
-    opacity: 1;
-  }
-  75% {
-    top: 50px;
-  }
-  85% {
-    opacity: 1;
-  }
-  100% {
-    top: 52px;
-    opacity: 0;
-  }
-}
 
-.arrow-down-arrow {
-  width: 0;
-  height: 0;
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
+  @keyframes arrow-down-arrow-animation {
+    0% {
+      top: 24px;
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      top: 50px;
+    }
+    85% {
+      opacity: 1;
+    }
+    100% {
+      top: 52px;
+      opacity: 0;
+    }
+  }
 
-  border-top: 8px solid @color02;
-  border-radius: 4px;
-  margin: 0 auto;
-  position: relative;
-  top: 38px;
+  .arrow-down-arrow {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
 
-  animation: arrow-down-arrow-animation 1.2s infinite;
+    border-top: 8px solid @color02;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    top: 38px;
+
+    animation: arrow-down-arrow-animation 1.2s infinite;
+  }
 }
 
 .naladeni-wrap {
@@ -946,10 +950,6 @@ ul.reference .company {
 
 /*SM*/
 @media @sm-up {
-  .btn-napiste-nam {
-    width: auto;
-    text-align: left;
-  }
 
   .nase-hodnoty {
     width: 270px;
@@ -1184,10 +1184,6 @@ ul.reference .company {
 @media all and (min-width: 768px) {
   .top-block {
     margin-top: 50px;
-  }
-
-  .arrow-down-wrap {
-    margin-top: 0;
   }
 
   .nase-hodnoty {
