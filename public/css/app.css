@@ -17,7 +17,7 @@ h1 {
   color: #171928;
   font-size: 32px;
   margin-bottom: 0px;
-  color: #f0013e;
+  color: #da143e;
   font-size: 44px;
   font-weight: bold;
 }
@@ -69,7 +69,7 @@ h2 .light {
   display: inline-block;
   text-align: center;
   margin-top: 10px;
-  background-color: #f0013e;
+  background-color: #da143e;
 }
 .header {
   text-align: center;
@@ -121,7 +121,7 @@ h2 .light {
   padding: 0.5rem 1rem;
 }
 .navbar .nav-item .nav-link.active {
-  color: #f0013e;
+  color: #da143e;
 }
 .navbar .navbar-nav {
   list-style-type: none;
@@ -137,7 +137,7 @@ h2 .light {
 .navbar .navbar-button {
   width: 42px;
   height: 42px;
-  background-color: #f0013e;
+  background-color: #da143e;
   border-radius: 17.5px 17.5px 17.5px 2px;
   color: #ffffff;
   line-height: 42px;
@@ -161,7 +161,7 @@ h2 .light {
     top: 0px;
     left: 0px;
     right: 0px;
-    background-color: #f0013e;
+    background-color: #da143e;
     border-radius: 2px;
     z-index: 1;
     height: auto;
@@ -412,7 +412,7 @@ h2 .light {
   text-overflow: ellipsis;
 }
 .balicky .box .line-03 span {
-  color: #f0013e;
+  color: #da143e;
 }
 .balicky .box .icon-wrap {
   width: 104px;
@@ -426,7 +426,7 @@ h2 .light {
   height: 100%;
 }
 .balicky .box span.icon {
-  color: #f0013e;
+  color: #da143e;
   line-height: 80px;
   font-size: 42px;
   text-shadow: 1px 1px 0px #171928;
@@ -474,7 +474,7 @@ h2 .light {
   margin-top: 50px;
   margin-bottom: 75px;
   font-size: 28px;
-  color: #f0013e !important;
+  color: #da143e !important;
   font-weight: bold;
   background: transparent url("/img/hp/arrow-01.png") 100% 50% no-repeat;
   padding-right: 40px;
@@ -542,7 +542,7 @@ ul.reference:last-child {
 }
 ul.reference .name {
   display: inline-block;
-  color: #f0013e;
+  color: #da143e;
   font-size: 28px;
   width: 100%;
   margin-top: 15px;
@@ -624,10 +624,10 @@ ul.reference .company {
   padding-left: 0;
 }
 .form-wrap .contact-form label.label-checkbox a {
-  color: #f0013e;
+  color: #da143e;
 }
 .form-wrap .contact-form .btn-odeslat-zpravu {
-  background-color: #f0013e;
+  background-color: #da143e;
   height: 60px;
   line-height: 60px;
   border-radius: 30px;
@@ -643,7 +643,7 @@ ul.reference .company {
 }
 .form-wrap .contact-form .btn-odeslat-zpravu:hover {
   background-color: #ffffff;
-  color: #f0013e !important;
+  color: #da143e !important;
 }
 @media (min-width: 576px) {
   .form-wrap {
@@ -739,7 +739,7 @@ ul.reference .company {
 .footer .content-03 .line-03 {
   font-size: 28px;
   font-weight: bold;
-  color: #f0013e;
+  color: #da143e;
   background: transparent url("/img/hp/phone-ico.png") 0 50% no-repeat;
   padding-left: 40px;
   margin-bottom: 8px;
@@ -900,14 +900,14 @@ ul.reference .company {
 @media (min-width: 576px) {
   #hp h1 {
     text-align: left;
-    color: #f0013e;
+    color: #da143e;
     font-size: 74px;
     line-height: 120%;
     font-weight: bold;
   }
 }
 #hp .top-block {
-  background: #f0013e url("/img/hp/krivka-top.png") 50% 0px no-repeat;
+  background: #da143e url("/img/hp/krivka-top.png") 50% 0px no-repeat;
 }
 #hp .top-block-bottom {
   min-height: 700px;
@@ -978,7 +978,7 @@ ul.reference .company {
   width: 100%;
 }
 .o-nas .nas-tym .funkce {
-  color: #f0013e;
+  color: #da143e;
   font-size: 15px;
   font-weight: 500;
   margin-top: 5px;
