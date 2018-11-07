@@ -109,6 +109,47 @@ a:hover {
   margin-top: 9px;
   margin-bottom: 9px;
 }
+@media (min-width: 768px) {
+  .navbar .navbar-button {
+    display: none;
+  }
+  .navbar .navbar-nav .nav-item {
+    float: left;
+    line-height: 60px;
+  }
+}
+@media (max-width:  767.98px) {
+  .navbar.expanded {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #f0013e;
+    border-radius: 2px;
+    z-index: 1;
+    height: auto;
+  }
+  .navbar.expanded .navbar-wrap {
+    height: auto;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .navbar.expanded .nav-link {
+    color: #ffffff;
+  }
+  .navbar.expanded .nav-item .nav-link.active {
+    color: #171928;
+  }
+  .navbar.expanded .navbar-brand {
+    position: absolute;
+  }
+  .navbar.expanded .navbar-brand-light {
+    display: inline-block;
+  }
+  .navbar.expanded .navbar-brand-dark {
+    display: none;
+  }
+}
 /* HP  */
 #hp .pre-header {
   font-weight: 500;
@@ -920,13 +961,6 @@ ul.reference .company {
 }
 /*MD*/
 @media all and (min-width: 768px) {
-  .navbar .navbar-button {
-    display: none;
-  }
-  .navbar .navbar-nav .nav-item {
-    float: left;
-    line-height: 60px;
-  }
   .top-block {
     margin-top: 50px;
   }
@@ -935,38 +969,6 @@ ul.reference .company {
   }
   .nase-hodnoty {
     text-align: left;
-  }
-}
-@media all and (max-width: 767.98px) {
-  .navbar.expanded {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    background-color: #f0013e;
-    border-radius: 2px;
-    z-index: 1;
-    height: auto;
-  }
-  .navbar.expanded .navbar-wrap {
-    height: auto;
-    width: 100%;
-    margin-top: 15px;
-  }
-  .navbar.expanded .nav-link {
-    color: #ffffff;
-  }
-  .navbar.expanded .nav-item .nav-link.active {
-    color: #171928;
-  }
-  .navbar.expanded .navbar-brand {
-    position: absolute;
-  }
-  .navbar.expanded .navbar-brand-light {
-    display: inline-block;
-  }
-  .navbar.expanded .navbar-brand-dark {
-    display: none;
   }
 }
 /*LG*/
