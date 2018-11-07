@@ -100,6 +100,18 @@ h2 {
   display: none !important;
 }
 
+.sm-show {
+  @media @sm-up {
+    display: inherit !important;
+  }
+}
+
+.sm-hide {
+  @media @sm-up {
+    display: none !important;
+  }
+}
+
 .wave {
   /*background: transparent url("/img/hp/wave.png") 0 0 no-repeat;*/
   width: 61px;
@@ -259,6 +271,10 @@ h2 {
   margin-bottom: 50px;
   position: relative;
   top: 1px;
+
+  @media @sm-up {
+    margin-bottom: 75px;
+  }
 }
 
 .btn-napiste-nam {
@@ -337,6 +353,10 @@ h2 {
   margin-top: 140px;
   color: @color01;
   text-align: center;
+
+  @media @sm-up {
+    text-align: left;
+  }
 }
 
 .naladeni-content {
@@ -373,6 +393,23 @@ h2 {
 
       span.naladeni-text {
         line-height: 1.5;
+      }
+    }
+  }
+
+  @media @sm-up {
+    margin-top: 0;
+    ul {
+      text-align: left;
+      margin-top: 50px;
+      li {
+        width: auto;
+        max-width: 230px;
+        margin-bottom: 0;
+        .line {
+          margin: 0;
+          margin-bottom: .5rem;
+        }
       }
     }
   }
@@ -519,6 +556,20 @@ h2 {
       }
     }
   }
+
+  @media @sm-up {
+    margin-top: 75px;
+    text-align: left;
+    .box {
+      width: 300px;
+      height: 420px;
+      padding: 20px 50px;
+      margin-top: 0;
+      &.box-02 {
+        margin-top: 40px;
+      }
+    }
+  }
 }
 
 .offer {
@@ -535,6 +586,10 @@ h2 {
   &:hover {
     text-decoration: none;
   }
+
+  @media @sm-up {
+    margin-bottom: 150px;
+  }
 }
 
 .ochutnavka-wrap {
@@ -542,6 +597,10 @@ h2 {
   background: transparent url("/svg/hp/ochutnavka-top-ellipse-600.svg") 0 0 no-repeat;
   width: 100%;
   padding-top: 80px;
+
+  @media @sm-up {
+    margin-top: 100px;
+  }
 }
 
 .reference-wrap {
@@ -708,6 +767,13 @@ ul.reference {
       }
     }
   }
+
+  @media @sm-up {
+    padding-top: 0;
+    .contact-form {
+      margin-top: 75px;
+    }
+  }
 }
 
 .footer-top-block {
@@ -817,6 +883,44 @@ ul.reference {
       }
     }
   }
+
+  @media @sm-up {
+    .content-01 .line-01 {
+      font-size: 45px;
+      text-align: left;
+    }
+
+    .content-01 .line-02 {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-align: left;
+    }
+
+    .content-02 {
+      width: 250px;
+      ul {
+        text-align: left;
+      }
+    }
+
+    .content-03 {
+      width: 300px;
+      text-align: left;
+
+      .line-01 {
+        font-size: 28px;
+        margin-bottom: 0px;
+      }
+
+      .line-02 {
+        margin-bottom: 0px;
+      }
+
+      .line-03 {
+        margin-bottom: 0px;
+      }
+    }
+  }
 }
 
 .bottom {
@@ -848,120 +952,3 @@ ul.reference {
 @import "hp.less";
 @import "page.less";
 @import "page.o-nas.less";
-
-/*SM*/
-@media @sm-up {
-
-
-
-  #hp .naladeni-content h2 {
-    text-align: left;
-  }
-
-  .naladeni-content {
-    margin-top: 0;
-  }
-
-  .naladeni-content ul {
-    text-align: left;
-    margin-top: 50px;
-  }
-
-  .naladeni-content ul li {
-    width: auto;
-    max-width: 230px;
-    margin-bottom: 0;
-  }
-
-  .naladeni-content ul li .line {
-    margin: 0;
-    margin-bottom: .5rem;
-  }
-
-  .top-block-bottom {
-    margin-bottom: 75px;
-  }
-
-  .balicky {
-    margin-top: 75px;
-    text-align: left;
-  }
-
-  .balicky .box {
-    width: 300px;
-    height: 420px;
-    padding: 20px 50px;
-    margin-top: 0;
-  }
-
-  .balicky .box.box-02 {
-    margin-top: 40px;
-  }
-
-  .naladeni-wrap {
-    text-align: left;
-  }
-
-  .offer {
-    margin-bottom: 150px;
-  }
-
-  .ochutnavka-wrap {
-    margin-top: 100px;
-  }
-
-  .form-wrap {
-    padding-top: 0;
-  }
-
-  .contact-form {
-    margin-top: 75px;
-  }
-
-  .footer .content-01 .line-01 {
-    font-size: 45px;
-    text-align: left;
-  }
-
-  .footer .content-01 .line-02 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-align: left;
-  }
-
-  .footer .content-02 {
-    width: 250px;
-  }
-
-  .footer .content-02 ul {
-    text-align: left;
-  }
-
-  .footer .content-03 {
-    width: 300px;
-    text-align: left;
-  }
-
-  .footer .content-03 .line-01 {
-    font-size: 28px;
-    margin-bottom: 0px;
-  }
-
-  .footer .content-03 .line-02 {
-    margin-bottom: 0px;
-  }
-
-  .footer .content-03 .line-03 {
-    margin-bottom: 0px;
-  }
-
-  .sm-show {
-    display: inherit !important;
-  }
-
-  .sm-hide {
-    display: none !important;
-  }
-
-}
-

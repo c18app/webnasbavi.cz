@@ -52,6 +52,16 @@ h2 .light {
 .hide {
   display: none !important;
 }
+@media (min-width: 576px) {
+  .sm-show {
+    display: inherit !important;
+  }
+}
+@media (min-width: 576px) {
+  .sm-hide {
+    display: none !important;
+  }
+}
 .wave {
   /*background: transparent url("/img/hp/wave.png") 0 0 no-repeat;*/
   width: 61px;
@@ -191,6 +201,11 @@ h2 .light {
   position: relative;
   top: 1px;
 }
+@media (min-width: 576px) {
+  .top-block-bottom {
+    margin-bottom: 75px;
+  }
+}
 .btn-napiste-nam {
   background-color: #171928;
   height: 60px;
@@ -264,6 +279,11 @@ h2 .light {
   color: #ffffff;
   text-align: center;
 }
+@media (min-width: 576px) {
+  .naladeni-wrap {
+    text-align: left;
+  }
+}
 .naladeni-content {
   margin-top: 35px;
 }
@@ -296,6 +316,24 @@ h2 .light {
 }
 .naladeni-content ul li span.naladeni-text {
   line-height: 1.5;
+}
+@media (min-width: 576px) {
+  .naladeni-content {
+    margin-top: 0;
+  }
+  .naladeni-content ul {
+    text-align: left;
+    margin-top: 50px;
+  }
+  .naladeni-content ul li {
+    width: auto;
+    max-width: 230px;
+    margin-bottom: 0;
+  }
+  .naladeni-content ul li .line {
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
 }
 .nase-hodnoty {
   width: 100%;
@@ -417,6 +455,21 @@ h2 .light {
 .balicky .box.box-03 div.icon {
   background: transparent url("/img/hp/icon-03.png") 50% 50% no-repeat;
 }
+@media (min-width: 576px) {
+  .balicky {
+    margin-top: 75px;
+    text-align: left;
+  }
+  .balicky .box {
+    width: 300px;
+    height: 420px;
+    padding: 20px 50px;
+    margin-top: 0;
+  }
+  .balicky .box.box-02 {
+    margin-top: 40px;
+  }
+}
 .offer {
   margin-top: 50px;
   margin-bottom: 75px;
@@ -431,11 +484,21 @@ h2 .light {
 .offer:hover {
   text-decoration: none;
 }
+@media (min-width: 576px) {
+  .offer {
+    margin-bottom: 150px;
+  }
+}
 .ochutnavka-wrap {
   margin-top: 50px;
   background: transparent url("/svg/hp/ochutnavka-top-ellipse-600.svg") 0 0 no-repeat;
   width: 100%;
   padding-top: 80px;
+}
+@media (min-width: 576px) {
+  .ochutnavka-wrap {
+    margin-top: 100px;
+  }
 }
 .reference-wrap {
   width: 100%;
@@ -582,6 +645,14 @@ ul.reference .company {
   background-color: #ffffff;
   color: #f0013e !important;
 }
+@media (min-width: 576px) {
+  .form-wrap {
+    padding-top: 0;
+  }
+  .form-wrap .contact-form {
+    margin-top: 75px;
+  }
+}
 .footer-top-block {
   background: transparent url("/svg/hp/footer-block.svg") 50% 75px no-repeat;
   width: 100%;
@@ -680,6 +751,37 @@ ul.reference .company {
 }
 .footer .content-03 .line-04 a {
   color: #ffffff;
+}
+@media (min-width: 576px) {
+  .footer .content-01 .line-01 {
+    font-size: 45px;
+    text-align: left;
+  }
+  .footer .content-01 .line-02 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  .footer .content-02 {
+    width: 250px;
+  }
+  .footer .content-02 ul {
+    text-align: left;
+  }
+  .footer .content-03 {
+    width: 300px;
+    text-align: left;
+  }
+  .footer .content-03 .line-01 {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+  .footer .content-03 .line-02 {
+    margin-bottom: 0px;
+  }
+  .footer .content-03 .line-03 {
+    margin-bottom: 0px;
+  }
 }
 .bottom {
   background: #11121f;
@@ -814,6 +916,11 @@ ul.reference .company {
 #hp .footer-top-block {
   background-color: #171928;
 }
+@media (min-width: 576px) {
+  #hp .naladeni-content h2 {
+    text-align: left;
+  }
+}
 #page .top-block {
   background: #171928 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
 }
@@ -894,93 +1001,5 @@ ul.reference .company {
   margin-top: 30px;
   display: inline-block;
   width: 100%;
-}
-/*SM*/
-@media (min-width: 576px) {
-  #hp .naladeni-content h2 {
-    text-align: left;
-  }
-  .naladeni-content {
-    margin-top: 0;
-  }
-  .naladeni-content ul {
-    text-align: left;
-    margin-top: 50px;
-  }
-  .naladeni-content ul li {
-    width: auto;
-    max-width: 230px;
-    margin-bottom: 0;
-  }
-  .naladeni-content ul li .line {
-    margin: 0;
-    margin-bottom: 0.5rem;
-  }
-  .top-block-bottom {
-    margin-bottom: 75px;
-  }
-  .balicky {
-    margin-top: 75px;
-    text-align: left;
-  }
-  .balicky .box {
-    width: 300px;
-    height: 420px;
-    padding: 20px 50px;
-    margin-top: 0;
-  }
-  .balicky .box.box-02 {
-    margin-top: 40px;
-  }
-  .naladeni-wrap {
-    text-align: left;
-  }
-  .offer {
-    margin-bottom: 150px;
-  }
-  .ochutnavka-wrap {
-    margin-top: 100px;
-  }
-  .form-wrap {
-    padding-top: 0;
-  }
-  .contact-form {
-    margin-top: 75px;
-  }
-  .footer .content-01 .line-01 {
-    font-size: 45px;
-    text-align: left;
-  }
-  .footer .content-01 .line-02 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-align: left;
-  }
-  .footer .content-02 {
-    width: 250px;
-  }
-  .footer .content-02 ul {
-    text-align: left;
-  }
-  .footer .content-03 {
-    width: 300px;
-    text-align: left;
-  }
-  .footer .content-03 .line-01 {
-    font-size: 28px;
-    margin-bottom: 0px;
-  }
-  .footer .content-03 .line-02 {
-    margin-bottom: 0px;
-  }
-  .footer .content-03 .line-03 {
-    margin-bottom: 0px;
-  }
-  .sm-show {
-    display: inherit !important;
-  }
-  .sm-hide {
-    display: none !important;
-  }
 }
 /*# sourceMappingURL=app.css.map */
