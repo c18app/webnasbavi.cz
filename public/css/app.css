@@ -181,35 +181,6 @@ h2 .light {
   position: relative;
   top: 1px;
 }
-#hp .pre-header {
-  font-weight: 500;
-  text-align: center;
-  color: #171928;
-  font-size: 32px;
-  line-height: 100%;
-  margin-bottom: 8px;
-}
-#hp h1 {
-  margin-bottom: 30px;
-}
-#hp .top-block {
-  background: #f0013e url("/img/hp/krivka-top.png") 50% 0px no-repeat;
-}
-#hp .top-block-bottom {
-  min-height: 700px;
-  background: transparent url("/img/hp/krivka-bottom.png") 50% 100% no-repeat;
-}
-#page .top-block {
-  background: #171928 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
-}
-#page .top-block-bottom {
-  min-height: 470px;
-  background: transparent url("/img/pages/krivka-bottom.png") 50% 100% no-repeat;
-}
-#page .top-block-content {
-  padding-top: 145px;
-  color: #ffffff;
-}
 .btn-napiste-nam {
   background-color: #171928;
   height: 60px;
@@ -447,6 +418,9 @@ h2 .light {
   position: relative;
   top: -200px;
 }
+.reference-wrap h2 {
+  color: #ffffff;
+}
 ul.reference {
   padding: 0 0 10px 0;
   margin: 90px 0 0 0;
@@ -471,7 +445,7 @@ ul.reference li:first-child {
   border-bottom-right-radius: 0;
   margin-right: 60px;
 }
-ul.reference li:last-child {
+ul.reference:last-child {
   -webkit-border-bottom-left-radius: 0;
   -moz-border-radius-bottomleft: 0;
   border-bottom-left-radius: 0;
@@ -491,9 +465,6 @@ ul.reference .company {
   position: relative;
   top: -5px;
 }
-#hp .reference-wrap h2 {
-  color: #ffffff;
-}
 .form-wrap {
   padding-top: 50px;
   background-color: #171928;
@@ -504,15 +475,15 @@ ul.reference .company {
 .form-wrap form {
   width: 100%;
 }
-#hp .form-wrap h2 {
+.form-wrap h2 {
   color: #ffffff;
 }
-.contact-form {
+.form-wrap .contact-form {
   margin-top: 50px;
   max-width: 600px;
   display: inline-block;
 }
-.contact-form label {
+.form-wrap .contact-form label {
   display: inline-block;
   margin-bottom: 0.5rem;
   width: 100%;
@@ -522,7 +493,7 @@ ul.reference .company {
   font-size: 15px;
   padding-left: 25px;
 }
-.contact-form input.text-input {
+.form-wrap .contact-form input.text-input {
   width: 100%;
   color: #171928;
   height: 50px;
@@ -533,17 +504,7 @@ ul.reference .company {
   padding-right: 25px;
   border: none;
 }
-.contact-form textarea {
-  width: 100%;
-  color: #171928;
-  height: 15em;
-  border-radius: 25px;
-  font-size: 16px;
-  padding: 25px;
-  border: none;
-  margin-bottom: 10px;
-}
-.contact-form input.checkbox-input {
+.form-wrap .contact-form input.checkbox-input {
   color: #171928;
   width: 16px;
   height: 16px;
@@ -554,7 +515,17 @@ ul.reference .company {
   position: relative;
   top: 2px;
 }
-.contact-form label.label-checkbox {
+.form-wrap .contact-form textarea {
+  width: 100%;
+  color: #171928;
+  height: 15em;
+  border-radius: 25px;
+  font-size: 16px;
+  padding: 25px;
+  border: none;
+  margin-bottom: 10px;
+}
+.form-wrap .contact-form label.label-checkbox {
   font-size: 15px;
   font-weight: 100;
   color: #ffffff;
@@ -562,10 +533,10 @@ ul.reference .company {
   margin-left: 9px;
   padding-left: 0;
 }
-.contact-form label.label-checkbox a {
+.form-wrap .contact-form label.label-checkbox a {
   color: #f0013e;
 }
-.contact-form .btn-odeslat-zpravu {
+.form-wrap .contact-form .btn-odeslat-zpravu {
   background-color: #f0013e;
   height: 60px;
   line-height: 60px;
@@ -580,7 +551,7 @@ ul.reference .company {
   margin-top: 50px;
   cursor: pointer;
 }
-.contact-form .btn-odeslat-zpravu:hover {
+.form-wrap .contact-form .btn-odeslat-zpravu:hover {
   background-color: #ffffff;
   color: #f0013e !important;
 }
@@ -588,9 +559,6 @@ ul.reference .company {
   background: transparent url("/svg/hp/footer-block.svg") 50% 75px no-repeat;
   width: 100%;
   height: 125px;
-}
-#hp .footer-top-block {
-  background-color: #171928;
 }
 .footer {
   background-color: #11121f;
@@ -972,5 +940,37 @@ ul.reference .company {
   .nase-hodnoty {
     margin-right: 150px;
   }
+}
+#hp .pre-header {
+  font-weight: 500;
+  text-align: center;
+  color: #171928;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 8px;
+}
+#hp h1 {
+  margin-bottom: 30px;
+}
+#hp .top-block {
+  background: #f0013e url("/img/hp/krivka-top.png") 50% 0px no-repeat;
+}
+#hp .top-block-bottom {
+  min-height: 700px;
+  background: transparent url("/img/hp/krivka-bottom.png") 50% 100% no-repeat;
+}
+#hp .footer-top-block {
+  background-color: #171928;
+}
+#page .top-block {
+  background: #171928 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
+}
+#page .top-block-bottom {
+  min-height: 470px;
+  background: transparent url("/img/pages/krivka-bottom.png") 50% 100% no-repeat;
+}
+#page .top-block-content {
+  padding-top: 145px;
+  color: #ffffff;
 }
 /*# sourceMappingURL=app.css.map */

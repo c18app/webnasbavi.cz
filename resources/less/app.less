@@ -253,46 +253,6 @@ h2 {
   top: 1px;
 }
 
-#hp {
-  .pre-header {
-    font-weight: 500;
-    text-align: center;
-    color: @color02;
-    font-size: 32px;
-    line-height: 100%;
-    margin-bottom: 8px;
-  }
-
-  h1 {
-    margin-bottom: 30px;
-  }
-
-  .top-block {
-    background: @color03 url("/img/hp/krivka-top.png") 50% 0px no-repeat;
-  }
-
-  .top-block-bottom {
-    min-height: 700px;
-    background: transparent url("/img/hp/krivka-bottom.png") 50% 100% no-repeat;
-  }
-}
-
-#page {
-  .top-block {
-    background: @color02 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
-  }
-
-  .top-block-bottom {
-    min-height: 470px;
-    background: transparent url("/img/pages/krivka-bottom.png") 50% 100% no-repeat;
-  }
-
-  .top-block-content {
-    padding-top: 145px;
-    color: @color01;
-  }
-}
-
 .btn-napiste-nam {
   background-color: @color02;
   height: 60px;
@@ -565,178 +525,173 @@ h2 {
 .reference-wrap {
   width: 100%;
   background-color: @color02;
-}
 
-.reference-wrap .container {
-  position: relative;
-  top: -200px;
+  .container {
+    position: relative;
+    top: -200px;
+  }
+
+  h2 {
+    color: @color01;
+  }
 }
 
 ul.reference {
   padding: 0 0 10px 0;
   margin: 90px 0 0 0;
   list-style-type: none;
-}
 
-ul.reference li {
-  background: @color01 url("/img/hp/uvozovky.png") 320px 30px no-repeat;
-  -webkit-border-radius: 45px;
-  -moz-border-radius: 45px;
-  border-radius: 45px;
-  width: 375px;
-  height: 225px;
-  display: inline-block;
-  padding: 50px 40px 0 40px;
-  text-align: left;
-  font-size: 15px;
-  color: #090909;
-}
+  li {
+    background: @color01 url("/img/hp/uvozovky.png") 320px 30px no-repeat;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+    width: 375px;
+    height: 225px;
+    display: inline-block;
+    padding: 50px 40px 0 40px;
+    text-align: left;
+    font-size: 15px;
+    color: #090909;
 
-ul.reference li:first-child {
-  -webkit-border-bottom-right-radius: 0;
-  -moz-border-radius-bottomright: 0;
-  border-bottom-right-radius: 0;
-  margin-right: 60px;
-}
+    &:first-child {
+      -webkit-border-bottom-right-radius: 0;
+      -moz-border-radius-bottomright: 0;
+      border-bottom-right-radius: 0;
+      margin-right: 60px;
+    }
+  }
 
-ul.reference li:last-child {
-  -webkit-border-bottom-left-radius: 0;
-  -moz-border-radius-bottomleft: 0;
-  border-bottom-left-radius: 0;
-}
+  &:last-child {
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-bottom-left-radius: 0;
+  }
 
-ul.reference .name {
-  display: inline-block;
-  color: @color03;
-  font-size: 28px;
-  width: 100%;
-  margin-top: 15px;
-}
+  .name {
+    display: inline-block;
+    color: @color03;
+    font-size: 28px;
+    width: 100%;
+    margin-top: 15px;
+  }
 
-ul.reference .company {
-  display: inline-block;
-  color: @color02;
-  font-size: 15px;
-  width: 100%;
-  position: relative;
-  top: -5px;
-}
-
-#hp .reference-wrap h2 {
-  color: @color01;
+  .company {
+    display: inline-block;
+    color: @color02;
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    top: -5px;
+  }
 }
 
 .form-wrap {
   padding-top: 50px;
   background-color: @color02;
-}
 
-.form-wrap .napiste-nam-mezera {
-  height: 10px;
-}
+  .napiste-nam-mezera {
+    height: 10px;
+  }
 
-.form-wrap form {
-  width: 100%;
-}
+  form {
+    width: 100%;
+  }
 
-#hp .form-wrap h2 {
-  color: @color01;
-}
+  h2 {
+    color: @color01;
+  }
 
-.contact-form {
-  margin-top: 50px;
-  max-width: 600px;
-  display: inline-block;
-}
+  .contact-form {
+    margin-top: 50px;
+    max-width: 600px;
+    display: inline-block;
 
-.contact-form label {
-  display: inline-block;
-  margin-bottom: .5rem;
-  width: 100%;
-  color: #eb0045;
-  text-align: left;
-  font-weight: bold;
-  font-size: 15px;
-  padding-left: 25px;
-}
+    label {
+      display: inline-block;
+      margin-bottom: .5rem;
+      width: 100%;
+      color: #eb0045;
+      text-align: left;
+      font-weight: bold;
+      font-size: 15px;
+      padding-left: 25px;
+    }
 
-.contact-form input.text-input {
-  width: 100%;
-  color: @color02;
-  height: 50px;
-  border-radius: 25px;
-  margin-bottom: 10px;
-  font-size: 16px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border: none;
-}
+    input.text-input {
+      width: 100%;
+      color: @color02;
+      height: 50px;
+      border-radius: 25px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      padding-left: 25px;
+      padding-right: 25px;
+      border: none;
+    }
+    input.checkbox-input {
+      color: @color02;
+      width: 16px;
+      height: 16px;
+      font-size: 16px;
+      padding-left: 25px;
+      padding-right: 25px;
+      border: none;
+      position: relative;
+      top: 2px;
+    }
 
-.contact-form textarea {
-  width: 100%;
-  color: @color02;
-  height: 15em;
-  border-radius: 25px;
-  font-size: 16px;
-  padding: 25px;
-  border: none;
-  margin-bottom: 10px;
-}
+    textarea {
+      width: 100%;
+      color: @color02;
+      height: 15em;
+      border-radius: 25px;
+      font-size: 16px;
+      padding: 25px;
+      border: none;
+      margin-bottom: 10px;
+    }
 
-.contact-form input.checkbox-input {
-  color: @color02;
-  width: 16px;
-  height: 16px;
-  font-size: 16px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border: none;
-  position: relative;
-  top: 2px;
-}
+    label.label-checkbox {
+      font-size: 15px;
+      font-weight: 100;
+      color: @color01;
+      display: inline;
+      margin-left: 9px;
+      padding-left: 0;
+    }
 
-.contact-form label.label-checkbox {
-  font-size: 15px;
-  font-weight: 100;
-  color: @color01;
-  display: inline;
-  margin-left: 9px;
-  padding-left: 0;
-}
+    label.label-checkbox a {
+      color: @color03;
+    }
 
-.contact-form label.label-checkbox a {
-  color: @color03;
-}
+    .btn-odeslat-zpravu {
+      background-color: @color03;
+      height: 60px;
+      line-height: 60px;
+      border-radius: 30px;
+      color: @color01 !important;
+      font-size: 17px;
+      padding: 0 50px;
+      display: inline-block;
+      font-weight: bold;
+      text-decoration: none !important;
+      border: none;
+      margin-top: 50px;
+      cursor: pointer;
 
-.contact-form .btn-odeslat-zpravu {
-  background-color: @color03;
-  height: 60px;
-  line-height: 60px;
-  border-radius: 30px;
-  color: @color01 !important;
-  font-size: 17px;
-  padding: 0 50px;
-  display: inline-block;
-  font-weight: bold;
-  text-decoration: none !important;
-  border: none;
-  margin-top: 50px;
-  cursor: pointer;
-}
-
-.contact-form .btn-odeslat-zpravu:hover {
-  background-color: @color01;
-  color: @color03 !important;
+      &:hover {
+        background-color: @color01;
+        color: @color03 !important;
+      }
+    }
+  }
 }
 
 .footer-top-block {
   background: transparent url("/svg/hp/footer-block.svg") 50% 75px no-repeat;
   width: 100%;
   height: 125px;
-}
-
-#hp .footer-top-block {
-  background-color: @color02;
 }
 
 .footer {
@@ -1204,5 +1159,49 @@ ul.reference .company {
 @media all and (min-width: 1200px) {
   .nase-hodnoty {
     margin-right: 150px;
+  }
+}
+
+#hp {
+  .pre-header {
+    font-weight: 500;
+    text-align: center;
+    color: @color02;
+    font-size: 32px;
+    line-height: 100%;
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  .top-block {
+    background: @color03 url("/img/hp/krivka-top.png") 50% 0px no-repeat;
+  }
+
+  .top-block-bottom {
+    min-height: 700px;
+    background: transparent url("/img/hp/krivka-bottom.png") 50% 100% no-repeat;
+  }
+
+  .footer-top-block {
+    background-color: @color02;
+  }
+}
+
+#page {
+  .top-block {
+    background: @color02 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
+  }
+
+  .top-block-bottom {
+    min-height: 470px;
+    background: transparent url("/img/pages/krivka-bottom.png") 50% 100% no-repeat;
+  }
+
+  .top-block-content {
+    padding-top: 145px;
+    color: @color01;
   }
 }
