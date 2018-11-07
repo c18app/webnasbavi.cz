@@ -10,6 +10,12 @@
 
                         <ul class="navbar-nav">
                             <li class="nav-item">
+                                @if (Route::has('homepage'))
+                                    <a class="{{ Route::is('homepage') ? 'active ' : '' }}nav-link"
+                                       href="{{ route('homepage') }}">{{ __('Domů') }}</a>
+                                @endif
+                            </li>
+                            <li class="nav-item">
                                 @if (Route::has('o-nas'))
                                     <a class="{{ Route::is('o-nas') ? 'active ' : '' }}nav-link"
                                        href="{{ route('o-nas') }}">{{ __('O nás') }}</a>
@@ -42,8 +48,8 @@
                         </ul>
                     </div>
 
-                    <a class="navbar-brand navbar-brand-dark" href="{{ url('/') }}"><img src="/img/logo.png?v=20181109"></a>
-                    <a class="navbar-brand navbar-brand-light" href="{{ url('/') }}"><img src="/img/logo_light.png?v=20181109"></a>
+                    <a class="navbar-brand navbar-brand-dark" href="{{ url('/') }}"><img src="/img/logo.png?v=201811071900"></a>
+                    <a class="navbar-brand navbar-brand-light" href="{{ url('/') }}"><img src="/img/logo_light.png?v=201811071900"></a>
                 </div>
             </div>
         </div>

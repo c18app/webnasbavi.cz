@@ -112,6 +112,9 @@ h2 .light {
   position: relative;
   top: 9px;
 }
+.navbar .navbar-brand img {
+  height: 60px;
+}
 .navbar .navbar-brand-light {
   display: none;
   margin-top: 15px;
