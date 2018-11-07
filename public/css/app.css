@@ -91,11 +91,11 @@ h2 .light {
 .navbar-top-wrap {
   margin-top: 15px;
   height: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 @media (min-width: 768px) {
   .navbar-top-wrap {
-    margin-bottom: 60px;
+    margin-bottom: 75px;
   }
 }
 .navbar {
@@ -107,32 +107,14 @@ h2 .light {
   overflow: hidden;
 }
 .navbar .navbar-brand {
-  margin: 9px 0 9px 0;
+  margin: 0;
   display: inline-block;
-}
-@media (min-width: 576px) {
-  .navbar .navbar-brand {
-    margin: 0;
-    position: relative;
-    top: 9px;
-  }
-}
-.navbar .navbar-brand img {
-  height: 42px;
-}
-@media (min-width: 576px) {
-  .navbar .navbar-brand img {
-    height: 60px;
-  }
+  position: relative;
+  top: 9px;
 }
 .navbar .navbar-brand-light {
   display: none;
-  margin-top: 24px;
-}
-@media (min-width: 576px) {
-  .navbar .navbar-brand-light {
-    margin-top: 15px;
-  }
+  margin-top: 15px;
 }
 .navbar .nav-link {
   font-weight: bold;
