@@ -32,6 +32,11 @@ h2 {
 h2 .light {
   color: #ffffff;
 }
+@media (min-width: 576px) {
+  h2 {
+    font-size: 45px;
+  }
+}
 .text-center {
   text-align: center !important;
 }
@@ -175,6 +180,11 @@ h2 .light {
 .top-block {
   margin-top: 0px;
 }
+@media (min-width: 576px) {
+  .top-block {
+    margin-top: 50px;
+  }
+}
 .top-block-bottom {
   padding-bottom: 104px;
   margin-bottom: 50px;
@@ -315,6 +325,23 @@ h2 .light {
 }
 .nase-hodnoty .line-01 span {
   font-weight: bold;
+}
+@media (min-width: 576px) {
+  .nase-hodnoty {
+    width: 270px;
+    margin-right: 50px;
+    float: left;
+  }
+}
+@media (min-width: 768px) {
+  .nase-hodnoty {
+    text-align: left;
+  }
+}
+@media (min-width: 1200px) {
+  .nase-hodnoty {
+    margin-right: 150px;
+  }
 }
 .balicky {
   margin-top: 25px;
@@ -590,6 +617,11 @@ ul.reference .company {
   margin-top: 15px;
   margin-bottom: 35px;
 }
+@media (min-width: 576px) {
+  .footer .content-01 {
+    width: 500px;
+  }
+}
 .footer .content-02 {
   width: 100%;
 }
@@ -676,6 +708,13 @@ ul.reference .company {
 #jssor_1 {
   box-shadow: 0px 8px 49px 14px rgba(23, 22, 20, 0.18);
 }
+@media (min-width: 576px) {
+  #jssor_1 {
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+  }
+}
 .jssorl-009-spin img {
   animation-name: jssorl-009-spin;
   animation-duration: 1.6s;
@@ -736,21 +775,15 @@ ul.reference .company {
   opacity: 0.3;
   pointer-events: none;
 }
-/*SM*/
+#hp .pre-header {
+  font-weight: 500;
+  text-align: center;
+  color: #171928;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 8px;
+}
 @media (min-width: 576px) {
-  .nase-hodnoty {
-    width: 270px;
-    margin-right: 50px;
-    float: left;
-  }
-  .footer .content-01 {
-    width: 500px;
-  }
-  #jssor_1 {
-    -webkit-border-radius: 45px;
-    -moz-border-radius: 45px;
-    border-radius: 45px;
-  }
   #hp .pre-header {
     text-align: left;
     color: #171928;
@@ -758,6 +791,11 @@ ul.reference .company {
     line-height: 100%;
     margin-bottom: 0px;
   }
+}
+#hp h1 {
+  margin-bottom: 30px;
+}
+@media (min-width: 576px) {
   #hp h1 {
     text-align: left;
     color: #f0013e;
@@ -765,9 +803,100 @@ ul.reference .company {
     line-height: 120%;
     font-weight: bold;
   }
-  h2 {
-    font-size: 45px;
-  }
+}
+#hp .top-block {
+  background: #f0013e url("/img/hp/krivka-top.png") 50% 0px no-repeat;
+}
+#hp .top-block-bottom {
+  min-height: 700px;
+  background: transparent url("/img/hp/krivka-bottom.png") 50% 100% no-repeat;
+}
+#hp .footer-top-block {
+  background-color: #171928;
+}
+#page .top-block {
+  background: #171928 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
+}
+#page .top-block-bottom {
+  min-height: 470px;
+  background: transparent url("/img/pages/krivka-bottom.png") 50% 100% no-repeat;
+}
+#page .top-block-content {
+  padding-top: 145px;
+  color: #ffffff;
+}
+.o-nas .top-block .top-block-content {
+  color: #ffffff;
+  text-align: center;
+}
+.o-nas .top-block .top-block-content .popis {
+  font-size: 28px;
+  font-weight: 100;
+  margin-top: 25px;
+  display: inline-block;
+  width: 100%;
+  line-height: 1.5;
+  margin-top: 35px;
+  margin-bottom: 55px;
+}
+.o-nas .top-block .top-block-content .popis strong {
+  font-weight: bold;
+}
+.o-nas .top-block .top-block-content .cislo {
+  font-size: 45px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.o-nas .top-block .top-block-content .text {
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+}
+.o-nas .nas-tym {
+  margin-bottom: 100px;
+}
+.o-nas .nas-tym .clen-tymu {
+  margin-top: 75px;
+  text-align: center;
+}
+.o-nas .nas-tym .jmeno {
+  color: #171928;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 25px;
+  display: inline-block;
+  width: 100%;
+}
+.o-nas .nas-tym .funkce {
+  color: #f0013e;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 5px;
+  display: inline-block;
+  width: 100%;
+}
+.o-nas .nas-tym .popis {
+  color: #171928;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+  display: inline-block;
+  line-height: 1.5;
+  width: 100%;
+}
+.o-nas .nas-tym .motto {
+  color: #171928;
+  font-size: 28px;
+  font-weight: 100;
+  margin-top: 30px;
+  display: inline-block;
+  width: 100%;
+}
+/*SM*/
+@media (min-width: 576px) {
   #hp .naladeni-content h2 {
     text-align: left;
   }
@@ -853,124 +982,5 @@ ul.reference .company {
   .sm-hide {
     display: none !important;
   }
-}
-/* o-nas */
-.o-nas .top-block .top-block-content {
-  color: #ffffff;
-  text-align: center;
-}
-.o-nas .top-block .top-block-content .popis {
-  font-size: 28px;
-  font-weight: 100;
-  margin-top: 25px;
-  display: inline-block;
-  width: 100%;
-  line-height: 1.5;
-  margin-top: 35px;
-  margin-bottom: 55px;
-}
-.o-nas .top-block .top-block-content .cislo {
-  font-size: 45px;
-  font-weight: bold;
-  display: inline-block;
-  margin-bottom: 10px;
-  width: 100%;
-}
-.o-nas .top-block .top-block-content .text {
-  font-size: 15px;
-  font-weight: bold;
-  display: inline-block;
-  width: 100%;
-}
-.o-nas .top-block .popis strong {
-  font-weight: bold;
-}
-.nas-tym {
-  margin-bottom: 100px;
-}
-.nas-tym .clen-tymu {
-  margin-top: 75px;
-  text-align: center;
-}
-.nas-tym .jmeno {
-  color: #171928;
-  font-size: 28px;
-  font-weight: bold;
-  margin-top: 25px;
-  display: inline-block;
-  width: 100%;
-}
-.nas-tym .funkce {
-  color: #f0013e;
-  font-size: 15px;
-  font-weight: 500;
-  margin-top: 5px;
-  display: inline-block;
-  width: 100%;
-}
-.nas-tym .popis {
-  color: #171928;
-  font-size: 15px;
-  font-weight: 500;
-  margin-top: 20px;
-  display: inline-block;
-  line-height: 1.5;
-  width: 100%;
-}
-.nas-tym .motto {
-  color: #171928;
-  font-size: 28px;
-  font-weight: 100;
-  margin-top: 30px;
-  display: inline-block;
-  width: 100%;
-}
-/*MD*/
-@media all and (min-width: 768px) {
-  .top-block {
-    margin-top: 50px;
-  }
-  .nase-hodnoty {
-    text-align: left;
-  }
-}
-/*LG*/
-/*XL*/
-@media all and (min-width: 1200px) {
-  .nase-hodnoty {
-    margin-right: 150px;
-  }
-}
-#hp .pre-header {
-  font-weight: 500;
-  text-align: center;
-  color: #171928;
-  font-size: 32px;
-  line-height: 100%;
-  margin-bottom: 8px;
-}
-#hp h1 {
-  margin-bottom: 30px;
-}
-#hp .top-block {
-  background: #f0013e url("/img/hp/krivka-top.png") 50% 0px no-repeat;
-}
-#hp .top-block-bottom {
-  min-height: 700px;
-  background: transparent url("/img/hp/krivka-bottom.png") 50% 100% no-repeat;
-}
-#hp .footer-top-block {
-  background-color: #171928;
-}
-#page .top-block {
-  background: #171928 url("/img/pages/krivka-top.png") 50% 0px no-repeat;
-}
-#page .top-block-bottom {
-  min-height: 470px;
-  background: transparent url("/img/pages/krivka-bottom.png") 50% 100% no-repeat;
-}
-#page .top-block-content {
-  padding-top: 145px;
-  color: #ffffff;
 }
 /*# sourceMappingURL=app.css.map */
