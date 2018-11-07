@@ -22,6 +22,9 @@ a:hover {
 .bg-dark {
   background-color: #171928 !important;
 }
+.hide {
+  display: none !important;
+}
 .wave {
   /*background: transparent url("/img/hp/wave.png") 0 0 no-repeat;*/
   width: 61px;
@@ -31,17 +34,32 @@ a:hover {
   margin-top: 10px;
   background-color: #f0013e;
 }
+.header {
+  text-align: center;
+}
 .header .wave {
   margin-top: 0;
 }
-.hide {
-  display: none !important;
+.header .perex {
+  font-size: 28px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+@media (min-width: 576px) {
+  .header {
+    text-align: center;
+  }
 }
 /* TOP MENU */
 .navbar-top-wrap {
   margin-top: 15px;
   height: 60px;
   margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .navbar-top-wrap {
+    margin-bottom: 60px;
+  }
 }
 .navbar {
   height: 60px;
@@ -159,15 +177,6 @@ h2.light {
 #page .top-block-content {
   padding-top: 145px;
   color: #ffffff;
-}
-/* ----- */
-.header {
-  text-align: center;
-}
-.header .perex {
-  font-size: 28px;
-  font-weight: 100;
-  margin-top: 10px;
 }
 .btn-napiste-nam {
   background-color: #171928;
@@ -717,7 +726,7 @@ ul.reference .company {
   pointer-events: none;
 }
 /*SM*/
-@media all and (min-width: 576px) {
+@media (min-width: 576px) {
   .btn-napiste-nam {
     width: auto;
     text-align: left;
@@ -837,9 +846,6 @@ ul.reference .company {
   .sm-hide {
     display: none !important;
   }
-  .header {
-    text-align: center;
-  }
 }
 /* o-nas */
 .o-nas .top-block .top-block-content {
@@ -920,9 +926,6 @@ ul.reference .company {
   .navbar .navbar-nav .nav-item {
     float: left;
     line-height: 60px;
-  }
-  .navbar-top-wrap {
-    margin-bottom: 60px;
   }
   .top-block {
     margin-top: 50px;

@@ -2,6 +2,41 @@
 @color02: #171928;
 @color03: #f0013e;
 
+@screen-xl: 1200;
+@screen-lg-max: 1191.98;
+@screen-lg: 992;
+@screen-md-max: 991.98;
+@screen-md: 768;
+@screen-sm-max: 767.98;
+@screen-sm: 576;
+@screen-xs-max: 575.98;
+
+// XL and bigger - XL only
+@xl-up: ~'(min-width: @{screen-xl}px)';
+// LG and bigger
+@lg-up: ~'(min-width: @{screen-lg}px)';
+// MD and bigger
+@md-up: ~'(min-width: @{screen-md}px)';
+// SM and bigger
+@sm-up: ~'(min-width: @{screen-sm}px)';
+// no media = XS and bigger
+
+// LG and smaller
+@lg-down: ~'(max-width: @{screen-lg-max}px)';
+// MD and smaller
+@md-down: ~'(max-width: @{screen-md-max}px)';
+// SM and smaller
+@sm-down: ~'(max-width:  @{screen-sm-max}px)';
+// XS and smaller  - XS only
+@xs-down: ~'(max-width: @{screen-xs-max}px)';
+
+// Only LG screen
+@lg-only: ~'(min-width: @{screen-lg}px) and (max-width: @{screen-lg-max}px)';
+// Only MD screen
+@md-only: '(min-width: @{screen-md}px) and (max-width: @{screen-md-max}px)';
+// Only SM screen
+@sm-only: '(min-width: @{screen-sm}px) and (max-width: @{screen-sm-max}px)';
+
 /* GENERAL */
 body {
   font-family: Quicksand, sans-serif;
@@ -33,6 +68,10 @@ a:hover {
   background-color: @color02 !important;
 }
 
+.hide {
+  display: none !important;
+}
+
 .wave {
   /*background: transparent url("/img/hp/wave.png") 0 0 no-repeat;*/
   width: 61px;
@@ -43,12 +82,22 @@ a:hover {
   background-color: @color03;
 }
 
-.header .wave {
-  margin-top: 0;
-}
+.header {
+  text-align: center;
 
-.hide {
-  display: none !important;
+  .wave {
+    margin-top: 0;
+  }
+
+  .perex {
+    font-size: 28px;
+    font-weight: 100;
+    margin-top: 10px;
+  }
+
+  @media @sm-up {
+    text-align: center;
+  }
 }
 
 /* TOP MENU */
@@ -56,64 +105,78 @@ a:hover {
   margin-top: 15px;
   height: 60px;
   margin-bottom: 20px;
+
+  @media @md-up {
+    margin-bottom: 60px;
+  }
 }
 
 .navbar {
   height: 60px;
+
+  .navbar-wrap {
+    float: right;
+    height: 60px;
+    overflow: hidden;
+  }
+
+  .navbar-brand {
+    margin: 7px 0 8px 0;
+    display: inline-block;
+  }
+
+  .navbar-brand-light {
+    display: none;
+    margin-top: 22px;
+  }
+
+  .nav-link {
+    font-weight: bold;
+    color: @color02;
+    text-decoration: none;
+    padding: .5rem 1rem;
+  }
+
+  .nav-item .nav-link.active {
+    color: @color03;
+  }
+
+  .navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    clear: both;
+    text-align: center;
+    padding-bottom: 1rem;
+
+    .nav-item {
+      line-height: 30px;
+    }
+  }
+
+  .navbar-button {
+    width: 42px;
+    height: 42px;
+    background-color: @color03;
+    border-radius: 17.5px 17.5px 17.5px 2px;
+    color: @color01;
+    line-height: 42px;
+    font-size: 20px;
+    float: right;
+    margin-top: 9px;
+    margin-bottom: 9px;
+  }
 }
 
-.navbar .navbar-wrap {
-  float: right;
-  height: 60px;
-  overflow: hidden;
-}
 
-.navbar .navbar-brand {
-  margin: 7px 0 8px 0;
-  display: inline-block;
-}
 
-.navbar .navbar-brand-light {
-  display: none;
-  margin-top: 22px;
-}
 
-.navbar .nav-link {
-  font-weight: bold;
-  color: @color02;
-  text-decoration: none;
-  padding: .5rem 1rem;
-}
 
-.navbar .nav-item .nav-link.active {
-  color: @color03;
-}
 
-.navbar .navbar-nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  clear: both;
-  text-align: center;
-  padding-bottom: 1rem;
-}
 
-.navbar .navbar-nav .nav-item {
-  line-height: 30px;
-}
 
-.navbar .navbar-button {
-  width: 42px;
-  height: 42px;
-  background-color: @color03;
-  border-radius: 17.5px 17.5px 17.5px 2px;
-  color: @color01;
-  line-height: 42px;
-  font-size: 20px;
-  float: right;
-  margin-top: 9px;
-  margin-bottom: 9px;
-}
+
+
 
 /* HP  */
 #hp .pre-header {
@@ -194,17 +257,6 @@ h2.light {
 #page .top-block-content {
   padding-top: 145px;
   color: @color01;
-}
-
-/* ----- */
-.header {
-  text-align: center;
-}
-
-.header .perex {
-  font-size: 28px;
-  font-weight: 100;
-  margin-top: 10px;
 }
 
 .btn-napiste-nam {
@@ -853,7 +905,7 @@ ul.reference .company {
 }
 
 /*SM*/
-@media all and (min-width: 576px) {
+@media @sm-up {
   .btn-napiste-nam {
     width: auto;
     text-align: left;
@@ -1004,9 +1056,6 @@ ul.reference .company {
     display: none !important;
   }
 
-  .header {
-    text-align: center;
-  }
 }
 
 /* o-nas */
@@ -1100,10 +1149,6 @@ ul.reference .company {
   .navbar .navbar-nav .nav-item {
     float: left;
     line-height: 60px;
-  }
-
-  .navbar-top-wrap {
-    margin-bottom: 60px;
   }
 
   .top-block {
