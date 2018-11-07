@@ -48,8 +48,8 @@
                         </ul>
                     </div>
 
-                    <a class="navbar-brand navbar-brand-dark" href="{{ url('/') }}"><img src="/img/logo.png?v=201811071900"></a>
-                    <a class="navbar-brand navbar-brand-light" href="{{ url('/') }}"><img src="/img/logo_light.png?v=201811071900"></a>
+                    <a class="navbar-brand navbar-brand-dark" href="{{ url('/') }}"><img src="/img/logo.png?v=201811071907"></a>
+                    <a class="navbar-brand navbar-brand-light" href="{{ url('/') }}"><img src="/img/logo_light.png?v=201811071907"></a>
                 </div>
             </div>
         </div>
