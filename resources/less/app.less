@@ -161,13 +161,31 @@ h2 {
   }
 
   .navbar-brand {
-    margin: 7px 0 8px 0;
+    margin: 9px 0 9px 0;
     display: inline-block;
+
+    @media @sm-up {
+      margin: 0;
+      position: relative;
+      top: 9px;
+    }
+
+    img {
+      height: 42px;
+
+      @media @sm-up {
+        height: 60px;
+      }
+    }
   }
 
   .navbar-brand-light {
     display: none;
-    margin-top: 22px;
+    margin-top: 24px;
+
+    @media @sm-up {
+      margin-top: 15px;
+    }
   }
 
   .nav-link {

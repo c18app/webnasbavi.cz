@@ -107,12 +107,32 @@ h2 .light {
   overflow: hidden;
 }
 .navbar .navbar-brand {
-  margin: 7px 0 8px 0;
+  margin: 9px 0 9px 0;
   display: inline-block;
+}
+@media (min-width: 576px) {
+  .navbar .navbar-brand {
+    margin: 0;
+    position: relative;
+    top: 9px;
+  }
+}
+.navbar .navbar-brand img {
+  height: 42px;
+}
+@media (min-width: 576px) {
+  .navbar .navbar-brand img {
+    height: 60px;
+  }
 }
 .navbar .navbar-brand-light {
   display: none;
-  margin-top: 22px;
+  margin-top: 24px;
+}
+@media (min-width: 576px) {
+  .navbar .navbar-brand-light {
+    margin-top: 15px;
+  }
 }
 .navbar .nav-link {
   font-weight: bold;
