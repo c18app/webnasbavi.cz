@@ -189,7 +189,7 @@
                 </h2>
                 <span class="wave"></span>
             </div>
-            <form class="contact-form">
+            <form class="contact-form" action="{{ route('ajax--napiste-nam') }}" method="post">
                 <label for="f-name">jméno</label>
                 <input type="text" name="name" id="f-name" class="text-input">
                 <label for="f-contact">e-mail, nebo telefon</label>
