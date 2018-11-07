@@ -46,10 +46,9 @@ body {
 a {
   text-decoration: none;
   background-color: transparent;
-}
-
-a:hover {
-  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 h1 {
@@ -374,41 +373,41 @@ h2 {
 
 .naladeni-content {
   margin-top: 35px;
-}
 
-.naladeni-content ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  margin-top: 35px;
-  text-align: center;
-}
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 35px;
+    text-align: center;
 
-.naladeni-content ul li {
-  width: auto;
-  margin-bottom: 35px;
-}
+    li {
+      width: auto;
+      margin-bottom: 35px;
 
-.naladeni-content ul li h3 {
-  margin: 0;
-  line-height: 1.2;
-  font-weight: bold;
-  font-size: 28px;
-  color: @color02;
-  position: relative;
-  padding-bottom: 8px;
-}
+      h3 {
+        margin: 0;
+        line-height: 1.2;
+        font-weight: bold;
+        font-size: 28px;
+        color: @color02;
+        position: relative;
+        padding-bottom: 8px;
+      }
 
-.naladeni-content ul li .line {
-  display: block;
-  background-color: @color01;
-  width: 42px;
-  height: 2px;
-  margin: 0 auto 5px auto;
-}
+      .line {
+        display: block;
+        background-color: @color01;
+        width: 42px;
+        height: 2px;
+        margin: 0 auto 5px auto;
+      }
 
-.naladeni-content ul li span.naladeni-text {
-  line-height: 1.5;
+      span.naladeni-text {
+        line-height: 1.5;
+      }
+    }
+  }
 }
 
 .nase-hodnoty {
@@ -420,118 +419,124 @@ h2 {
   color: @color01;
   display: inline-block;
   text-align: center;
-}
 
-.nase-hodnoty ul {
-  list-style-type: none;
-  font-size: 17px;
-  font-weight: bold;
-  margin-top: 25px;
-  padding-left: 20px;
-  text-align: left;
-}
+  ul {
+    list-style-type: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding-left: 20px;
+    text-align: left;
 
-.nase-hodnoty ul li {
-  background: transparent url("/img/hp/fajfka.png") 0 50% no-repeat;
-  padding-left: 30px;
-}
+    li {
+      background: transparent url("/img/hp/fajfka.png") 0 50% no-repeat;
+      padding-left: 30px;
+    }
+  }
 
-.nase-hodnoty .line-01 {
-  font-size: 28px;
-  line-height: 36px;
-}
+  .line-01 {
+    font-size: 28px;
+    line-height: 36px;
 
-.nase-hodnoty .line-01 span {
-  font-weight: bold;
+    span {
+      font-weight: bold;
+    }
+  }
 }
 
 .balicky {
   margin-top: 25px;
   text-align: center;
-}
 
-.balicky .box {
-  width: 100%;
-  max-width: 300px;
-  height: 380px;
-  box-shadow: 0px 8px 49px 14px rgba(232, 233, 235, 0.72);
-  text-align: center;
-  display: inline-block;
-  padding: 20px 20px;
-  margin-top: 25px;
-}
+  .box {
+    width: 100%;
+    max-width: 300px;
+    height: 380px;
+    box-shadow: 0px 8px 49px 14px rgba(232, 233, 235, 0.72);
+    text-align: center;
+    display: inline-block;
+    padding: 20px 20px;
+    margin-top: 25px;
 
-.balicky .box .line-01 {
-  font-size: 28px;
-  line-height: 1;
-}
+    .line-01 {
+      font-size: 28px;
+      line-height: 1;
+    }
 
-.balicky .box .line-02 {
-  font-size: 28px;
-  font-weight: bold;
-}
+    .line-02 {
+      font-size: 28px;
+      font-weight: bold;
+    }
 
-.balicky .box .line-03 {
-  font-size: 15px;
-  line-height: 2;
-  font-weight: 500;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+    .line-03 {
+      font-size: 15px;
+      line-height: 2;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
 
-.balicky .box .line-03 span {
-  color: @color03;
-}
+      span {
+        color: @color03;
+      }
+    }
 
-.balicky .box .icon-wrap {
-  width: 104px;
-  height: 104px;
-  border: 12px solid #f6f6f6;
-  border-radius: 50%;
-  margin: 25px auto 50px auto;
-}
+    .icon-wrap {
+      width: 104px;
+      height: 104px;
+      border: 12px solid #f6f6f6;
+      border-radius: 50%;
+      margin: 25px auto 50px auto;
+    }
 
-.balicky .box icon {
-  width: 100%;
-  height: 100%;
-}
+    icon {
+      width: 100%;
+      height: 100%;
+    }
 
-.balicky .box span.icon {
-  color: @color03;
-  line-height: 80px;
-  font-size: 42px;
-  text-shadow: 1px 1px 0px @color02;
-}
+    span.icon {
+      color: @color03;
+      line-height: 80px;
+      font-size: 42px;
+      text-shadow: 1px 1px 0px @color02;
+    }
 
-.balicky .box.box-01 span.icon {
-  position: relative;
-  top: 1px;
-  left: -2px;
-}
+    &.box-01 {
+      span.icon {
+        position: relative;
+        top: 1px;
+        left: -2px;
+      }
 
-.balicky .box.box-02 span.icon {
-  transform: rotate(-45deg);
-  position: relative;
-  left: 2px;
-}
+      div.icon {
+        background: transparent url("/img/hp/icon-01.png") 50% 50% no-repeat;
+      }
+    }
 
-.balicky .box.box-03 span.icon {
-  position: relative;
-  top: 2px;
-  left: -2px;
-}
+    &.box-02 {
+      span.icon {
+        transform: rotate(-45deg);
+        position: relative;
+        left: 2px;
+      }
 
-.balicky .box.box-01 div.icon {
-  background: transparent url("/img/hp/icon-01.png") 50% 50% no-repeat;
-}
+      div.icon {
+        background: transparent url("/img/hp/icon-02.png") 50% 50% no-repeat;
+      }
+    }
 
-.balicky .box.box-02 div.icon {
-  background: transparent url("/img/hp/icon-02.png") 50% 50% no-repeat;
-}
+    &.box-03 {
+      span.icon {
+        position: relative;
+        top: 2px;
+        left: -2px;
+      }
 
-.balicky .box.box-03 div.icon {
-  background: transparent url("/img/hp/icon-03.png") 50% 50% no-repeat;
+      div.icon {
+        background: transparent url("/img/hp/icon-03.png") 50% 50% no-repeat;
+      }
+    }
+  }
 }
 
 .offer {
@@ -544,10 +549,10 @@ h2 {
   padding-right: 40px;
   text-decoration: underline;
   display: inline-block;
-}
 
-.offer:hover {
-  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .ochutnavka-wrap {
