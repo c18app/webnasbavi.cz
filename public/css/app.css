@@ -212,6 +212,14 @@ h2 .light {
     margin-bottom: 75px;
   }
 }
+.btn-napiste-nam-wrap {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .btn-napiste-nam-wrap {
+    text-align: left;
+  }
+}
 .btn-napiste-nam {
   background-color: #171928;
   height: 60px;
@@ -229,7 +237,6 @@ h2 .light {
 @media (min-width: 576px) {
   .btn-napiste-nam {
     width: auto;
-    text-align: left;
   }
 }
 .arrow-down-wrap {
@@ -285,7 +292,7 @@ h2 .light {
   color: #ffffff;
   text-align: center;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .naladeni-wrap {
     text-align: left;
   }
@@ -323,7 +330,7 @@ h2 .light {
 .naladeni-content ul li span.naladeni-text {
   line-height: 1.5;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .naladeni-content {
     margin-top: 0;
   }
@@ -370,16 +377,12 @@ h2 .light {
 .nase-hodnoty .line-01 span {
   font-weight: bold;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .nase-hodnoty {
     width: 270px;
-    margin-right: 50px;
-    float: left;
-  }
-}
-@media (min-width: 768px) {
-  .nase-hodnoty {
     text-align: left;
+    float: left;
+    margin-right: 50px;
   }
 }
 @media (min-width: 1200px) {
@@ -461,7 +464,7 @@ h2 .light {
 .balicky .box.box-03 div.icon {
   background: transparent url("/img/hp/icon-03.png") 50% 50% no-repeat;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .balicky {
     margin-top: 75px;
     text-align: left;
@@ -497,13 +500,24 @@ h2 .light {
 }
 .ochutnavka-wrap {
   margin-top: 50px;
-  background: transparent url("/svg/hp/ochutnavka-top-ellipse-600.svg") 0 0 no-repeat;
+  background: #171928 url("/svg/hp/ochutnavka-top-ellipse-600.svg") 0 0 no-repeat;
   width: 100%;
   padding-top: 80px;
 }
 @media (min-width: 576px) {
   .ochutnavka-wrap {
+    background: #171928 url("/svg/hp/ochutnavka-top-ellipse-800.svg") 0 0 no-repeat;
+  }
+}
+@media (min-width: 768px) {
+  .ochutnavka-wrap {
+    background: #171928 url("/svg/hp/ochutnavka-top-ellipse-1000.svg") 0 0 no-repeat;
+  }
+}
+@media (min-width: 992px) {
+  .ochutnavka-wrap {
     margin-top: 100px;
+    background: #171928 url("/svg/hp/ochutnavka-top-ellipse.svg") 50% 0 no-repeat;
   }
 }
 .reference-wrap {
@@ -652,9 +666,6 @@ ul.reference .company {
   color: #da143e !important;
 }
 @media (min-width: 576px) {
-  .form-wrap {
-    padding-top: 0;
-  }
   .form-wrap .contact-form {
     margin-top: 75px;
   }
@@ -694,7 +705,7 @@ ul.reference .company {
   margin-top: 15px;
   margin-bottom: 35px;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .footer .content-01 {
     width: 500px;
   }
@@ -758,7 +769,7 @@ ul.reference .company {
 .footer .content-03 .line-04 a {
   color: #ffffff;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .footer .content-01 .line-01 {
     font-size: 45px;
     text-align: left;
@@ -893,23 +904,29 @@ ul.reference .company {
 }
 @media (min-width: 576px) {
   #hp .pre-header {
-    text-align: left;
-    color: #171928;
     font-size: 44px;
-    line-height: 100%;
+  }
+}
+@media (min-width: 992px) {
+  #hp .pre-header {
+    text-align: left;
     margin-bottom: 0px;
   }
 }
 #hp h1 {
+  font-weight: bold;
+  color: #da143e;
+  line-height: 120%;
   margin-bottom: 30px;
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
+  #hp h1 {
+    font-size: 74px;
+  }
+}
+@media (min-width: 992px) {
   #hp h1 {
     text-align: left;
-    color: #da143e;
-    font-size: 74px;
-    line-height: 120%;
-    font-weight: bold;
   }
 }
 #hp .top-block {
@@ -922,7 +939,7 @@ ul.reference .company {
 #hp .footer-top-block {
   background-color: #171928;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   #hp .naladeni-content h2 {
     text-align: left;
   }

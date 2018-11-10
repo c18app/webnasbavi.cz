@@ -284,6 +284,14 @@ h2 {
   }
 }
 
+.btn-napiste-nam-wrap {
+  text-align: center;
+
+  @media @lg-up {
+    text-align: left;
+  }
+}
+
 .btn-napiste-nam {
   background-color: @color02;
   height: 60px;
@@ -300,7 +308,6 @@ h2 {
 
   @media @sm-up {
     width: auto;
-    text-align: left;
   }
 }
 
@@ -361,7 +368,7 @@ h2 {
   color: @color01;
   text-align: center;
 
-  @media @sm-up {
+  @media @lg-up {
     text-align: left;
   }
 }
@@ -404,7 +411,7 @@ h2 {
     }
   }
 
-  @media @sm-up {
+  @media @lg-up {
     margin-top: 0;
     ul {
       text-align: left;
@@ -455,14 +462,11 @@ h2 {
     }
   }
 
-  @media @sm-up {
+  @media @lg-up {
     width: 270px;
-    margin-right: 50px;
-    float: left;
-  }
-
-  @media @md-up {
     text-align: left;
+    float: left;
+    margin-right: 50px;
   }
 
   @media @xl-up {
@@ -564,7 +568,7 @@ h2 {
     }
   }
 
-  @media @sm-up {
+  @media @lg-up {
     margin-top: 75px;
     text-align: left;
     .box {
@@ -601,12 +605,21 @@ h2 {
 
 .ochutnavka-wrap {
   margin-top: 50px;
-  background: transparent url("/svg/hp/ochutnavka-top-ellipse-600.svg") 0 0 no-repeat;
+  background: #171928 url("/svg/hp/ochutnavka-top-ellipse-600.svg") 0 0 no-repeat;
   width: 100%;
   padding-top: 80px;
 
   @media @sm-up {
+    background: #171928 url("/svg/hp/ochutnavka-top-ellipse-800.svg") 0 0 no-repeat;
+  }
+
+  @media @md-up {
+    background: #171928 url("/svg/hp/ochutnavka-top-ellipse-1000.svg") 0 0 no-repeat;
+  }
+
+  @media @lg-up {
     margin-top: 100px;
+    background: #171928 url("/svg/hp/ochutnavka-top-ellipse.svg") 50% 0 no-repeat;
   }
 }
 
@@ -776,7 +789,6 @@ ul.reference {
   }
 
   @media @sm-up {
-    padding-top: 0;
     .contact-form {
       margin-top: 75px;
     }
@@ -821,7 +833,7 @@ ul.reference {
       margin-bottom: 35px;
     }
 
-    @media @sm-up {
+    @media @lg-up {
       width: 500px;
     }
   }
@@ -891,7 +903,7 @@ ul.reference {
     }
   }
 
-  @media @sm-up {
+  @media @lg-up {
     .content-01 .line-01 {
       font-size: 45px;
       text-align: left;

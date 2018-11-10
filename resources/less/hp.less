@@ -8,23 +8,27 @@
     margin-bottom: 8px;
 
     @media @sm-up {
-      text-align: left;
-      color: @color02;
       font-size: 44px;
-      line-height: 100%;
+    }
+
+    @media @lg-up {
+      text-align: left;
       margin-bottom: 0px;
     }
   }
 
   h1 {
+    font-weight: bold;
+    color: @color03;
+    line-height: 120%;
     margin-bottom: 30px;
 
-    @media @sm-up {
-      text-align: left;
-      color: @color03;
+    @media @md-up {
       font-size: 74px;
-      line-height: 120%;
-      font-weight: bold;
+    }
+
+    @media @lg-up {
+      text-align: left;
     }
   }
 
@@ -41,7 +45,7 @@
     background-color: @color02;
   }
 
-  @media @sm-up {
+  @media @lg-up {
     .naladeni-content h2 {
       text-align: left;
     }

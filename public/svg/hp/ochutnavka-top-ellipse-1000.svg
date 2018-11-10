@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" style="background-color: #fff;">
+    <defs>
+        <style>
+            .cls-1 {
+            fill: #171928;
+            }
+        </style>
+    </defs>
+
+    <path class="cls-1" d="M 0 150 A 2336 1599 0 0 1 1000 0 v150 h-1920"></path>
+</svg>

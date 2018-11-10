@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 btn-napiste-nam-wrap">
                 <a href="javascript:void(0);" class="btn-napiste-nam">napište nám</a>
             </div>
         </div>
