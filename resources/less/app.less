@@ -605,21 +605,25 @@ h2 {
 
 .ochutnavka-wrap {
   margin-top: 50px;
-  background: #171928 url("/svg/hp/ochutnavka-top-ellipse-600.svg") 0 0 no-repeat;
+  background: #171928 url("/svg/hp/ochutnavka-top-ellipse.svg") 50% -90px no-repeat;
   width: 100%;
   padding-top: 80px;
 
   @media @sm-up {
-    background: #171928 url("/svg/hp/ochutnavka-top-ellipse-800.svg") 0 0 no-repeat;
+    background-position-y: -70px;
   }
 
   @media @md-up {
-    background: #171928 url("/svg/hp/ochutnavka-top-ellipse-1000.svg") 0 0 no-repeat;
+    background-position-y: -50px;
   }
 
   @media @lg-up {
     margin-top: 100px;
-    background: #171928 url("/svg/hp/ochutnavka-top-ellipse.svg") 50% 0 no-repeat;
+    background-position-y: -30px;
+  }
+
+  @media @xl-up {
+    background-position-y: 0px;
   }
 }
 

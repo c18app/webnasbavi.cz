@@ -500,24 +500,29 @@ h2 .light {
 }
 .ochutnavka-wrap {
   margin-top: 50px;
-  background: #171928 url("/svg/hp/ochutnavka-top-ellipse-600.svg") 0 0 no-repeat;
+  background: #171928 url("/svg/hp/ochutnavka-top-ellipse.svg") 50% -90px no-repeat;
   width: 100%;
   padding-top: 80px;
 }
 @media (min-width: 576px) {
   .ochutnavka-wrap {
-    background: #171928 url("/svg/hp/ochutnavka-top-ellipse-800.svg") 0 0 no-repeat;
+    background-position-y: -70px;
   }
 }
 @media (min-width: 768px) {
   .ochutnavka-wrap {
-    background: #171928 url("/svg/hp/ochutnavka-top-ellipse-1000.svg") 0 0 no-repeat;
+    background-position-y: -50px;
   }
 }
 @media (min-width: 992px) {
   .ochutnavka-wrap {
     margin-top: 100px;
-    background: #171928 url("/svg/hp/ochutnavka-top-ellipse.svg") 50% 0 no-repeat;
+    background-position-y: -30px;
+  }
+}
+@media (min-width: 1200px) {
+  .ochutnavka-wrap {
+    background-position-y: 0px;
   }
 }
 .reference-wrap {
