@@ -49,24 +49,27 @@
     <div class="container nas-tym">
         <div class="row">
             <div class="col-12 col-lg-4 clen-tymu">
-                <img src="/img/pages/o-nas/michalnosavcov.png" style="max-width: 100%">
+                <img src="/img/pages/o-nas/michalnosavcov.png">
                 <span class="jmeno">Michal</span>
                 <span class="funkce">vývojář &amp; zakladatel</span>
                 <span class="popis">Jedničky a nuly skládá už od čtrnácti. Od té doby vytváří weby nejen pro kominíky, ale několik let se podílel i na vývoji portálu Economia.</span>
+                <div></div>
                 <span class="motto">musíš jít po cestě jako muž, kterému hoří hlava a hledá vodu</span>
             </div>
             <div class="col-12 col-lg-4 clen-tymu">
-                <img src="/img/pages/o-nas/jitkahermankova.png" style="max-width: 100%">
+                <img src="/img/pages/o-nas/jitkahermankova.png">
                 <span class="jmeno">Jitka</span>
                 <span class="funkce">copywriterka &amp; marketing</span>
                 <span class="popis">Dává projektům řád a vdechuje jim život. Zároveň se stará o naše klienty a hledá kreativní řešení v každé situaci.</span>
+                <div></div>
                 <span class="motto">Lorem Ipsum je demonstrativní výplňový text používaný v tiskařském a knihařském průmyslu</span>
             </div>
             <div class="col-12 col-lg-4 clen-tymu">
-                <img src="/img/pages/o-nas/ondrejkormos.png" style="max-width: 100%">
+                <img src="/img/pages/o-nas/ondrejkormos.png">
                 <span class="jmeno">Ondra</span>
                 <span class="funkce">UX &amp; webdesignér</span>
                 <span class="popis">Webovému designu se věnuje přes deset let. V jeho práci se odráží čistota, smysl pro detail a preciznost.</span>
+                <div></div>
                 <span class="motto">Lorem Ipsum je demonstrativní výplňový text používaný v tiskařském a knihařském průmyslu</span>
             </div>
         </div>

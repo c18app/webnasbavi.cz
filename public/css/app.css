@@ -12,14 +12,21 @@ a:hover {
 }
 h1 {
   margin-top: 0;
-  font-weight: 500;
   text-align: center;
-  color: #171928;
-  font-size: 32px;
   margin-bottom: 0px;
   color: #da143e;
   font-size: 44px;
   font-weight: bold;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 74px;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    text-align: left;
+  }
 }
 h2 {
   text-align: center;
@@ -955,20 +962,8 @@ ul.reference .company {
   }
 }
 #hp h1 {
-  font-weight: bold;
-  color: #da143e;
   line-height: 120%;
   margin-bottom: 30px;
-}
-@media (min-width: 768px) {
-  #hp h1 {
-    font-size: 74px;
-  }
-}
-@media (min-width: 992px) {
-  #hp h1 {
-    text-align: left;
-  }
 }
 #hp .top-block {
   background: #da143e url("/img/hp/krivka-top.png") 50% 0px no-repeat;
@@ -996,6 +991,16 @@ ul.reference .company {
   padding-top: 145px;
   color: #ffffff;
 }
+@media (min-width: 992px) {
+  #page .top-block-content {
+    padding-top: 190px;
+  }
+}
+@media (min-width: 992px) {
+  #page .header {
+    text-align: left;
+  }
+}
 .o-nas .top-block .top-block-content {
   color: #ffffff;
   text-align: center;
@@ -1008,7 +1013,7 @@ ul.reference .company {
   width: 100%;
   line-height: 1.5;
   margin-top: 35px;
-  margin-bottom: 55px;
+  margin-bottom: 35px;
 }
 .o-nas .top-block .top-block-content .popis strong {
   font-weight: bold;
@@ -1019,6 +1024,11 @@ ul.reference .company {
   display: inline-block;
   margin-bottom: 10px;
   width: 100%;
+}
+@media (min-width: 992px) {
+  .o-nas .top-block .top-block-content .cislo {
+    margin-top: 20px;
+  }
 }
 .o-nas .top-block .top-block-content .text {
   font-size: 15px;
@@ -1032,6 +1042,15 @@ ul.reference .company {
 .o-nas .nas-tym .clen-tymu {
   margin-top: 75px;
   text-align: center;
+}
+.o-nas .nas-tym .clen-tymu img {
+  max-width: 100%;
+}
+@media (min-width: 992px) {
+  .o-nas .nas-tym .clen-tymu {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 .o-nas .nas-tym .jmeno {
   color: #171928;
@@ -1057,6 +1076,7 @@ ul.reference .company {
   display: inline-block;
   line-height: 1.5;
   width: 100%;
+  max-width: 330px;
 }
 .o-nas .nas-tym .motto {
   color: #171928;
@@ -1065,5 +1085,6 @@ ul.reference .company {
   margin-top: 30px;
   display: inline-block;
   width: 100%;
+  max-width: 330px;
 }
 /*# sourceMappingURL=app.css.map */

@@ -12,7 +12,7 @@
         width: 100%;
         line-height: 1.5;
         margin-top: 35px;
-        margin-bottom: 55px;
+        margin-bottom: 35px;
 
         strong {
           font-weight: bold;
@@ -25,6 +25,10 @@
         display: inline-block;
         margin-bottom: 10px;
         width: 100%;
+
+        @media @lg-up {
+          margin-top: 20px;
+        }
       }
 
       .text {
@@ -42,6 +46,15 @@
     .clen-tymu {
       margin-top: 75px;
       text-align: center;
+
+      img {
+        max-width: 100%
+      }
+
+      @media @lg-up {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
     }
 
     .jmeno {
@@ -70,6 +83,7 @@
       display: inline-block;
       line-height: 1.5;
       width: 100%;
+      max-width: 330px;
     }
 
     .motto {
@@ -79,6 +93,7 @@
       margin-top: 30px;
       display: inline-block;
       width: 100%;
+      max-width: 330px;
     }
   }
 }
