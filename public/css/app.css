@@ -140,6 +140,11 @@ h2 .light {
 .navbar .navbar-nav .nav-item {
   line-height: 30px;
 }
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    padding-top: 0;
+  }
+}
 .navbar .navbar-button {
   width: 42px;
   height: 42px;
@@ -500,24 +505,24 @@ h2 .light {
 }
 .ochutnavka-wrap {
   margin-top: 50px;
-  background: #171928 url("/img/hp/ochutnavka-top-ellipse.png") 50% -90px no-repeat;
+  background: #171928 url("/img/hp/ochutnavka-top-ellipse.png") 50% -60px no-repeat;
   width: 100%;
-  padding-top: 80px;
+  padding-top: 120px;
 }
 @media (min-width: 576px) {
   .ochutnavka-wrap {
-    background-position-y: -70px;
+    background-position-y: -40px;
   }
 }
 @media (min-width: 768px) {
   .ochutnavka-wrap {
-    background-position-y: -50px;
+    background-position-y: -20px;
   }
 }
 @media (min-width: 992px) {
   .ochutnavka-wrap {
     margin-top: 100px;
-    background-position-y: -30px;
+    background-position-y: 0px;
   }
 }
 @media (min-width: 1200px) {
@@ -676,9 +681,32 @@ ul.reference .company {
   }
 }
 .footer-top-block {
-  background: transparent url("/img/footer-block.png") 50% 75px no-repeat;
+  background: transparent url("/img/footer-block.png") 50% 120px no-repeat;
   width: 100%;
-  height: 125px;
+  height: 180px;
+}
+@media (min-width: 576px) {
+  .footer-top-block {
+    height: 180px;
+    background-position-y: 120px;
+  }
+}
+@media (min-width: 768px) {
+  .footer-top-block {
+    height: 190px;
+    background-position-y: 120px;
+  }
+}
+@media (min-width: 992px) {
+  .footer-top-block {
+    background-position-y: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-top-block {
+    height: 270px;
+    background-position-y: 110px;
+  }
 }
 .footer {
   background-color: #11121f;
@@ -785,13 +813,13 @@ ul.reference .company {
     text-align: left;
   }
   .footer .content-02 {
-    width: 250px;
+    width: 170px;
   }
   .footer .content-02 ul {
     text-align: left;
   }
   .footer .content-03 {
-    width: 300px;
+    width: 250px;
     text-align: left;
   }
   .footer .content-03 .line-01 {
@@ -803,6 +831,14 @@ ul.reference .company {
   }
   .footer .content-03 .line-03 {
     margin-bottom: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer .content-02 {
+    width: 250px;
+  }
+  .footer .content-03 {
+    width: 300px;
   }
 }
 .bottom {

@@ -199,6 +199,10 @@ h2 {
     .nav-item {
       line-height: 30px;
     }
+
+    @media @md-up {
+      padding-top: 0;
+    }
   }
 
   .navbar-button {
@@ -605,21 +609,21 @@ h2 {
 
 .ochutnavka-wrap {
   margin-top: 50px;
-  background: #171928 url("/img/hp/ochutnavka-top-ellipse.png") 50% -90px no-repeat;
+  background: #171928 url("/img/hp/ochutnavka-top-ellipse.png") 50% -60px no-repeat;
   width: 100%;
-  padding-top: 80px;
+  padding-top: 120px;
 
   @media @sm-up {
-    background-position-y: -70px;
+    background-position-y: -40px;
   }
 
   @media @md-up {
-    background-position-y: -50px;
+    background-position-y: -20px;
   }
 
   @media @lg-up {
     margin-top: 100px;
-    background-position-y: -30px;
+    background-position-y: 0px;
   }
 
   @media @xl-up {
@@ -800,9 +804,28 @@ ul.reference {
 }
 
 .footer-top-block {
-  background: transparent url("/img/footer-block.png") 50% 75px no-repeat;
+  background: transparent url("/img/footer-block.png") 50% 120px no-repeat;
   width: 100%;
-  height: 125px;
+  height: 180px;
+
+  @media @sm-up {
+    height: 180px;
+    background-position-y: 120px;
+  }
+
+  @media @md-up {
+    height: 190px;
+    background-position-y: 120px;
+  }
+
+  @media @lg-up {
+    background-position-y: 100px;
+  }
+
+  @media @xl-up {
+    height:270px;
+    background-position-y: 110px;
+  }
 }
 
 .footer {
@@ -920,14 +943,14 @@ ul.reference {
     }
 
     .content-02 {
-      width: 250px;
+      width: 170px;
       ul {
         text-align: left;
       }
     }
 
     .content-03 {
-      width: 300px;
+      width: 250px;
       text-align: left;
 
       .line-01 {
@@ -942,6 +965,16 @@ ul.reference {
       .line-03 {
         margin-bottom: 0px;
       }
+    }
+  }
+
+  @media @xl-up {
+    .content-02 {
+      width: 250px;
+    }
+
+    .content-03 {
+      width: 300px;
     }
   }
 }
