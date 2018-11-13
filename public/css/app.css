@@ -1154,6 +1154,100 @@ ul.reference .company {
     text-align: left;
   }
 }
+#page.kontakt .mate-zajem {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 2;
+}
+#page.kontakt .kontakty-info {
+  text-align: center;
+  margin-top: 150px;
+}
+#page.kontakt .kontakty-info h3 {
+  font-size: 45px;
+  margin: 0;
+}
+#page.kontakt .kontakty-info .obsah {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 2;
+}
+#page.kontakt .kontakty-info .obsah .ic {
+  font-weight: normal;
+  display: inline-block;
+  margin-top: 15px;
+}
+#page.kontakt .kontakty-info .obsah .email {
+  font-size: 28px;
+  font-weight: bold;
+  color: #da143e;
+  display: inline-block;
+}
+#page.kontakt .kontakty-info .obsah .phone {
+  font-size: 17px;
+  font-weight: bold;
+  background: transparent url(/img/hp/phone-ico.png?v=2) 0 50% no-repeat;
+  padding-left: 40px;
+  display: inline-block;
+}
+#page.kontakt .kontakty-info .obsah .phone .predcisli {
+  font-weight: normal;
+}
+#page.kontakt .kontakty-info .info-item {
+  margin-bottom: 100px;
+}
+#page.kontakt .kontakty-info .info-item:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  #page.kontakt .kontakty-info .info-item {
+    margin-bottom: 0px;
+  }
+}
+#page.kontakt .kontakty-info .jsme-na-sitich {
+  margin: 25px auto 0 auto;
+  background: transparent url(/img/pages/kontakt/site-bg.png?v=2) 0 0 no-repeat;
+  width: 271px;
+  height: 270px;
+  padding-top: 75px;
+}
+#page.kontakt .kontakty-info .jsme-na-sitich a {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  height: 44px;
+  line-height: 44px;
+  margin-bottom: 15px;
+  padding-left: 45px;
+  width: 200px;
+}
+#page.kontakt .kontakty-info .jsme-na-sitich a .fb {
+  float: right;
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  background: transparent url(/img/hp/fb-ico.png?v=2) 0 -44px no-repeat;
+}
+#page.kontakt .kontakty-info .jsme-na-sitich a .in {
+  float: right;
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  background: transparent url(/img/hp/in-ico.png?v=2) 0 -44px no-repeat;
+}
+@media (min-width: 992px) {
+  #page.kontakt .kontakty-info .jsme-na-sitich {
+    margin: 25px 0 0 0;
+  }
+}
+@media (min-width: 992px) {
+  #page.kontakt .kontakty-info {
+    text-align: left;
+  }
+}
 #page.ochrana-osobnich-udaju .header {
   line-height: 1.5;
 }

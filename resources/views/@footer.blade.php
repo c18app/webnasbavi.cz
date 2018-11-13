@@ -8,8 +8,8 @@
         </div>
         <div class="content-02">
             <ul>
-                <li><a href="https://www.facebook.com/WebNasBavi/" target="_blank"><span class="fb"></span></a></li>
-                <li><a href="https://www.instagram.com/webnasbavi/" target="_blank"><span class="in"></span></a></li>
+                <li><a href="{{ config('wnb.fb_link') }}" target="_blank"><span class="fb"></span></a></li>
+                <li><a href="{{ config('wnb.in_link') }}" target="_blank"><span class="in"></span></a></li>
             </ul>
         </div>
         <div class="content-03">

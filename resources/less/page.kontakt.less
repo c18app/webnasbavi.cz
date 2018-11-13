@@ -24,4 +24,108 @@
       }
     }
   }
+
+  .mate-zajem {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  .kontakty-info {
+    text-align: center;
+    margin-top: 150px;
+
+    h3 {
+      font-size: 45px;
+      margin: 0;
+    }
+
+    .obsah {
+      margin-top: 25px;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 2;
+
+      .ic {
+        font-weight: normal;
+        display: inline-block;
+        margin-top: 15px;
+      }
+
+      .email {
+        font-size: 28px;
+        font-weight: bold;
+        color: @color03;
+        display: inline-block;
+      }
+
+      .phone {
+        font-size: 17px;
+        font-weight: bold;
+        background: transparent url(/img/hp/phone-ico.png?v=2) 0 50% no-repeat;
+        padding-left: 40px;
+        display: inline-block;
+
+        .predcisli {
+          font-weight: normal;
+        }
+      }
+    }
+
+    .info-item {
+      margin-bottom: 100px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      @media @lg-up {
+        margin-bottom: 0px;
+      }
+    }
+
+    .jsme-na-sitich {
+      margin: 25px auto 0 auto;
+      background: transparent url(/img/pages/kontakt/site-bg.png?v=2) 0 0 no-repeat;
+      width: 271px;
+      height: 270px;
+      padding-top: 75px;
+
+      a {
+        display: block;
+        font-size: 15px;
+        font-weight: bold;
+        color: @color01;
+        height: 44px;
+        line-height: 44px;
+        margin-bottom: 15px;
+        padding-left: 45px;
+        width: 200px;
+
+        .fb {
+          float: right;
+          display: inline-block;
+          height: 44px;
+          width: 44px;
+          background: transparent url(/img/hp/fb-ico.png?v=2) 0 -44px no-repeat;
+        }
+        .in {
+          float: right;
+          display: inline-block;
+          height: 44px;
+          width: 44px;
+          background: transparent url(/img/hp/in-ico.png?v=2) 0 -44px no-repeat;
+        }
+      }
+
+      @media @lg-up {
+        margin: 25px 0 0 0;
+      }
+    }
+
+    @media @lg-up {
+      text-align: left;
+    }
+  }
 }

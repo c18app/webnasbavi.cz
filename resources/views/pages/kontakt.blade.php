@@ -33,31 +33,37 @@
         <h2>máte zájem?</h2><span class="wave"></span>
 
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 mate-zajem">
                 Pište, nebo volejte. Rádi se sejdeme u kávy. Budeme se těšit,<br>že společně vytvoříme něco úžasného.
             </div>
         </div>
     </div>
 
-    <div class="container nas-tym">
+    <div class="container kontakty-info">
         <div class="row">
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-4 info-item">
                 <h3>provozovatel</h3><span class="wave"></span>
-                <div>
+                <div class="obsah">
                     Michal Nosavcov<br>
                     Nad Babím dolem 401<br>
                     25&nbsp;64&nbsp;Měšice<br>
-                    <span>IČ: 64845915</span>
+                    <span class="ic">IČ: 64845915</span>
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-4 info-item">
                 <h3>kontakty</h3><span class="wave"></span>
-                <div>Objednávky a dotazy</div>
-                <a href="mailto:info@wnb.cz">info@wnb.cz</a>
-                <span>+420&nbsp;773&nbsp;252&nbsp;999</span>
+                <div class="obsah">
+                    Objednávky a dotazy<br>
+                    <a href="mailto:info@wnb.cz" class="email">info@wnb.cz</a><br>
+                    <span class="phone"><span class="predcisli">+420</span>&nbsp;773&nbsp;252&nbsp;999</span>
+                </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-4 info-item">
                 <h3>jsme na sítích</h3><span class="wave"></span>
+                <div class="jsme-na-sitich">
+                    <a href="{{ config('wnb.fb_link') }}" target="_blank">facebook:<span class="fb"></span></a>
+                    <a href="{{ config('wnb.in_link') }}" target="_blank">instagram:<span class="in"></span></a>
+                </div>
             </div>
         </div>
     </div>
