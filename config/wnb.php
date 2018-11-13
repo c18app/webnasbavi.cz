@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'pocet_projektu' => 37,
-    'pocet_klientu' => 26
+    'pocet_projektu' => 38,
+    'pocet_klientu' => 27
 ];

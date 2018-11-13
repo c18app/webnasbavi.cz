@@ -871,6 +871,35 @@ ul.reference .company {
 .bottom span a {
   color: #ffffff;
 }
+.eu-cookies {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: #ffffff;
+  background-color: #da143e;
+  z-index: 1000;
+  padding: 0.5rem 0;
+  line-height: 1.25;
+  font-size: 14px;
+}
+.eu-cookies button {
+  background: #171928;
+  color: #ffffff;
+  border: none;
+  padding: 0px 10px;
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.eu-cookies a {
+  font-weight: bold;
+  color: #171928;
+}
 /*jssor slider loading skin spin css*/
 #jssor_1 {
   box-shadow: 0px 8px 49px 14px rgba(23, 22, 20, 0.18);

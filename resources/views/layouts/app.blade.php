@@ -42,5 +42,7 @@
 </div>
 
 <script src="{{ asset('js/app.js') }}?v={{ env('VERSION', time()) }}" defer></script>
+
+@include('other.cookies')
 </body>
 </html>
