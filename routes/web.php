@@ -14,9 +14,9 @@
 Route::view('/', 'hp')->name('homepage');
 Route::post('/ajax/napiste-nam', 'ajaxController@napisteNam')->name('ajax--napiste-nam');
 Route::view('o-nas', 'pages.o-nas')->name('o-nas');
-Route::view('cenik', 'hp')->name('cenik');
-Route::view('projekty', 'hp')->name('projekty');
-Route::view('kontakt', 'hp')->name('kontakt');
+Route::view('cenik', 'pages.cenik')->name('cenik');
+Route::view('projekty', 'pages.projekty')->name('projekty');
+Route::view('kontakt', 'pages.kontakt')->name('kontakt');
 Route::view('ochrana-osobnich-udaju', 'pages.ochrana-osobnich-udaju')->name('ochrana-osobnich-udaju');
 
 Auth::routes();

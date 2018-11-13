@@ -1047,6 +1047,11 @@ ul.reference .company {
 #page.o-nas .top-block .top-block-content .popis strong {
   font-weight: bold;
 }
+@media (min-width: 992px) {
+  #page.o-nas .top-block .top-block-content .popis {
+    text-align: left;
+  }
+}
 #page.o-nas .top-block .top-block-content .cislo {
   font-size: 45px;
   font-weight: bold;
@@ -1131,6 +1136,28 @@ ul.reference .company {
   margin-top: 50px;
   margin-bottom: 75px;
   line-height: 1.5;
+}
+#page.kontakt .top-block .top-block-content {
+  color: #ffffff;
+  text-align: center;
+}
+#page.kontakt .top-block .top-block-content .popis {
+  font-size: 28px;
+  font-weight: 100;
+  margin-top: 25px;
+  display: inline-block;
+  width: 100%;
+  line-height: 1.5;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+#page.kontakt .top-block .top-block-content .popis strong {
+  font-weight: bold;
+}
+@media (min-width: 992px) {
+  #page.kontakt .top-block .top-block-content .popis {
+    text-align: left;
+  }
 }
 #page.ochrana-osobnich-udaju .header {
   line-height: 1.5;
