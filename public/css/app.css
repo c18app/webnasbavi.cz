@@ -768,11 +768,11 @@ ul.reference .company {
   display: inline-block;
 }
 .footer .content-02 ul li span.fb {
-  background: transparent url("/img/hp/fb-ico.png") 0 0 no-repeat;
+  background: transparent url("/img/hp/fb-ico.png?v=2") 0 0 no-repeat;
   margin-right: 15px;
 }
 .footer .content-02 ul li span.in {
-  background: transparent url("/img/hp/in-ico.png") 0 0 no-repeat;
+  background: transparent url("/img/hp/in-ico.png?v=2") 0 0 no-repeat;
 }
 .footer .content-02 ul li a:hover span {
   background-position: 0 -44px;
@@ -797,7 +797,7 @@ ul.reference .company {
   font-size: 28px;
   font-weight: bold;
   color: #da143e;
-  background: transparent url("/img/hp/phone-ico.png") 0 50% no-repeat;
+  background: transparent url("/img/hp/phone-ico.png?v=2") 0 50% no-repeat;
   padding-left: 40px;
   margin-bottom: 8px;
   display: inline-block;
@@ -863,10 +863,12 @@ ul.reference .company {
 }
 .bottom span .heart {
   display: inline-block;
-  background: transparent url("/img/hp/heart-ico.png?v=2") 0 50% no-repeat;
+  background: transparent url("/img/hp/heart-ico.png?v=2") 0 0 no-repeat;
   width: 17px;
-  height: 16px;
+  height: 17px;
   margin: 0;
+  position: relative;
+  top: 2px;
 }
 .bottom span a {
   color: #ffffff;

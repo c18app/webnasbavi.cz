@@ -887,12 +887,12 @@ ul.reference {
           display: inline-block;
 
           &.fb {
-            background: transparent url("/img/hp/fb-ico.png") 0 0 no-repeat;
+            background: transparent url("/img/hp/fb-ico.png?v=2") 0 0 no-repeat;
             margin-right: 15px;
           }
 
           &.in {
-            background: transparent url("/img/hp/in-ico.png") 0 0 no-repeat;
+            background: transparent url("/img/hp/in-ico.png?v=2") 0 0 no-repeat;
           }
         }
 
@@ -923,7 +923,7 @@ ul.reference {
       font-size: 28px;
       font-weight: bold;
       color: @color03;
-      background: transparent url("/img/hp/phone-ico.png") 0 50% no-repeat;
+      background: transparent url("/img/hp/phone-ico.png?v=2") 0 50% no-repeat;
       padding-left: 40px;
       margin-bottom: 8px;
       display: inline-block;
@@ -1000,10 +1000,12 @@ ul.reference {
     color: #c9cce0;
     .heart {
       display: inline-block;
-      background: transparent url("/img/hp/heart-ico.png?v=2") 0 50% no-repeat;
+      background: transparent url("/img/hp/heart-ico.png?v=2") 0 0 no-repeat;
       width: 17px;
-      height: 16px;
+      height: 17px;
       margin: 0;
+      position: relative;
+      top: 2px;
     }
     a {
       color: @color01;
