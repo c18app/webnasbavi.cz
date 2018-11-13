@@ -1030,11 +1030,11 @@ ul.reference .company {
     text-align: left;
   }
 }
-.o-nas .top-block .top-block-content {
+#page.o-nas .top-block .top-block-content {
   color: #ffffff;
   text-align: center;
 }
-.o-nas .top-block .top-block-content .popis {
+#page.o-nas .top-block .top-block-content .popis {
   font-size: 28px;
   font-weight: 100;
   margin-top: 25px;
@@ -1044,10 +1044,10 @@ ul.reference .company {
   margin-top: 35px;
   margin-bottom: 35px;
 }
-.o-nas .top-block .top-block-content .popis strong {
+#page.o-nas .top-block .top-block-content .popis strong {
   font-weight: bold;
 }
-.o-nas .top-block .top-block-content .cislo {
+#page.o-nas .top-block .top-block-content .cislo {
   font-size: 45px;
   font-weight: bold;
   display: inline-block;
@@ -1055,36 +1055,36 @@ ul.reference .company {
   width: 100%;
 }
 @media (min-width: 992px) {
-  .o-nas .top-block .top-block-content .cislo {
+  #page.o-nas .top-block .top-block-content .cislo {
     margin-top: 20px;
   }
 }
-.o-nas .top-block .top-block-content .text {
+#page.o-nas .top-block .top-block-content .text {
   font-size: 15px;
   font-weight: bold;
   display: inline-block;
   width: 100%;
 }
-.o-nas .nas-tym {
+#page.o-nas .nas-tym {
   margin-bottom: 100px;
 }
-.o-nas .nas-tym .clen-tymu {
+#page.o-nas .nas-tym .clen-tymu {
   margin-top: 75px;
   text-align: center;
 }
-.o-nas .nas-tym .clen-tymu .img-wrap {
+#page.o-nas .nas-tym .clen-tymu .img-wrap {
   min-height: 275px;
 }
-.o-nas .nas-tym .clen-tymu img {
+#page.o-nas .nas-tym .clen-tymu img {
   max-width: 100%;
 }
 @media (min-width: 992px) {
-  .o-nas .nas-tym .clen-tymu {
+  #page.o-nas .nas-tym .clen-tymu {
     padding-left: 30px;
     padding-right: 30px;
   }
 }
-.o-nas .nas-tym .jmeno {
+#page.o-nas .nas-tym .jmeno {
   color: #171928;
   font-size: 28px;
   font-weight: bold;
@@ -1092,7 +1092,7 @@ ul.reference .company {
   display: inline-block;
   width: 100%;
 }
-.o-nas .nas-tym .funkce {
+#page.o-nas .nas-tym .funkce {
   color: #da143e;
   font-size: 15px;
   font-weight: 500;
@@ -1100,7 +1100,7 @@ ul.reference .company {
   display: inline-block;
   width: 100%;
 }
-.o-nas .nas-tym .popis {
+#page.o-nas .nas-tym .popis {
   color: #171928;
   font-size: 15px;
   font-weight: 500;
@@ -1111,7 +1111,7 @@ ul.reference .company {
   max-width: 330px;
   min-height: 100px;
 }
-.o-nas .nas-tym .motto {
+#page.o-nas .nas-tym .motto {
   color: #171928;
   font-size: 28px;
   font-weight: 100;
@@ -1120,16 +1120,37 @@ ul.reference .company {
   width: 100%;
   max-width: 330px;
 }
-.o-nas .header .perex .new-line {
+#page.o-nas .header .perex .new-line {
   margin-top: 15px;
   font-size: 24px;
   line-height: 1.2;
   max-width: 650px;
 }
-.o-nas .jak-to-zacalo {
+#page.o-nas .jak-to-zacalo {
   font-size: 22px;
   margin-top: 50px;
   margin-bottom: 75px;
   line-height: 1.5;
+}
+#page.ochrana-osobnich-udaju .header {
+  line-height: 1.5;
+}
+#page.ochrana-osobnich-udaju .header .obsah {
+  text-align: left;
+  margin-top: 25px;
+  font-size: 16px;
+}
+#page.ochrana-osobnich-udaju .header h2 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 28px;
+}
+#page.ochrana-osobnich-udaju .header h3 {
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 16px;
 }
 /*# sourceMappingURL=app.css.map */

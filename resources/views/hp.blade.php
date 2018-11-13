@@ -202,7 +202,7 @@
                     <input type="checkbox" name="confirm" id="f-confirm" class="checkbox-input">
                     <label for="f-confirm" class="label-checkbox">odesláním formuláře souhlasíte se zpracováním
                         osobních
-                        údajů <a href="{{ route('ochrana-osobnich-udaju') }}">ochrana os. údajů</a></label>
+                        údajů <a href="{{ route('ochrana-osobnich-udaju') }}" target="_blank">ochrana os. údajů</a></label>
                 </div>
                 <button type="submit" name="odeslat_zpravu" class="btn-odeslat-zpravu">odeslat</button>
             </form>
