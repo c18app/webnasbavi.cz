@@ -876,14 +876,14 @@ ul.reference .company {
   left: 0;
   bottom: 0;
   color: #ffffff;
-  background-color: #da143e;
+  background-color: #171928;
   z-index: 1000;
   padding: 0.5rem 0;
   line-height: 1.25;
   font-size: 14px;
 }
 .eu-cookies button {
-  background: #171928;
+  background: #da143e;
   color: #ffffff;
   border: none;
   padding: 0px 10px;
@@ -898,7 +898,7 @@ ul.reference .company {
 }
 .eu-cookies a {
   font-weight: bold;
-  color: #171928;
+  color: #da143e;
 }
 /*jssor slider loading skin spin css*/
 #jssor_1 {
