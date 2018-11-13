@@ -53,7 +53,7 @@
                 S myšlenkou “web nás baví” si Michal, náš hlavní programátor, pohrával několik let, než se rozhodl
                 přibrat do svého týmu Jitku, zkušenou marketačku. Grafika Ondru znal už z dřívější spolupráce na různých
                 projektech, takže ho současně s Jitkou oslovil pro bližší spolupráci.
-                Slovo dalo slovo a v poměrně krátké době vznikl nový funkční tým a projekt “web nás baví” dostal reálné
+                Slovo dalo slovo a v poměrně krátké době vznikl nový funkční tým a projekt "web&nbsp;nás&nbsp;baví" dostal reálné
                 základy.
             </div>
         </div>
