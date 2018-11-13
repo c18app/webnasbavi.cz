@@ -21,18 +21,18 @@
                                        href="{{ route('o-nas') }}">{{ __('O nás') }}</a>
                                 @endif
                             </li>
-                            <li class="nav-item">
-                                @if (Route::has('cenik'))
-                                    <a class="{{ Route::is('cenik') ? 'active ' : '' }}nav-link"
-                                       href="{{ route('cenik') }}">{{ __('Ceník') }}</a>
-                                @endif
-                            </li>
-                            <li class="nav-item">
-                                @if (Route::has('projekty'))
-                                    <a class="{{ Route::is('projekty') ? 'active ' : '' }}nav-link"
-                                       href="{{ route('projekty') }}">{{ __('Projekty') }}</a>
-                                @endif
-                            </li>
+                            {{--<li class="nav-item">--}}
+                                {{--@if (Route::has('cenik'))--}}
+                                    {{--<a class="{{ Route::is('cenik') ? 'active ' : '' }}nav-link"--}}
+                                       {{--href="{{ route('cenik') }}">{{ __('Ceník') }}</a>--}}
+                                {{--@endif--}}
+                            {{--</li>--}}
+                            {{--<li class="nav-item">--}}
+                                {{--@if (Route::has('projekty'))--}}
+                                    {{--<a class="{{ Route::is('projekty') ? 'active ' : '' }}nav-link"--}}
+                                       {{--href="{{ route('projekty') }}">{{ __('Projekty') }}</a>--}}
+                                {{--@endif--}}
+                            {{--</li>--}}
                             <li class="nav-item">
                                 @if (Route::has('kontakt'))
                                     <a class="{{ Route::is('kontakt') ? 'active ' : '' }}nav-link"

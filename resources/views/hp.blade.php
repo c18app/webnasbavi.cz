@@ -94,9 +94,11 @@
         </div>
     </div>
 
-    <div class="container text-center">
-        <a href="{{ route('cenik') }}" class="offer">více</a>
-    </div>
+    {{--<div class="container text-center">--}}
+        {{--<a href="{{ route('cenik') }}" class="offer">více</a>--}}
+    {{--</div>--}}
+    <div style="height: 150px;"></div>
+    {{--jen dočasně--}}
 
     <div class="container text-center">
         <h2>naše projekty</h2><span class="wave"></span>

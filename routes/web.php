@@ -17,7 +17,7 @@ Route::view('o-nas', 'pages.o-nas')->name('o-nas');
 Route::view('cenik', 'hp')->name('cenik');
 Route::view('projekty', 'hp')->name('projekty');
 Route::view('kontakt', 'hp')->name('kontakt');
-Route::view('ochrana-osobnich-udaju', 'hp')->name('ochrana-osobnich-udaju');
+Route::view('ochrana-osobnich-udaju', 'pages.ochrana-osobnich-udaju')->name('ochrana-osobnich-udaju');
 
 Auth::routes();
 

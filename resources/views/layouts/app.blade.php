@@ -25,6 +25,15 @@
     <link href="{{ asset('css/app.css') }}?v={{ env('VERSION', time()) }}" rel="stylesheet">
 </head>
 <body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129163444-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-129163444-1');
+</script>
 
 <div @isset($page_id) id="{{ $page_id }}" @endisset @isset($class_page) class="{{ $class_page }}" @endisset>
     @include('@top-menu')
