@@ -37,8 +37,12 @@
     margin-top: 150px;
 
     h3 {
-      font-size: 45px;
+      font-size: 32px;
       margin: 0;
+
+      @media @md-up {
+        font-size: 45px;
+      }
     }
 
     .obsah {
@@ -88,7 +92,8 @@
     .jsme-na-sitich {
       margin: 25px auto 0 auto;
       background: transparent url(/img/pages/kontakt/site-bg.png?v=2) 0 0 no-repeat;
-      width: 271px;
+      max-width: 271px;
+      width: 100%;
       height: 270px;
       padding-top: 75px;
 
@@ -127,5 +132,19 @@
     @media @lg-up {
       text-align: left;
     }
+  }
+
+  .mapa {
+    width: 100%;
+    height: 720px;
+    background: transparent url(/img/pages/kontakt/mapa-velka.png) 50% 0 no-repeat;
+    position: relative;
+    top: 270px;
+    z-index: 0;
+  }
+
+  .footer-wrap {
+    position: relative;
+    z-index: 1;
   }
 }

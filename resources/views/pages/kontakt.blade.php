@@ -67,4 +67,6 @@
             </div>
         </div>
     </div>
+
+    <div class="mapa"></div>
 @endsection
