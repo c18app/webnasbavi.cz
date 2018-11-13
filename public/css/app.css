@@ -450,7 +450,7 @@ h2 .light {
   color: #da143e;
   line-height: 80px;
   font-size: 42px;
-  text-shadow: 1px 1px 0px #171928;
+  text-shadow: 1px 1px 0px rgba(23, 25, 40, 0.5);
 }
 .balicky .box.box-01 span.icon {
   position: relative;

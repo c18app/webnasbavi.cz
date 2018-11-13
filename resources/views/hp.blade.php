@@ -64,7 +64,7 @@
                         {{--<div class="icon"></div>--}}
                         <span class="fas fa-paper-plane icon"></span>
                     </div>
-                    <div class="line-03">grafický design<br>jednoduchá administrace<br>kontaktní formulář</div>
+                    <div class="line-03">grafický návrh<br>jednoduchá administrace<br>kontaktní formulář</div>
                 </div>
             </div>
             <div class="col-12 col-lg-4">
@@ -76,7 +76,7 @@
                         <span class="fas fa-plane icon"></span>
                     </div>
                     <div class="line-03">grafický
-                        design<br><span>pokročilá administrace</span><br><span>další formulář</span></div>
+                        návrh<br><span>pokročilá administrace</span><br><span>další formulář</span></div>
                 </div>
             </div>
             <div class="col-12 col-lg-4">
@@ -88,14 +88,14 @@
                         <span class="fas fa-rocket icon"></span>
                     </div>
                     <div class="line-03">grafický
-                        design<br><span>administrace na míru</span><br><span>zákaznické úpravy</span></div>
+                        návrh<br><span>administrace na míru</span><br><span>zákaznické úpravy</span></div>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="container text-center">
-        <a href="#" class="offer">více</a>
+        <a href="{{ route('cenik') }}" class="offer">více</a>
     </div>
 
     <div class="container text-center">
@@ -200,7 +200,7 @@
                     <input type="checkbox" name="confirm" id="f-confirm" class="checkbox-input">
                     <label for="f-confirm" class="label-checkbox">odesláním formuláře souhlasíte se zpracováním
                         osobních
-                        údajů <a href="#">ochrana os. údajů</a></label>
+                        údajů <a href="{{ route('ochrana-osobnich-udaju') }}">ochrana os. údajů</a></label>
                 </div>
                 <button type="submit" name="odeslat_zpravu" class="btn-odeslat-zpravu">odeslat</button>
             </form>

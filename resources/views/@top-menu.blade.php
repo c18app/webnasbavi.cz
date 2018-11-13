@@ -22,21 +22,15 @@
                                 @endif
                             </li>
                             <li class="nav-item">
-                                @if (Route::has('co-umime'))
-                                    <a class="{{ Route::is('co-umime') ? 'active ' : '' }}nav-link"
-                                       href="{{ route('co-umime') }}">{{ __('Co umíme') }}</a>
-                                @endif
-                            </li>
-                            <li class="nav-item">
                                 @if (Route::has('cenik'))
                                     <a class="{{ Route::is('cenik') ? 'active ' : '' }}nav-link"
                                        href="{{ route('cenik') }}">{{ __('Ceník') }}</a>
                                 @endif
                             </li>
                             <li class="nav-item">
-                                @if (Route::has('reference'))
-                                    <a class="{{ Route::is('reference') ? 'active ' : '' }}nav-link"
-                                       href="{{ route('reference') }}">{{ __('Reference') }}</a>
+                                @if (Route::has('projekty'))
+                                    <a class="{{ Route::is('projekty') ? 'active ' : '' }}nav-link"
+                                       href="{{ route('projekty') }}">{{ __('Projekty') }}</a>
                                 @endif
                             </li>
                             <li class="nav-item">

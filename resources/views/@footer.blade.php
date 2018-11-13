@@ -8,7 +8,7 @@
         </div>
         <div class="content-02">
             <ul>
-                <li><a href="#"><span class="fb"></span></a></li>
+                <li><a href="https://www.facebook.com/WebNasBavi" target="_blank"><span class="fb"></span></a></li>
                 <li><a href="#"><span class="in"></span></a></li>
             </ul>
         </div>
@@ -23,6 +23,6 @@
 
 <div class="bottom">
     <div class="container text-center">
-        <span>made&nbsp;with&nbsp;<span class="heart"></span> by&nbsp;Web&nbsp;nás&nbsp;baví<span class="hide sm-show">&nbsp;|&nbsp;</span><div class="sm-hide rozdelovnik"></div><a href="#">ochrana os. údajů</a></span>
+        <span>made&nbsp;with&nbsp;<span class="heart"></span> by&nbsp;Web&nbsp;nás&nbsp;baví<span class="hide sm-show">&nbsp;|&nbsp;</span><div class="sm-hide rozdelovnik"></div><a href="{{ route('ochrana-osobnich-udaju') }}">ochrana os. údajů</a></span>
     </div>
 </div>

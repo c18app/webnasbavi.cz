@@ -14,10 +14,10 @@
 Route::view('/', 'hp')->name('homepage');
 Route::post('/ajax/napiste-nam', 'ajaxController@napisteNam')->name('ajax--napiste-nam');
 Route::view('o-nas', 'pages.o-nas')->name('o-nas');
-Route::view('co-umime', 'hp')->name('co-umime');
 Route::view('cenik', 'hp')->name('cenik');
-Route::view('reference', 'hp')->name('reference');
+Route::view('projekty', 'hp')->name('projekty');
 Route::view('kontakt', 'hp')->name('kontakt');
+Route::view('ochrana-osobnich-udaju', 'hp')->name('ochrana-osobnich-udaju');
 
 Auth::routes();
 
