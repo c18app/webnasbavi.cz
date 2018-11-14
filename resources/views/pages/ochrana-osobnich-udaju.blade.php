@@ -42,7 +42,7 @@
                     - Zpracování v rámci oprávněného zájmů (např. k přímému marketingu, zajištění bezpečnosti a ochrany života).
 
                     <h2>Jak jsou mé údaje chráněné?</h2>
-                    <strong>Veškeré osobní údaje, které zpracováváme, se snažíme v maximální míře zabezpečit proti jejich úniku nebo odcizení. Z tohoto důvodu omezujeme jejich manipulaci, kopírování, přenášení nebo přístup k nim jen pro nezbytně nutný účely, ke kterým jste nám udělili souhlas nebo tento účel definuje zákon.</strong>
+                    <strong>Veškeré osobní údaje, které zpracováváme, se snažíme v maximální míře zabezpečit proti jejich úniku nebo odcizení. Z tohoto důvodu omezujeme jejich manipulaci, kopírování, přenášení nebo přístup k nim jen pro nezbytně nutné účely, ke kterým jste nám udělili souhlas nebo tento účel definuje zákon.</strong>
                     {{--<br>--}}
                     {{--Dále naše webové stránky disponují HTTPS protokolem (platným SSL certifikátem) pro šifrované spojení mezi webem a uživatelem, díky čemuž se minimalizuje možnost jejich odcizení během přenosu dat (registrace, přihlašování, odesílání v rámci formuláře apod.)--}}
 
