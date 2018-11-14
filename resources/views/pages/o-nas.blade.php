@@ -68,7 +68,7 @@
                 <span class="funkce">vývojář &amp; zakladatel</span>
                 <span class="popis">Jedničky a nuly skládá už od čtrnácti. Od té doby vytváří weby nejen pro kominíky, ale několik let se podílel i na vývoji portálu Economia.</span>
                 <div></div>
-                <span class="motto">musíš jít po cestě jako muž, kterému hoří hlava a hledá vodu</span>
+                <span class="motto">Musíš jít po cestě jako muž, kterému hoří hlava a hledá vodu.</span>
             </div>
             <div class="col-12 col-lg-4 clen-tymu">
                 <div class="img-wrap">
@@ -78,7 +78,7 @@
                 <span class="funkce">marketing & copywrighter</span>
                 <span class="popis">Dává projektům řád a vdechuje jim život. Zároveň se stará o naše klienty a hledá kreativní řešení v každé situaci.</span>
                 <div></div>
-                <span class="motto">řemeslo se naučí každý<br>umění nikdo</span>
+                <span class="motto">Řemeslo se naučí každý<br>umění nikdo.</span>
             </div>
             <div class="col-12 col-lg-4 clen-tymu">
                 <div class="img-wrap">
@@ -88,7 +88,7 @@
                 <span class="funkce">UX &amp; webdesignér</span>
                 <span class="popis">Webovému designu se věnuje přes deset let. V jeho práci se odráží čistota, smysl pro detail a preciznost.</span>
                 <div></div>
-                <span class="motto">nesnažte se být dokonalí, buďte úplní</span>
+                <span class="motto">Nesnažte se být dokonalí. Buďte úplní.</span>
             </div>
         </div>
     </div>
