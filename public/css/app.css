@@ -87,7 +87,7 @@ h2 .light {
 .header .perex {
   font-size: 28px;
   font-weight: 100;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 @media (min-width: 576px) {
   .header {

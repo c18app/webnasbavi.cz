@@ -34,7 +34,7 @@
 
         <div class="row">
             <div class="col-12 mate-zajem">
-                pište, nebo volejte. Rádi se sejdeme u kávy<br>budeme se těšit na spolupráci
+                Pište, nebo volejte. Rádi se sejdeme u kávy<br>budeme se těšit na spolupráci
             </div>
         </div>
     </div>
