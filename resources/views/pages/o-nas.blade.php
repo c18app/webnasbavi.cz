@@ -82,7 +82,7 @@
             </div>
             <div class="col-12 col-lg-4 clen-tymu">
                 <div class="img-wrap">
-                    <img src="/img/pages/o-nas/ondrejkormos.png">
+                    <img src="/img/pages/o-nas/ondrejkormos.png?v=2">
                 </div>
                 <span class="jmeno">Ondra</span>
                 <span class="funkce">UX &amp; webdesignér</span>
