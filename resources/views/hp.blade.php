@@ -68,7 +68,7 @@
                         grafický návrh<br>
                         jednoduchá administrace<br>
                         kontaktní formulář<br>
-                        <strong>...</strong>
+                        <strong>.&nbsp;.&nbsp;.</strong>
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@
                         grafický návrh<br>
                         <span>pokročilá administrace</span><br>
                         <span>fotogalerie</span><br>
-                        <strong>...</strong>
+                        <strong>.&nbsp;.&nbsp;.</strong>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                         grafický návrh<br>
                         <span>administrace na míru</span><br>
                         <span><strong>dynamický prvek</strong></span><br>
-                        <strong>...</strong>
+                        <strong>.&nbsp;.&nbsp;.</strong>
                     </div>
                 </div>
             </div>
