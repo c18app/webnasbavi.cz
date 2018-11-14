@@ -76,7 +76,7 @@
                 </div>
                 <span class="jmeno">Jitka</span>
                 <span class="funkce">marketing & copywrighter</span>
-                <span class="popis">Dává projektům řád a vdechuje jim život. Zároveň se stará o naše klienty a hledá kreativní řešení v každé situaci.</span>
+                <span class="popis">Dává projektům řád a vdechuje jim život. Zároveň se stará o naše klienty a hledá kreativní řešení v&nbsp;každé situaci.</span>
                 <div></div>
                 <span class="motto">Řemeslo se naučí každý<br>umění nikdo.</span>
             </div>
@@ -86,7 +86,7 @@
                 </div>
                 <span class="jmeno">Ondra</span>
                 <span class="funkce">UX &amp; webdesigner</span>
-                <span class="popis">Webovému designu se věnuje přes deset let. V jeho práci se odráží čistota, smysl pro detail a preciznost.</span>
+                <span class="popis">Webovému designu se věnuje přes deset let. V jeho práci se odráží čistota, smysl pro detail a&nbsp;preciznost.</span>
                 <div></div>
                 <span class="motto">Nesnažte se být dokonalí. Buďte úplní.</span>
             </div>
