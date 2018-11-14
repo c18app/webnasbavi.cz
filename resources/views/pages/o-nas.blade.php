@@ -53,7 +53,7 @@
             <div class="col-12 col-xl-10 offset-xl-1 jak-to-zacalo">
                 Michala weby baví už dvacet let a&nbsp;po letech zkušeností se rozhodl pro svůj vlastní projekt, do kterého
                 přibral grafika Ondru a&nbsp;oslovil Jitku pro marketing.<br>Slovo dalo slovo a&nbsp;v&nbsp;poměrně krátké době vznikl
-                nový funkční tým a&nbsp;projekt "web&nbsp;nás&nbsp;baví" dostal reálné&nbsp;základy.
+                nový funkční tým<br>a&nbsp;projekt "web&nbsp;nás&nbsp;baví" dostal reálné&nbsp;základy.
             </div>
         </div>
     </div>
