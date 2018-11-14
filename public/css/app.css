@@ -687,6 +687,11 @@ ul.reference .company {
     margin-top: 75px;
   }
 }
+@media (min-width: 768px) {
+  .form-wrap {
+    padding-top: 125px;
+  }
+}
 .footer-top-block {
   background: transparent url("/img/footer-block.png") 50% 120px no-repeat;
   width: 100%;
