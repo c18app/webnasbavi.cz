@@ -20,8 +20,8 @@
             <div class="container">
                 <div class="row top-block-content">
                     <div class="col-12 popis">
-                        O každý projekt pečujeme s láskou<br>
-                        Jsme originální a spoléháme<br>
+                        o každý projekt pečujeme s láskou<br>
+                        jsme originální a spoléháme<br>
                         na vlastní řešení
                     </div>
                 </div>
@@ -34,7 +34,7 @@
 
         <div class="row">
             <div class="col-12 mate-zajem">
-                Pište, nebo volejte. Rádi se sejdeme u kávy. Budeme se těšit,<br>že společně vytvoříme něco úžasného.
+                pište, nebo volejte. Rádi se sejdeme u kávy<br>budeme se těšit na spolupráci
             </div>
         </div>
     </div>
@@ -53,9 +53,9 @@
             <div class="col-12 col-lg-4 info-item">
                 <h3>kontakty</h3><span class="wave"></span>
                 <div class="obsah">
-                    Objednávky a dotazy<br>
+                    objednávky a dotazy<br>
                     <a href="mailto:info@wnb.cz" class="email">info@wnb.cz</a><br>
-                    <span class="phone"><span class="predcisli">+420</span>&nbsp;773&nbsp;252&nbsp;999</span>
+                    <span class="phone">{{--<span class="predcisli">+420</span>&nbsp;--}}773&nbsp;252&nbsp;999</span>
                 </div>
             </div>
             <div class="col-12 col-lg-4 info-item">

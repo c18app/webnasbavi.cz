@@ -210,7 +210,7 @@ h2 .light {
 }
 @media (min-width: 576px) {
   .top-block {
-    margin-top: 25px;
+    margin-top: 50px;
   }
 }
 .top-block-bottom {
@@ -1197,8 +1197,8 @@ ul.reference .company {
   content: '"';
 }
 #page.o-nas .header .perex .new-line {
-  margin-top: 15px;
-  font-size: 22px;
+  margin-top: 25px;
+  font-size: 20px;
   line-height: 1.2;
   max-width: 650px;
   font-weight: normal;

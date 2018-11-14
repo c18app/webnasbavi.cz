@@ -52,8 +52,8 @@
         <div class="row">
             <div class="col-12 col-xl-10 offset-xl-1 jak-to-zacalo">
                 Michala weby baví už dvacet let a po letech zkušeností se rozhodl pro svůj vlastní projekt, do kterého
-                přibral grafika Ondru a oslovil Jitku pro marketing. Slovo dalo slovo a v poměrně krátké době vznikl
-                nový funkční tým a projekt "web nás baví" dostal reálné základy.
+                přibral grafika Ondru a oslovil Jitku pro marketing.<br>Slovo dalo slovo a v poměrně krátké době vznikl
+                nový funkční tým a projekt "web nás baví" dostal reálné&nbsp;základy.
             </div>
         </div>
     </div>
@@ -85,7 +85,7 @@
                     <img src="/img/pages/o-nas/ondrejkormos.png?v=2">
                 </div>
                 <span class="jmeno">Ondra</span>
-                <span class="funkce">UX &amp; webdesignér</span>
+                <span class="funkce">UX &amp; webdesigner</span>
                 <span class="popis">Webovému designu se věnuje přes deset let. V jeho práci se odráží čistota, smysl pro detail a preciznost.</span>
                 <div></div>
                 <span class="motto">Nesnažte se být dokonalí. Buďte úplní.</span>
