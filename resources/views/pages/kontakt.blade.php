@@ -34,7 +34,7 @@
 
         <div class="row">
             <div class="col-12 mate-zajem">
-                Pište, nebo volejte. Rádi se sejdeme u kávy<br>budeme se těšit na spolupráci
+                pište, nebo volejte, rádi se sejdeme u kávy<br>budeme se těšit na spolupráci
             </div>
         </div>
     </div>
@@ -46,7 +46,7 @@
                 <div class="obsah">
                     Michal Nosavcov<br>
                     Nad Babím dolem 401<br>
-                    25&nbsp;64&nbsp;Měšice<br>
+                    250&nbsp;64&nbsp;Měšice<br>
                     <span class="ic">IČ: 64845915</span>
                 </div>
             </div>
@@ -54,8 +54,8 @@
                 <h3>kontakty</h3><span class="wave"></span>
                 <div class="obsah">
                     objednávky a dotazy<br>
-                    <a href="mailto:info@wnb.cz" class="email">info@wnb.cz</a><br>
-                    <span class="phone">{{--<span class="predcisli">+420</span>&nbsp;--}}773&nbsp;252&nbsp;999</span>
+                    <span class="phone">{{--<span class="predcisli">+420</span>&nbsp;--}}773&nbsp;252&nbsp;999</span><br>
+                    <a href="mailto:info@wnb.cz" class="email">info@wnb.cz</a>
                 </div>
             </div>
             <div class="col-12 col-lg-4 info-item">

@@ -1267,7 +1267,7 @@ ul.reference .company {
   margin-top: 15px;
 }
 #page.kontakt .kontakty-info .obsah .email {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
   color: #da143e;
   display: inline-block;
@@ -1278,6 +1278,7 @@ ul.reference .company {
   background: transparent url(/img/hp/phone-ico.png?v=2) 0 50% no-repeat;
   padding-left: 40px;
   display: inline-block;
+  margin-top: 10px;
 }
 #page.kontakt .kontakty-info .obsah .phone .predcisli {
   font-weight: normal;
