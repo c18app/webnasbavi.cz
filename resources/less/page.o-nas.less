@@ -35,6 +35,49 @@
         }
       }
 
+      .cislo-01,
+      .cislo-02,
+      .cislo-03 {
+        position: relative;
+        top: 0;
+      }
+
+      .cislo-01 {
+        top: 20px;
+        @media @lg-up {
+          top: 25px;
+        }
+        @media @xl-up {
+          top: 30px;
+        }
+      }
+
+      .cislo-02 {
+        top: 10px;
+        @media @md-up {
+          top: 5px;
+        }
+        @media @lg-up {
+          top: 0px;
+        }
+        @media @xl-up {
+          top: -5px;
+        }
+      }
+
+      .cislo-03 {
+        top: -5px;
+        @media @md-up {
+          top: -20px;
+        }
+        @media @lg-up {
+          top: -25px;
+        }
+        @media @xl-up {
+          top: -45px;
+        }
+      }
+
       .text {
         font-size: 15px;
         font-weight: bold;
@@ -42,6 +85,7 @@
         width: 100%;
       }
     }
+
   }
 
   .nas-tym {
@@ -85,7 +129,7 @@
 
     .popis {
       color: @color02;
-      font-size: 15px;
+      font-size: 20px;
       font-weight: 500;
       margin-top: 20px;
       display: inline-block;
@@ -97,21 +141,30 @@
 
     .motto {
       color: @color02;
-      font-size: 28px;
+      font-size: 22px;
       font-weight: 100;
       margin-top: 25px;
       display: inline-block;
       width: 100%;
       max-width: 330px;
+
+      &::before {
+        content: '"';
+      }
+
+      &::after {
+        content: '"';
+      }
     }
   }
 
   .header {
     .perex .new-line {
       margin-top: 15px;
-      font-size: 24px;
+      font-size: 22px;
       line-height: 1.2;
       max-width: 650px;
+      font-weight: normal;
     }
   }
 
@@ -121,4 +174,5 @@
     margin-bottom: 75px;
     line-height: 1.5;
   }
+
 }

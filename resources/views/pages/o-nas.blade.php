@@ -8,7 +8,8 @@
                 <span class="wave"></span>
                 <div class="perex">zvládli jsme vytvořit desítky webů za&nbsp;posledních {{ date('Y') - 2002 }}
                     &nbsp;let<br>
-                    <div class="new-line">se smyslem pro detail se zaměřujeme na individualitu našich klientů a tvoříme kvalitní weby, které mluví samy za&nbsp;sebe
+                    <div class="new-line">se smyslem pro detail se zaměřujeme na individualitu našich klientů a tvoříme
+                        kvalitní weby, které mluví samy za&nbsp;sebe
                     </div>
                 </div>
             </div>
@@ -23,17 +24,17 @@
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-4 cislo-01">
                                 <span class="cislo">{{ date('Y') - 2002 }}</span>
                                 <span class="text">let&nbsp;praxe</span>
                                 <span class="wave"></span>
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 cislo-02">
                                 <span class="cislo">{{ config('wnb.pocet_projektu') }}</span>
                                 <span class="text">projektů</span>
                                 <span class="wave"></span>
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 cislo-03">
                                 <span class="cislo">{{ config('wnb.pocet_klientu') }}</span>
                                 <span class="text">klientů</span>
                                 <span class="wave"></span>
@@ -50,11 +51,9 @@
 
         <div class="row">
             <div class="col-12 col-xl-10 offset-xl-1 jak-to-zacalo">
-                S myšlenkou “web nás baví” si Michal, náš hlavní programátor, pohrával několik let, než se rozhodl
-                přibrat do svého týmu Jitku, zkušenou marketačku. Grafika Ondru znal už z dřívější spolupráce na různých
-                projektech, takže ho současně s Jitkou oslovil pro bližší spolupráci.
-                Slovo dalo slovo a v poměrně krátké době vznikl nový funkční tým a projekt "web&nbsp;nás&nbsp;baví" dostal reálné
-                základy.
+                Michala weby baví už dvacet let a po letech zkušeností se rozhodl pro svůj vlastní projekt, do kterého
+                přibral grafika Ondru a oslovil Jitku pro marketing. Slovo dalo slovo a v poměrně krátké době vznikl
+                nový funkční tým a projekt "web nás baví" dostal reálné základy.
             </div>
         </div>
     </div>
@@ -76,7 +75,7 @@
                     <img src="/img/pages/o-nas/jitkahermankova.png">
                 </div>
                 <span class="jmeno">Jitka</span>
-                <span class="funkce">copywriterka &amp; marketing</span>
+                <span class="funkce">marketing & copywrighter</span>
                 <span class="popis">Dává projektům řád a vdechuje jim život. Zároveň se stará o naše klienty a hledá kreativní řešení v každé situaci.</span>
                 <div></div>
                 <span class="motto">řemeslo se naučí každý<br>umění nikdo</span>
@@ -89,7 +88,7 @@
                 <span class="funkce">UX &amp; webdesignér</span>
                 <span class="popis">Webovému designu se věnuje přes deset let. V jeho práci se odráží čistota, smysl pro detail a preciznost.</span>
                 <div></div>
-                <span class="motto">chceš-li porozumět lidem, přestaň poslouchat, co říkají</span>
+                <span class="motto">nesnažte se být dokonalí, buďte úplní</span>
             </div>
         </div>
     </div>

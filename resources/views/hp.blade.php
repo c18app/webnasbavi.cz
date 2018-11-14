@@ -26,9 +26,9 @@
                         <div class="line-01">
                             <span>naše hodnoty</span><br>v kostce
                             <ul>
-                                <li>pohodový přístup</li>
                                 <li>spolehlivost</li>
                                 <li>flexibilita</li>
+                                <li>spokojenost</li>
                             </ul>
                         </div>
                     </div>
@@ -64,7 +64,12 @@
                         {{--<div class="icon"></div>--}}
                         <span class="fas fa-paper-plane icon"></span>
                     </div>
-                    <div class="line-03">grafický návrh<br>jednoduchá administrace<br>kontaktní formulář</div>
+                    <div class="line-03">
+                        grafický návrh<br>
+                        jednoduchá administrace<br>
+                        kontaktní formulář<br>
+                        <strong>...</strong>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-lg-4">
@@ -75,8 +80,12 @@
                         {{--<div class="icon"></div>--}}
                         <span class="fas fa-plane icon"></span>
                     </div>
-                    <div class="line-03">grafický
-                        návrh<br><span>pokročilá administrace</span><br><span>další formulář</span></div>
+                    <div class="line-03">
+                        grafický návrh<br>
+                        <span>pokročilá administrace</span><br>
+                        <span>fotogalerie</span><br>
+                        <strong>...</strong>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-lg-4">
@@ -87,8 +96,12 @@
                         {{--<div class="icon"></div>--}}
                         <span class="fas fa-rocket icon"></span>
                     </div>
-                    <div class="line-03">grafický
-                        návrh<br><span>administrace na míru</span><br><span>zákaznické úpravy</span></div>
+                    <div class="line-03">
+                        grafický návrh<br>
+                        <span>administrace na míru</span><br>
+                        <span><strong>dynamický prvek</strong></span><br>
+                        <strong>...</strong>
+                    </div>
                 </div>
             </div>
         </div>
@@ -106,7 +119,7 @@
 
     <div class="ochutnavka-wrap">
         <div class="container">
-            <div class="row">
+            <div class="row jssor_1-wrap">
                 <div id="jssor_1"
                      style="position:relative;top:0px;left:0px;width:1140px;height:704px;overflow:hidden;">
                     <!-- Loading Screen -->
