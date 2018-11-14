@@ -83,7 +83,7 @@ jQuery(document).ready(function ($) {
         }
     })
 
-    $('.btn-napiste-nam').click(function() {
+    $('.btn-napiste-nam,.btn-napiste-nam-second').click(function() {
         $([document.documentElement, document.body]).animate({scrollTop: $('#napiste-nam').offset().top}, 1000);
     });
 

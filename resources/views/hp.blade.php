@@ -36,7 +36,9 @@
                     <div class="naladeni-content">
                         <h2 class="light">na&nbsp;čem nám&nbsp;záleží</h2>
                         <ul class="d-block d-lg-flex justify-content-between">
-                            <li><h3>zkušenosti</h3><span class="line"></span><span class="naladeni-text">máme {{ date('Y') - 2002 }} let praxe<br>a vytvořili jsme<br>desítky projektů</span>
+                            <li><h3>zkušenosti</h3><span class="line"></span><span
+                                        class="naladeni-text">máme {{ date('Y') - 2002 }}
+                                    let praxe<br>a vytvořili jsme<br>desítky projektů</span>
                             </li>
                             <li><h3>osobní&nbsp;přístup</h3><span class="line"></span><span class="naladeni-text">postaráme se o vás,<br>protože na našich klientech<br>nám záleží</span>
                             </li>
@@ -68,7 +70,7 @@
                         grafický návrh<br>
                         jednoduchá administrace<br>
                         kontaktní formulář<br>
-                        <span><strong>.&nbsp;.&nbsp;.</strong></span>
+                        <a href="javascript:void(0);" class="btn-napiste-nam-second" style="text-decoration: none;"><span><strong>.&nbsp;.&nbsp;.</strong></span></a>
                     </div>
                 </div>
             </div>
@@ -84,7 +86,7 @@
                         grafický návrh<br>
                         <span>pokročilá administrace</span><br>
                         <span>fotogalerie</span><br>
-                        <span><strong>.&nbsp;.&nbsp;.</strong></span>
+                        <a href="javascript:void(0);" class="btn-napiste-nam-second" style="text-decoration: none;"><span><strong>.&nbsp;.&nbsp;.</strong></span></a>
                     </div>
                 </div>
             </div>
@@ -100,7 +102,7 @@
                         grafický návrh<br>
                         <span>administrace na míru</span><br>
                         <span><strong>dynamický prvek</strong></span><br>
-                        <span><strong>.&nbsp;.&nbsp;.</strong></span>
+                        <a href="javascript:void(0);" class="btn-napiste-nam-second" style="text-decoration: none;"><span><strong>.&nbsp;.&nbsp;.</strong></span></a>
                     </div>
                 </div>
             </div>
@@ -108,7 +110,7 @@
     </div>
 
     {{--<div class="container text-center">--}}
-        {{--<a href="{{ route('cenik') }}" class="offer">více</a>--}}
+    {{--<a href="{{ route('cenik') }}" class="offer">více</a>--}}
     {{--</div>--}}
     <div style="height: 150px;"></div>
     {{--jen dočasně--}}
@@ -215,7 +217,8 @@
                     <input type="checkbox" name="confirm" id="f-confirm" class="checkbox-input">
                     <label for="f-confirm" class="label-checkbox">odesláním formuláře souhlasíte se zpracováním
                         osobních
-                        údajů <a href="{{ route('ochrana-osobnich-udaju') }}" target="_blank">ochrana os. údajů</a></label>
+                        údajů <a href="{{ route('ochrana-osobnich-udaju') }}" target="_blank">ochrana os.
+                            údajů</a></label>
                 </div>
                 <button type="submit" name="odeslat_zpravu" class="btn-odeslat-zpravu">odeslat</button>
             </form>
