@@ -69,27 +69,61 @@ jQuery(document).ready(function ($) {
 
 
 jQuery(document).ready(function ($) {
-    $('.arrow-down-wrap').click(function() {
+    $('.arrow-down-wrap').click(function () {
         $([document.documentElement, document.body]).animate({scrollTop: $('.arrow-down-wrap').offset().top + 84}, 350);
     })
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         var arrowDownWrapHeight = $('.arrow-down-wrap').outerHeight();
         var arrowDownWrapOffsetTop = $('.arrow-down-wrap').offset().top;
         var windowScrollTop = $(window).scrollTop();
 
-        if(windowScrollTop >= arrowDownWrapOffsetTop + arrowDownWrapHeight) {
+        if (windowScrollTop >= arrowDownWrapOffsetTop + arrowDownWrapHeight) {
             $('.arrow-down-arrow').css('animation', 'unset');
         }
     })
 
-    $('.btn-napiste-nam,.btn-napiste-nam-second').click(function() {
+    $('.btn-napiste-nam,.btn-napiste-nam-second').click(function () {
         $([document.documentElement, document.body]).animate({scrollTop: $('#napiste-nam').offset().top}, 1000);
     });
 
     $()
 });
 
-$('.navbar-button').click(function() {
+$('.navbar-button').click(function () {
     $('.navbar').toggleClass('expanded')
+});
+
+function sendContactForm(form) {
+    $('body').append(
+        '<div id="loader-spin-javascript-insert" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(23,25,40,0.5)" class="loader">' +
+        '<img style="margin-top:-19px;position:relative;top:50%;left: 50%;height:38px;"\n' +
+        ' src="svg/spin.svg"/></div>'
+    );
+
+    $.post(
+        form.attr('action'),
+        form.serialize()
+    ).done(function (data) {
+        $('.contact-form-message-error').remove();
+
+        if (data.status == 'success') {
+            var success_text = '<div class="contact-form-message contact-form-message-bottom contact-form-message-success">kontaktní formulář byl úspěšně odeslaný, co nejdříve vyřídíme váš dotaz</div>';
+            $(success_text).addClass('contact-form-message-bottom').insertBefore('#contact-form button');
+            $('#contact-form').prepend($(success_text).addClass('contact-form-message-top'));
+            form[0].reset();
+        }
+        if (data.status == 'error') {
+            $('<div class="contact-form-message contact-form-message-bottom contact-form-message-error">' + data.error + '</div>').insertBefore('#contact-form button');
+            $('#contact-form').prepend('<div class="contact-form-message contact-form-message-top contact-form-message-error">' + data.error + '</div>');
+        }
+    }).fail(function () {
+        alert("Vznikla neočekávaná chyba při odesílání formuláře.\nZkuste prosím odeslat formulář později.\n\nZprávu nám můžete zaslat i na email: info@wnb.cz");
+    }).always(function () {
+        $('#loader-spin-javascript-insert').remove();
+    });
+}
+
+$('#contact-form').submit(function () {
+    sendContactForm($(this))
 });

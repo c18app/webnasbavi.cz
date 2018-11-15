@@ -206,16 +206,17 @@
                 </h2>
                 <span class="wave"></span>
             </div>
-            <form class="contact-form" action="{{ route('ajax--napiste-nam') }}" method="post">
+            <form id="contact-form" class="contact-form" action="{{ route('ajax--napiste-nam') }}" method="post" onsubmit="return false;">
+                @csrf
                 <label for="f-name">jméno</label>
                 <input type="text" name="name" id="f-name" class="text-input">
-                <label for="f-contact">e-mail, nebo telefon</label>
+                <label for="f-contact">e-mail, nebo telefon *</label>
                 <input type="text" name="contact" id="f-contact" class="text-input">
-                <label for="f-message">zpráva</label>
+                <label for="f-message">zpráva *</label>
                 <textarea name="message" id="f-message"></textarea>
                 <div class="text-left">
                     <input type="checkbox" name="confirm" id="f-confirm" class="checkbox-input">
-                    <label for="f-confirm" class="label-checkbox">odesláním formuláře souhlasíte se zpracováním
+                    <label for="f-confirm" class="label-checkbox">* odesláním formuláře souhlasíte se zpracováním
                         osobních
                         údajů <a href="{{ route('ochrana-osobnich-udaju') }}" target="_blank">ochrana os.
                             údajů</a></label>

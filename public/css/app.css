@@ -2,6 +2,8 @@
 body {
   font-family: Quicksand, sans-serif;
   color: #171928;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 a {
   text-decoration: none;
@@ -68,6 +70,50 @@ h2 .light {
   .sm-hide {
     display: none !important;
   }
+}
+.loader img {
+  animation-name: loader-anim;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes loader-anim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.contact-form-message {
+  min-height: 50px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.contact-form-message-error {
+  color: #ffffff;
+  background-color: #da143e;
+}
+.contact-form-message-success {
+  color: #171928;
+  background-color: #ffffff;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.contact-form-message-top {
+  margin-bottom: 25px;
+}
+.contact-form-message-bottom {
+  margin-top: 25px;
+}
+.contact-form-message li {
+  margin-bottom: 5px;
 }
 .wave {
   /*background: transparent url("/img/hp/wave.png") 0 0 no-repeat;*/
@@ -514,7 +560,7 @@ h2 .light {
   margin-top: 50px;
   background: #171928 url("/img/hp/ochutnavka-top-ellipse.png") 50% -60px no-repeat;
   width: 100%;
-  padding-top: 120px;
+  padding-top: 125px;
 }
 @media (min-width: 576px) {
   .ochutnavka-wrap {
