@@ -33,7 +33,7 @@ class AjaxController extends Controller
                 $message->cc('michal@wnb.cz');
             });
         } catch (\Exception $e) {
-            return ['status' => 'error', 'error' => '<ul><li>email se nepodařilo odeslat, zkuste to prosím znovu</li></ul>'];
+            return ['status' => 'error', 'error' => '<ul><li>email se nepodařilo odeslat, zkuste to prosím znovu: '.$e->getMessage().'</li></ul>'];
         }
 
         return ['status' => 'success'];
