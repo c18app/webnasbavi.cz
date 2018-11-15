@@ -29,6 +29,7 @@ class AjaxController extends Controller
         try {
             Mail::raw($text, function ($message) {
                 $message->subject('Web nás baví - kontaktní formulář');
+                $message->from('info@wnb.cz');
                 $message->to('info@wnb.cz');
                 $message->cc('michal@wnb.cz');
             });
