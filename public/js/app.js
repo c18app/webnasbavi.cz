@@ -105,7 +105,7 @@ function sendContactForm(form) {
         form.attr('action'),
         form.serialize()
     ).done(function (data) {
-        $('.contact-form-message-error').remove();
+        $('.contact-form-message').remove();
 
         if (data.status == 'success') {
             var success_text = '<div class="contact-form-message contact-form-message-bottom contact-form-message-success">kontaktní formulář byl úspěšně odeslaný, co nejdříve vyřídíme váš dotaz</div>';
