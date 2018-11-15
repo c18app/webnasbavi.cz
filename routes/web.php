@@ -12,7 +12,7 @@
 */
 
 Route::view('/', 'hp')->name('homepage');
-Route::post('/ajax/napiste-nam', 'ajaxController@napisteNam')->name('ajax--napiste-nam');
+Route::post('/ajax/napiste-nam', 'AjaxController@napisteNam')->name('ajax--napiste-nam');
 Route::view('o-nas', 'pages.o-nas')->name('o-nas');
 Route::view('cenik', 'pages.cenik')->name('cenik');
 Route::view('projekty', 'pages.projekty')->name('projekty');
