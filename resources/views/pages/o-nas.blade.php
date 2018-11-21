@@ -75,10 +75,10 @@
                     <img src="/img/pages/o-nas/jitkahermankova.png">
                 </div>
                 <span class="jmeno">Jitka</span>
-                <span class="funkce">marketing & copywrighter</span>
+                <span class="funkce">marketing & copywriter</span>
                 <span class="popis">Dává projektům řád a vdechuje jim život. Zároveň se stará o naše klienty a hledá kreativní řešení v&nbsp;každé situaci.</span>
                 <div></div>
-                <span class="motto">Řemeslo se naučí každý<br>umění nikdo.</span>
+                <span class="motto">Řemeslo se naučí každý,<br>umění nikdo.</span>
             </div>
             <div class="col-12 col-lg-4 clen-tymu">
                 <div class="img-wrap">
