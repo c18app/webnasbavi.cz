@@ -26,15 +26,20 @@ class AjaxController extends Controller
 
         $text = "WEB NÁS BAVÍ\n\nbyl odeslán dotaz z kontaktního formuláře\n\nJméno: " . $request->name . "\n\nKontakt: " . $request->contact . "\n\nZpráva: " . $request->message;
 
-        try {
-            Mail::raw($text, function ($message) {
-                $message->subject('Web nás baví - kontaktní formulář');
-                $message->from('info@wnb.cz');
-                $message->to('info@wnb.cz');
-                $message->cc('michal@wnb.cz');
-            });
-        } catch (\Exception $e) {
-            return ['status' => 'error', 'error' => '<ul><li>email se nepodařilo odeslat, zkuste to prosím znovu</li></ul>'];
+        if (!empty($request->re) && $request->re == 'chobot') {
+            try {
+                Mail::raw($text, function ($message) {
+                    $message->subject('Web nás baví - kontaktní formulář');
+                    $message->from('info@wnb.cz');
+                    $message->to('info@wnb.cz');
+                    $message->cc('michal@wnb.cz');
+                });
+            } catch (\Exception $e) {
+                return [
+                    'status' => 'error',
+                    'error' => '<ul><li>email se nepodařilo odeslat, zkuste to prosím znovu</li></ul>'
+                ];
+            }
         }
 
         return ['status' => 'success'];

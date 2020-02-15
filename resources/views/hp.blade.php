@@ -206,7 +206,7 @@
                 </h2>
                 <span class="wave"></span>
             </div>
-            <form id="contact-form" class="contact-form" action="{{ route('ajax--napiste-nam') }}" method="post" onsubmit="return false;">
+            <form id="contact-form" class="contact-form" action="{{ route('ajax--napiste-nam') }}" method="post" onsubmit="return false;" data-c="nejsem" data-d="chobot">
                 @csrf
                 <label for="f-name">jméno</label>
                 <input type="text" name="name" id="f-name" class="text-input">
@@ -223,6 +223,14 @@
                 </div>
                 <button type="submit" name="odeslat_zpravu" class="btn-odeslat-zpravu">odeslat</button>
             </form>
+            <script>
+                var f = $('#contact' + '-' + 'form');
+                f.append('<in'+'put ty'+'pe="hid' + 'den" na' + 'me="r' + 'eca' + 'ptch' + 'a" val="robot">');
+                f.find('input[name=rec' + 'aptc' + 'ha]').val(f.attr('data-c'));
+                f.on('sub' + 'mit', function() {
+                    $(this).find('input[name=rec' + 'aptc' + 'ha]').val($(this).attr('data-d')).attr('name', 're');
+                })
+            </script>
         </div>
     </div>
 @endsection
